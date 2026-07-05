@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="th"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Keyima Admin — จัดการออเดอร์ & สต็อก</title>
+<style>
+:root{--bg:#f7f5f8;--surface:#fff;--ink:#1a1523;--ink2:#6b6577;--muted:#a8a2b2;--line:#eee9f0;
+  --accent:#e5397e;--accent2:#ff5c9d;--accentsoft:#ffe8f1;--green:#12a150;--greensoft:#e5f7ec;
+  --blue:#2b7fff;--bluesoft:#e7f0ff;--amber:#c9962f;--ambersoft:#fdf3d7;--red:#e11d48;--redsoft:#ffe9ee;
+  --shadow:0 1px 2px rgba(26,21,35,.04),0 6px 20px rgba(26,21,35,.06);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans Thai",sans-serif;background:var(--bg);color:var(--ink);font-size:14px;line-height:1.5}
+button{font-family:inherit;cursor:pointer}
+.top{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1080px;margin:0 auto;padding:12px 18px;display:flex;align-items:center;gap:12px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .logo{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:18px}
+.brand b{font-size:17px;font-weight:900;letter-spacing:-.3px}.brand span{font-size:9.5px;font-weight:800;letter-spacing:2px;color:var(--muted);display:block}
+.tabs{margin-left:auto;display:flex;gap:6px;background:#f1edf3;padding:4px;border-radius:12px}
+.tabs button{border:none;background:none;font-weight:800;font-size:13px;padding:8px 16px;border-radius:9px;color:var(--ink2)}
+.tabs button.on{background:#fff;color:var(--accent);box-shadow:var(--shadow)}
+.logout{border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px 12px;font-size:12.5px;font-weight:700;color:var(--ink2)}
+.wrap{max-width:1080px;margin:20px auto 70px;padding:0 18px}
+/* login */
+.login{max-width:380px;margin:80px auto;background:#fff;border:1px solid var(--line);border-radius:20px;padding:30px 26px;box-shadow:var(--shadow);text-align:center}
+.login .logo{width:56px;height:56px;border-radius:15px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:28px;margin:0 auto 16px}
+.login h1{font-size:19px;font-weight:900}.login p{color:var(--ink2);font-size:13px;margin:6px 0 18px}
+.login input{width:100%;font-family:inherit;font-size:15px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:#faf9fb;text-align:center;letter-spacing:1px}
+.login input:focus{outline:none;border-color:var(--accent);background:#fff}
+.login button{width:100%;height:48px;margin-top:12px;border:none;border-radius:13px;background:var(--accent);color:#fff;font-weight:900;font-size:15px}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:18px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:15px;padding:14px 16px;box-shadow:var(--shadow)}
+.stat .n{font-size:26px;font-weight:900;letter-spacing:-.5px}.stat .l{font-size:11.5px;color:var(--muted);font-weight:800;margin-top:2px}
+.stat.rev .n{color:var(--green)}.stat.new .n{color:var(--blue)}
+.filters{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:16px}
+.chip{font-size:12.5px;font-weight:800;border:1px solid var(--line);background:#fff;color:var(--ink2);border-radius:999px;padding:8px 14px}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+/* order card */
+.ocard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px 17px;box-shadow:var(--shadow);margin-bottom:12px}
+.oh{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.oh .oid{font-weight:900;font-size:15px}
+.oh .otime{font-size:11.5px;color:var(--muted);font-weight:700}
+.stbadge{font-size:11.5px;font-weight:800;padding:4px 11px;border-radius:999px}
+.st-new{background:var(--bluesoft);color:var(--blue)}.st-confirmed{background:var(--ambersoft);color:var(--amber)}
+.st-paid{background:var(--accentsoft);color:var(--accent)}.st-shipped{background:var(--greensoft);color:var(--green)}.st-cancelled{background:var(--redsoft);color:var(--red)}
+.oitems{font-size:13px;color:var(--ink2);border-top:1px dashed var(--line);border-bottom:1px dashed var(--line);padding:9px 0;margin-bottom:10px}
+.oitems .it{display:flex;justify-content:space-between;padding:2px 0}
+.ocust{font-size:12.5px;color:var(--ink2);line-height:1.6;margin-bottom:11px}
+.ocust b{color:var(--ink)}
+.oact{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.oact .total{font-weight:900;font-size:17px;color:var(--accent);margin-right:auto}
+.btn{border:none;border-radius:10px;padding:9px 15px;font-weight:800;font-size:12.5px}
+.btn.next{background:var(--green);color:#fff}.btn.cancel{background:#fff;border:1px solid var(--line);color:var(--red)}
+.btn.copy{background:#fff;border:1px solid var(--line);color:var(--ink2)}
+.btn:disabled{opacity:.5}
+/* stock */
+.scol{background:#fff;border:1px solid var(--line);border-radius:15px;padding:13px 16px;box-shadow:var(--shadow);margin-bottom:11px}
+.scol h4{font-size:13.5px;font-weight:800;margin-bottom:9px}
+.spz{display:flex;flex-wrap:wrap;gap:7px}
+.stog{border:1px solid var(--line);background:#fff;border-radius:10px;padding:7px 12px;font-size:12.5px;font-weight:800;display:flex;align-items:center;gap:6px}
+.stog.out{background:var(--redsoft);border-color:#f7bccb;color:var(--red)}
+.stog .dot{width:8px;height:8px;border-radius:50%;background:var(--green)}.stog.out .dot{background:var(--red)}
+.empty{background:#fff;border:1px dashed var(--line);border-radius:18px;padding:50px;text-align:center;color:var(--ink2)}
+.searchw{position:relative;margin-bottom:14px}
+.searchw input{width:100%;font-family:inherit;font-size:14px;padding:10px 14px 10px 38px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.searchw::before{content:"🔍";position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.5}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(10px);background:var(--ink);color:#fff;padding:12px 20px;border-radius:14px;font-size:13.5px;font-weight:700;opacity:0;transition:.22s;pointer-events:none;z-index:200}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.hint{font-size:12px;color:var(--muted);margin-bottom:14px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 13px}
+</style></head><body>
+
+<div id="loginView" class="login" style="display:none">
+  <div class="logo">K</div>
+  <h1>Keyima Admin</h1>
+  <p>ใส่รหัสผ่านแอดมินเพื่อเข้าจัดการออเดอร์และสต็อก</p>
+  <input id="tok" type="password" placeholder="รหัสผ่านแอดมิน" onkeydown="if(event.key==='Enter')doLogin()">
+  <button onclick="doLogin()">เข้าสู่ระบบ</button>
+</div>
+
+<div id="appView" style="display:none">
+  <div class="top"><div class="top-in">
+    <div class="brand"><span class="logo">K</span><div><b>Keyima Admin</b><span>ICHIBAN KUJI</span></div></div>
+    <div class="tabs"><button id="tabOrders" class="on" onclick="setTab('orders')">📦 ออเดอร์</button><button id="tabStock" onclick="setTab('stock')">🏷️ สต็อก</button></div>
+    <button class="logout" onclick="logout()">ออกจากระบบ</button>
+  </div></div>
+  <div class="wrap">
+    <div id="ordersView"></div>
+    <div id="stockView" style="display:none"></div>
+  </div>
+</div>
+<div id="toast"></div>
+
+<script>
+/* ================= ⚙️ ตั้งค่า (ให้ตรงกับ shop.html) ================= */
+const CONFIG = {
+  useBackend:false,               // 👈 เปลี่ยนเป็น true หลัง deploy Netlify Functions (ออเดอร์/สต็อกออนไลน์ ข้ามเครื่อง)
+  apiBase:"",                     // "" = same-origin (Functions บนเว็บเดียวกับ admin) · หรือใส่ URL เต็มถ้าคนละโดเมน
+  adminToken:"keyima1234"         // รหัสแอดมิน (โหมดเดโมเช็คตรงนี้ · โหมด backend ส่งเป็น header X-Admin-Token ให้เซิร์ฟเวอร์เช็ค)
+};
+/* ================================================================ */
+
+const STATUS=['new','confirmed','paid','shipped'];
+const STLABEL={new:'ใหม่',confirmed:'ยืนยันแล้ว',paid:'จ่ายแล้ว',shipped:'ส่งแล้ว',cancelled:'ยกเลิก'};
+let TAB='orders', FILTER='all', ORDERS=[], DB=[], STOCK={}, SQ='';
+const baht=n=>'฿'+Math.round(n||0).toLocaleString('en-US');
+const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const api=p=>CONFIG.apiBase.replace(/\/$/,'')+p;
+const authH=()=>({'content-type':'application/json','X-Admin-Token':getTok()});
+const getTok=()=>localStorage.getItem('keyima_admin_tok')||'';
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');clearTimeout(e._t);e._t=setTimeout(()=>e.classList.remove('show'),2200);}
+
+/* ---- auth gate ---- */
+function showLogin(){document.getElementById('loginView').style.display='block';document.getElementById('appView').style.display='none';}
+function showApp(){document.getElementById('loginView').style.display='none';document.getElementById('appView').style.display='block';boot();}
+function doLogin(){
+  const v=(document.getElementById('tok').value||'').trim();if(!v){toast('ใส่รหัสผ่าน');return;}
+  if(!CONFIG.useBackend && v!==CONFIG.adminToken){toast('รหัสผ่านไม่ถูกต้อง');return;}
+  localStorage.setItem('keyima_admin_tok',v);showApp();
+}
+function logout(){localStorage.removeItem('keyima_admin_tok');showLogin();}
+
+/* ---- data load ---- */
+async function loadOrders(){
+  if(CONFIG.useBackend){try{const r=await fetch(api('/api/orders'),{headers:authH()});if(r.status===401){toast('รหัสไม่ถูกต้อง');logout();return[];}return await r.json();}catch(e){toast('โหลดออเดอร์ไม่ได้');return[];}}
+  try{return JSON.parse(localStorage.getItem('keyima_orders')||'[]')}catch(e){return[]}
+}
+async function loadStock(){
+  if(CONFIG.useBackend){try{const r=await fetch(api('/api/stock'));return await r.json();}catch(e){return{}}}
+  try{return JSON.parse(localStorage.getItem('keyima_stock')||'{}')}catch(e){return{}}
+}
+async function setStatus(id,status){
+  if(CONFIG.useBackend){try{await fetch(api('/api/orders/'+id),{method:'PATCH',headers:authH(),body:JSON.stringify({status})});}catch(e){toast('อัปเดตไม่สำเร็จ');return;}}
+  else{ORDERS=ORDERS.map(o=>o.id===id?{...o,status}:o);localStorage.setItem('keyima_orders',JSON.stringify(ORDERS));}
+  await refreshOrders();toast('เปลี่ยนสถานะเป็น "'+STLABEL[status]+'"');
+}
+async function toggleStock(cid,pz){
+  const k=cid+'|'+pz;const now=STOCK[k]==='out'?'in':'out';
+  if(CONFIG.useBackend){try{await fetch(api('/api/stock'),{method:'PATCH',headers:authH(),body:JSON.stringify({cid,pz,status:now})});}catch(e){toast('อัปเดตสต็อกไม่ได้');return;}STOCK=await loadStock();}
+  else{if(now==='out')STOCK[k]='out';else delete STOCK[k];localStorage.setItem('keyima_stock',JSON.stringify(STOCK));}
+  renderStock();toast(now==='out'?'ตั้งเป็นหมด (SOLD OUT)':'เปิดขายอีกครั้ง');
+}
+
+/* ---- orders ---- */
+async function refreshOrders(){ORDERS=await loadOrders();renderOrders();}
+function renderOrders(){
+  const box=document.getElementById('ordersView');
+  const cnt={new:0,confirmed:0,paid:0,shipped:0,cancelled:0};let rev=0;
+  ORDERS.forEach(o=>{cnt[o.status]=(cnt[o.status]||0)+1;if(o.status!=='cancelled')rev+=(o.total||0);});
+  let list=ORDERS.slice().sort((a,b)=>(b.created||'').localeCompare(a.created||''));
+  if(FILTER!=='all')list=list.filter(o=>o.status===FILTER);
+  let h=`<div class="stats">
+    <div class="stat new"><div class="n">${cnt.new}</div><div class="l">🆕 ใหม่</div></div>
+    <div class="stat"><div class="n">${cnt.confirmed}</div><div class="l">ยืนยันแล้ว</div></div>
+    <div class="stat"><div class="n">${cnt.paid}</div><div class="l">จ่ายแล้ว</div></div>
+    <div class="stat"><div class="n">${cnt.shipped}</div><div class="l">ส่งแล้ว</div></div>
+    <div class="stat rev"><div class="n">${baht(rev)}</div><div class="l">💰 ยอดขาย (ไม่รวมยกเลิก)</div></div>
+  </div>
+  <div class="filters">${['all',...STATUS,'cancelled'].map(f=>`<span class="chip ${FILTER===f?'on':''}" onclick="setFilter('${f}')">${f==='all'?'ทั้งหมด':STLABEL[f]}</span>`).join('')}</div>`;
+  if(!CONFIG.useBackend)h+=`<div class="hint">โหมดเดโม: เห็นเฉพาะออเดอร์ที่ลูกค้าสั่งจาก "เบราว์เซอร์เครื่องนี้" — เปิด useBackend + deploy Functions ถึงจะเห็นออเดอร์จากทุกเครื่อง</div>`;
+  if(!list.length){h+='<div class="empty">ยังไม่มีออเดอร์'+(FILTER!=='all'?' ในสถานะนี้':'')+'</div>';box.innerHTML=h;return;}
+  h+=list.map(o=>{
+    const idx=STATUS.indexOf(o.status), nextSt=idx>=0&&idx<STATUS.length-1?STATUS[idx+1]:null;
+    const items=(o.items||[]).map(i=>`<div class="it"><span>${esc(i.name)} · ${esc(i.pz)} ×${i.qty}</span><b>${baht(i.price*i.qty)}</b></div>`).join('');
+    const c=o.customer||{};
+    return `<div class="ocard">
+      <div class="oh"><span class="oid">#${esc(o.id)}</span><span class="stbadge st-${o.status}">${STLABEL[o.status]||o.status}</span><span class="otime">${esc((o.created||'').slice(0,16).replace('T',' '))}</span></div>
+      <div class="oitems">${items}</div>
+      <div class="ocust">👤 <b>${esc(c.name||'-')}</b> · 📞 ${esc(c.contact||'-')}${c.address?'<br>📍 '+esc(c.address):''}${c.note?'<br>📝 '+esc(c.note):''}</div>
+      <div class="oact"><span class="total">${baht(o.total)}</span>
+        <button class="btn copy" onclick="copyOrder('${esc(o.id)}')">📋 ก๊อป</button>
+        ${o.status!=='cancelled'&&o.status!=='shipped'?`<button class="btn cancel" onclick="setStatus('${esc(o.id)}','cancelled')">ยกเลิก</button>`:''}
+        ${nextSt?`<button class="btn next" onclick="setStatus('${esc(o.id)}','${nextSt}')">→ ${STLABEL[nextSt]}</button>`:(o.status==='shipped'?'<span style="color:var(--green);font-weight:800;font-size:12.5px">✓ เสร็จสิ้น</span>':'')}
+      </div></div>`;
+  }).join('');
+  box.innerHTML=h;
+}
+function copyOrder(id){const o=ORDERS.find(x=>x.id===id);if(!o)return;const c=o.customer||{};
+  const t='ออเดอร์ #'+o.id+'\n'+(o.items||[]).map(i=>'▪️ '+i.name+' · '+i.pz+' ×'+i.qty+' = '+baht(i.price*i.qty)).join('\n')+'\n💰 รวม '+baht(o.total)+'\n👤 '+(c.name||'')+' · '+(c.contact||'')+(c.address?'\n📍 '+c.address:'')+(c.note?'\n📝 '+c.note:'');
+  if(navigator.clipboard)navigator.clipboard.writeText(t).catch(()=>{});toast('ก๊อปออเดอร์แล้ว');}
+function setFilter(f){FILTER=f;renderOrders();}
+
+/* ---- stock ---- */
+function renderStock(){
+  const box=document.getElementById('stockView');
+  let cols=DB.filter(c=>c.prizes.some(p=>p.jp!=null));
+  if(SQ)cols=cols.filter(c=>(c.name||'').toLowerCase().includes(SQ));
+  const nOut=Object.values(STOCK).filter(v=>v==='out').length;
+  let h=`<div class="searchw"><input id="sq" type="text" placeholder="ค้นหาคอลเลคชั่น..." value="${esc(SQ)}" oninput="SQ=this.value.toLowerCase();renderStock();document.getElementById('sq').focus()"></div>
+    <div class="hint">กดที่รางวัลเพื่อสลับ พร้อมขาย ⇄ SOLD OUT — สะท้อนไปหน้าร้านทันที (ตอนนี้ตั้งหมดไว้ ${nOut} รายการ)</div>`;
+  h+=cols.map(c=>{
+    const pr=c.prizes.filter(p=>p.jp!=null);
+    return `<div class="scol"><h4>${esc(cleanName(c.name))}</h4><div class="spz">${pr.map(z=>{
+      const out=STOCK[c.id+'|'+z.pz]==='out';
+      return `<button class="stog ${out?'out':''}" onclick="toggleStock('${esc(c.id)}','${esc(z.pz)}')"><span class="dot"></span>รางวัล ${esc(z.pz)} ${out?'· หมด':''}</button>`;
+    }).join('')}</div></div>`;
+  }).join('');
+  box.innerHTML=h||'<div class="empty">ไม่พบคอลเลคชั่น</div>';
+}
+function cleanName(s){let n=String(s||'');n=n.replace(/\[[^\]]*\]/g,' ').replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{1F1E6}-\u{1F1FF}✅✔✨]/gu,' ').replace(/ล็อตใหม่.*$/,'').replace(/ของแท้.*$/,'').replace(/^[\s\-:|·.]+/,'').replace(/\s{2,}/g,' ').trim();return n||String(s||'');}
+
+/* ---- tabs / boot ---- */
+function setTab(t){TAB=t;document.getElementById('tabOrders').classList.toggle('on',t==='orders');document.getElementById('tabStock').classList.toggle('on',t==='stock');
+  document.getElementById('ordersView').style.display=t==='orders'?'block':'none';
+  document.getElementById('stockView').style.display=t==='stock'?'block':'none';
+  if(t==='stock')renderStock();
+}
+async function boot(){
+  try{const d=await fetch('data.json?t='+Date.now()).then(r=>r.json());DB=d.collections||[];}catch(e){DB=[];}
+  STOCK=await loadStock();
+  await refreshOrders();
+  setTab('orders');
+}
+// init
+if(getTok())showApp();else showLogin();
+</script></body></html>

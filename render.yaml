@@ -1,0 +1,17 @@
+# Render.com deploy — API + persistent disk สำหรับ SQLite
+# วิธี: push repo ขึ้น GitHub แล้ว Render > New > Blueprint > เลือก repo นี้
+services:
+  - type: web
+    name: kuji-pricer-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter            # มี persistent disk ได้ (free plan ไม่มี disk → ข้อมูลหาย)
+    envVars:
+      - key: KUJI_DB
+        value: /var/data/kuji.db
+      - key: KUJI_CORS
+        value: "*"
+    disk:
+      name: kuji-data
+      mountPath: /var/data
+      sizeGB: 1

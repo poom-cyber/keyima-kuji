@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kuji Pricer — แอดมิน</title>
+<style>
+  :root{--bg:#f4f5f7;--card:#fff;--bd:#e3e3e3;--mut:#666;--gr:#0a7d3c;--rd:#d9534f;--or:#e08e0b;--bl:#2563eb}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,'Segoe UI',Tahoma,sans-serif;margin:0;background:var(--bg);color:#1a1a1a}
+  header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--bd);padding:10px 16px}
+  h1{font-size:17px;margin:0 0 6px}
+  .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  .stat{font-size:12px;color:var(--mut)} .stat b{color:#111}
+  button{font:inherit;font-size:13px;font-weight:600;border:0;border-radius:8px;padding:7px 13px;cursor:pointer}
+  .p{background:var(--gr);color:#fff}.s{background:var(--bl);color:#fff}.g{background:#eee;color:#333}
+  input,select{font:inherit;font-size:13px;padding:7px 9px;border:1.5px solid #cbd5e1;border-radius:7px;background:#fff}
+  .tabs{display:flex;gap:6px;margin-top:8px}
+  .tab{background:#eef0f3;color:#444;border-radius:8px 8px 0 0;padding:8px 14px;cursor:pointer;font-size:13px;font-weight:600}
+  .tab.on{background:#fff;border:1px solid var(--bd);border-bottom:0;color:#111}
+  main{padding:14px 16px 40px}
+  table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--bd);border-radius:8px;overflow:hidden}
+  th,td{padding:8px 10px;text-align:left;font-size:13px;border-bottom:1px solid #eee}
+  th{background:#fafafa;font-size:12px;color:#555}
+  .m{font-weight:700} .m.bad{color:var(--rd)} .m.warn{color:var(--or)} .m.ok{color:var(--gr)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+  .card{background:#fff;border:1px solid var(--bd);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+  .card img{width:100%;height:150px;object-fit:cover;background:#eee}
+  .cb{padding:10px 12px;display:flex;flex-direction:column;gap:6px}
+  .nm{font-weight:600;font-size:13px;line-height:1.35}
+  .meta{font-size:11px;color:var(--mut)} code{background:#f0f0f0;padding:1px 5px;border-radius:4px;font-size:11px;word-break:break-all}
+  .pz{font-size:11px;display:flex;flex-wrap:wrap;gap:4px}
+  .chip{background:#f0f0f0;border-radius:99px;padding:1px 7px}.chip.null{background:#fdecea;color:#b9442f}
+  .kw{display:flex;gap:6px} .kw input{flex:1}
+  .badge{align-self:flex-start;font-size:10px;font-weight:700;padding:2px 7px;border-radius:99px;color:#fff;background:#888}
+  .badge.chk{background:var(--or)}
+  .toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#222;color:#fff;padding:10px 18px;border-radius:8px;font-size:13px;opacity:0;transition:.3s;pointer-events:none;z-index:99}
+  .toast.show{opacity:1}
+  dialog{border:0;border-radius:12px;padding:0;max-width:560px;width:92%}
+  .dlg{padding:18px}.dlg textarea{width:100%;height:170px;font-family:monospace;font-size:12px;padding:8px;border:1px solid #ccc;border-radius:8px}
+  .muted{color:var(--mut);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎯 Kuji Pricer — แอดมิน</h1>
+  <div class="row">
+    <button class="p" onclick="reloadAll()">↻ โหลดใหม่</button>
+    <button class="s" onclick="openImport()">⬆ นำเข้า keyword (JSON)</button>
+    <button class="g" onclick="doExport()">💾 Export → data.json</button>
+    <span class="stat" id="stat">กำลังโหลด…</span>
+    <span style="flex:1"></span>
+    <button class="g" onclick="openSettings()" title="ตั้งค่า API URL">⚙</button>
+  </div>
+  <div class="tabs">
+    <div class="tab on" data-tab="margins" onclick="setTab('margins')">⚠ มาร์จินบาง</div>
+    <div class="tab" data-tab="cols" onclick="setTab('cols')">📦 คอลเลคชั่น / keyword</div>
+  </div>
+</header>
+<main>
+  <section id="t-margins">
+    <div class="row" style="margin-bottom:10px">
+      <label class="muted">มาร์จินต่ำกว่า <input id="thr" type="number" value="55" style="width:64px" onchange="loadMargins()"> %</label>
+      <span class="stat" id="mstat"></span>
+    </div>
+    <table id="mtbl"><thead><tr><th>มาร์จิน</th><th>รางวัล</th><th>เยน</th><th>ต้นทุน฿</th><th>ขาย฿</th><th>คอลเลคชั่น</th></tr></thead><tbody></tbody></table>
+  </section>
+  <section id="t-cols" style="display:none">
+    <div class="row" style="margin-bottom:10px">
+      <input id="q" placeholder="ค้นหาชื่อ…" oninput="renderCols()" style="min-width:200px">
+      <select id="filt" onchange="renderCols()">
+        <option value="all">ทั้งหมด</option>
+        <option value="null">มีรางวัลยังไม่มีราคา</option>
+        <option value="nokw">ยังไม่มี keyword</option>
+        <option value="chk">ต้องเช็ก keyword</option>
+      </select>
+      <span class="stat" id="cstat"></span>
+    </div>
+    <div class="grid" id="cgrid"></div>
+  </section>
+</main>
+
+<dialog id="dImport"><div class="dlg">
+  <h3 style="margin:0 0 8px">นำเข้า keyword (JSON)</h3>
+  <p class="muted">รูปแบบ: <code>{"&lt;id&gt;":"&lt;keyword&gt;", ...}</code></p>
+  <textarea id="impText" placeholder='{"41953299727":"一番くじ ..."}'></textarea>
+  <div class="row" style="margin-top:10px;justify-content:flex-end">
+    <button class="g" onclick="dImport.close()">ยกเลิก</button>
+    <button class="p" onclick="runImport()">นำเข้า</button>
+  </div>
+</div></dialog>
+
+<dialog id="dSet"><div class="dlg">
+  <h3 style="margin:0 0 8px">ตั้งค่า API URL</h3>
+  <p class="muted">ถ้าเว็บนี้อยู่คนละที่กับ API (เช่น เว็บบน Netlify, API บนเซิร์ฟเวอร์) ใส่ URL ของ API ที่นี่ — ถ้าเสิร์ฟจาก API เดียวกัน เว้นว่างไว้</p>
+  <input id="apiBase" placeholder="https://your-api.example.com" style="width:100%">
+  <div class="row" style="margin-top:10px;justify-content:flex-end">
+    <button class="g" onclick="dSet.close()">ปิด</button>
+    <button class="p" onclick="saveSettings()">บันทึก</button>
+  </div>
+</div></dialog>
+
+<div class="toast" id="toast"></div>
+<script>
+const API = () => localStorage.getItem('kuji_api') || '';
+let DATA = {rate:0.2068, collections:[]};
+const $ = s => document.querySelector(s);
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2200)}
+async function api(path, opt){
+  const r = await fetch(API()+path, opt);
+  if(!r.ok){let e='';try{e=(await r.json()).detail}catch(_){}throw new Error(e||('HTTP '+r.status))}
+  return r.json();
+}
+function mcls(m){return m<40?'bad':m<55?'warn':'ok'}
+
+async function reloadAll(){
+  try{
+    const meta = await api('/api/meta');
+    $('#stat').innerHTML = `เรต <b>${meta.rate}</b> · อัปเดต <b>${meta.updated}</b> · คอล <b>${meta.collections}</b> · รางวัลมีราคา <b>${meta.prizes_with_jp}/${meta.prizes}</b>`;
+    const c = await api('/api/collections?limit=5000'); DATA = c;
+    renderCols(); loadMargins();
+  }catch(e){ $('#stat').textContent='เชื่อม API ไม่ได้: '+e.message+' (กด ⚙ ตั้งค่า URL)'; }
+}
+async function loadMargins(){
+  const thr = $('#thr').value||55;
+  try{
+    const d = await api('/api/margins?threshold='+thr);
+    $('#mstat').textContent = `พบ ${d.count} รางวัล`;
+    $('#mtbl tbody').innerHTML = d.rows.map(r=>`<tr>
+      <td class="m ${mcls(r.margin)}">${r.margin}%</td><td>${r.pz}</td>
+      <td>${r.jp.toLocaleString()}</td><td>${r.costThb.toLocaleString()}</td>
+      <td>${(r.shopee||0).toLocaleString()}</td><td>${esc(clean(r.name))}</td></tr>`).join('');
+  }catch(e){ $('#mstat').textContent='โหลดไม่ได้: '+e.message; }
+}
+function clean(n){return (n||'').replace(/[🛒🇯🇵✅🏆🎸🐺]/g,'').replace(/\[[^\]]*\]/g,'').trim()}
+function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+function renderCols(){
+  const q=($('#q').value||'').toLowerCase(), f=$('#filt').value;
+  let cs = DATA.collections.filter(c=>!q || (c.name||'').toLowerCase().includes(q));
+  cs = cs.filter(c=>{
+    const anynull=c.prizes.some(p=>p.jp===null);
+    if(f==='null')return anynull;
+    if(f==='nokw')return !c.jpkw;
+    if(f==='chk')return c._chk;
+    return true;
+  });
+  $('#cstat').textContent = `แสดง ${cs.length} คอล`;
+  $('#cgrid').innerHTML = cs.slice(0,400).map(card).join('');
+}
+function card(c){
+  const chips=c.prizes.map(p=>`<span class="chip ${p.jp===null?'null':''}">${esc(p.pz)}${p.jp!==null?': '+p.margin+'%':''}</span>`).join('');
+  return `<div class="card">
+   <img loading="lazy" src="${esc(c.cover||'')}" onerror="this.style.opacity=.12">
+   <div class="cb">
+    ${c._chk?'<span class="badge chk">ต้องเช็ก</span>':''}
+    <div class="nm">${esc(clean(c.name))}</div>
+    <div class="meta">id: ${c.id}</div>
+    <div class="pz">${chips}</div>
+    <div class="kw">
+     <input id="kw_${c.id}" value="${esc(c.jpkw||'')}" placeholder="keyword ชุดญี่ปุ่น…" spellcheck="false">
+     <button class="p" onclick="saveKw('${c.id}')">เซฟ</button>
+    </div>
+   </div></div>`;
+}
+async function saveKw(id){
+  const kw = $('#kw_'+id).value.trim();
+  try{ await api('/api/keywords/'+id,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({keyword:kw,needs_check:false})});
+    const c=DATA.collections.find(x=>x.id===id); if(c){c.jpkw=kw;c._chk=false;} toast('เซฟ keyword แล้ว ✓');
+  }catch(e){ toast('เซฟไม่ได้: '+e.message); }
+}
+function openImport(){$('#dImport').showModal()}
+async function runImport(){
+  let obj; try{obj=JSON.parse($('#impText').value)}catch(e){return toast('JSON ไม่ถูกต้อง')}
+  try{ const r=await api('/api/keywords/import',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({map:obj})});
+    toast(`นำเข้าแล้ว: ใหม่ ${r.added} / แก้ ${r.updated}`); $('#dImport').close(); reloadAll();
+  }catch(e){ toast('นำเข้าไม่ได้: '+e.message); }
+}
+async function doExport(){
+  try{ const r=await api('/api/export',{method:'POST'}); toast(`Export แล้ว: ${r.collections} คอล → site/data.json`); }
+  catch(e){ toast('export ไม่ได้: '+e.message); }
+}
+function openSettings(){$('#apiBase').value=API();$('#dSet').showModal()}
+function saveSettings(){localStorage.setItem('kuji_api',$('#apiBase').value.trim().replace(/\/$/,''));$('#dSet').close();reloadAll()}
+function setTab(t){document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.tab===t));
+  $('#t-margins').style.display=t==='margins'?'':'none';$('#t-cols').style.display=t==='cols'?'':'none';}
+// mark needs_check from keywords endpoint
+(async ()=>{ try{const k=await api('/api/keywords'); const chk=new Set(k.needs_check);
+  reloadAll().then(()=>{DATA.collections.forEach(c=>c._chk=chk.has(c.id));renderCols();});
+ }catch(e){ reloadAll(); } })();
+</script>
+</body>
+</html>

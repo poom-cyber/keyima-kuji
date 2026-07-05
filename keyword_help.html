@@ -1,0 +1,364 @@
+<!doctype html><html lang="th"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kuji — เติม/แก้ keyword</title>
+<style>
+body{font-family:-apple-system,'Segoe UI',Tahoma,sans-serif;margin:0;background:#f4f5f7;color:#1a1a1a}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #ddd;padding:12px 16px;z-index:9}
+h1{font-size:17px;margin:0 0 6px} .sub{color:#666;font-size:12px;margin-bottom:8px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{font:inherit;font-size:13px;font-weight:600;border:0;border-radius:8px;padding:8px 14px;cursor:pointer}
+.save{background:#0a7d3c;color:#fff} .copy{background:#2563eb;color:#fff} .clear{background:#eee;color:#444}
+.stat{font-size:12px;color:#0a7d3c;font-weight:700;margin-left:4px}
+h2{font-size:15px;margin:20px 16px 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px;padding:0 16px 30px}
+.card{background:#fff;border:1px solid #e3e3e3;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;height:175px;object-fit:cover;background:#eee}
+.body{padding:10px 12px;display:flex;flex-direction:column;gap:5px}
+.badge{align-self:flex-start;font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;color:#fff}
+.badge.a{background:#d9534f} .badge.b{background:#6c63b5}
+.name{font-weight:600;font-size:13px;line-height:1.35}
+.meta{font-size:12px;color:#555} code{background:#f0f0f0;padding:1px 5px;border-radius:4px;font-size:11px;word-break:break-all}
+.prob{font-size:12px;color:#b9442f;background:#fdecea;padding:5px 7px;border-radius:6px}
+.null{font-size:12px} .null b{color:#0a6}
+.fix{font-size:12px;color:#666;border-top:1px dashed #ddd;padding-top:7px;margin-top:2px;display:flex;flex-direction:column;gap:4px}
+.kwin{font:inherit;font-size:13px;padding:7px 9px;border:1.5px solid #cbd5e1;border-radius:7px}
+.kwin:focus{outline:0;border-color:#0a7d3c;background:#f0fff5}
+.kwin.done{border-color:#0a7d3c;background:#f0fff5}
+.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#222;color:#fff;padding:10px 18px;border-radius:8px;font-size:13px;opacity:0;transition:.3s;pointer-events:none}
+.toast.show{opacity:1}
+</style></head><body>
+<header><h1>🎯 Kuji — เติม/แก้ keyword</h1>
+<div class="sub">พิมพ์ keyword ใหม่ในแต่ละการ์ด · ระบบเซฟอัตโนมัติในเบราว์เซอร์ · กด "บันทึกลงไฟล์" เพื่อเก็บ <b>keyword_input.json</b> (เซฟลงโฟลเดอร์ PriceUpdate แล้วบอก Claude อ่านได้เลย)</div>
+<div class="bar">
+<button class="save" onclick="saveFile()">💾 บันทึกลงไฟล์</button>
+<button class="copy" onclick="copyJSON()">📋 คัดลอก JSON</button>
+<button class="clear" onclick="clearAll()">ล้างทั้งหมด</button>
+<span class="stat" id="stat"></span></div></header>
+<h2>🔴 กลุ่ม A — มี keyword แล้วแต่ค้นได้ผิดชุด (แก้ก่อน)</h2>
+<div class="grid"><div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81zte-ml0euzqpnsar8a" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji Naruto Shippuden สงครามนินจา – ฟิกเกอร์ Naruto แท้ญี่ปุ่น</div>
+<div class="meta">id: <span class="cid">52756322318</span></div>
+<div class="meta">kw เดิม: <code>一番くじ NARUTO 疾風伝 忍界大戦</code></div>
+<div class="prob">⚠ ค้นได้ชุดอื่น (風影奪還編) — kw 忍界大戦 ไม่ตรง</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>C B A E Last One D</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="52756322318" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81zto-ml4q64a8gmx9bb" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji MY HERO ACADEMIA: Conflicting Feelings มายฮีโร่ ออลไม เดกุ ออลฟอวัน</div>
+<div class="meta">id: <span class="cid">52706417814</span></div>
+<div class="meta">kw เดิม: <code>一番くじ 僕のヒーローアカデミア Conflicting Feelings</code></div>
+<div class="prob">⚠ subtitle อังกฤษ Conflicting Feelings ไม่ match ญี่ปุ่น → ได้ bright future/文化祭</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>F B Last one C E D A</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="52706417814" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81zth-mlfk62mxc0svfa" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji Idolmaster Shiny Colors Midnight Secret Party // อิจิบัง คุจิ ไอดอล มาสเตอร์</div>
+<div class="meta">id: <span class="cid">52356755972</span></div>
+<div class="meta">kw เดิม: <code>一番くじ アイドルマスター シャイニーカラーズ Midnight Secret Party</code></div>
+<div class="prob">⚠ LO ไม่ชัวร์ subtitle (Midnight Secret Party)</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>A LO</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="52356755972" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81zto-mleooanenoxuf5" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji Demon Slayer: The Successor // เดม่อน ดาบพิฆาตอสูร อิจิบัง คุจิ</div>
+<div class="meta">id: <span class="cid">48856739408</span></div>
+<div class="meta">kw เดิม: <code>一番くじ 鬼滅の刃 継ぐ者</code></div>
+<div class="prob">⚠ 鬼滅 継ぐ者 — listing กว้าง แยกชุดไม่ได้</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>C LO A B</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="48856739408" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztp-mlfiiny60r9g5d" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji JoJo&#x27;s Bizarre Adventure -THE★JOJO WORLD- // อิจิบัง คุจิ โจโจ้</div>
+<div class="meta">id: <span class="cid">47356780698</span></div>
+<div class="meta">kw เดิม: <code>一番くじ ジョジョの奇妙な冒険 THE★JOJO WORLD</code></div>
+<div class="prob">⚠ kw THE★JOJO WORLD → ค้นได้ ストーンオーシャン</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>F D</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="47356780698" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztm-mlhlerarrbwi11" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji Movie &quot;The Quintessential Quintuplets&quot; ~Secret Ride-along~ // อิจิบัง คุจิ แฝดห้า</div>
+<div class="meta">id: <span class="cid">46906885643</span></div>
+<div class="meta">kw เดิม: <code>一番くじ 五等分の花嫁 こっそり相乗り</code></div>
+<div class="prob">⚠ 五等分 こっそり相乗り → ได้แต่อะคริลิค ไม่ชัวร์</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>A LO</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="46906885643" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81zti-mleracit9ukl39" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichibankuji DEMON SLAYER: Kimetsu no Yaiba - Bonds of Fate 2 // ดาบพิฆาตอสูร</div>
+<div class="meta">id: <span class="cid">46506739987</span></div>
+<div class="meta">kw เดิม: <code>一番くじ 鬼滅の刃 絆ノ装 弐</code></div>
+<div class="prob">⚠ 鬼滅 絆ノ装 弐 — listing กว้าง แยกชุดไม่ได้</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>B C LO A</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="46506739987" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztn-mlhgl2c0terz1f" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji Uma Musume Pretty Derby 12th Edition // สาวม้า อิจิบัง คุจิ</div>
+<div class="meta">id: <span class="cid">46406880305</span></div>
+<div class="meta">kw เดิม: <code>一番くじ ウマ娘 プリティーダービー Vol.12</code></div>
+<div class="prob">⚠ ウマ娘 Vol.12 → ค้นได้ 5弾 (เลขชุดไม่ตรง)</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>B LO A</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="46406880305" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztn-mnzazjv3y77p64" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji Dragon Ball THE CHRONICLE OF GOKU (ดราก้อนบอล) ล็อตใหม่ ของแท้จากญี่ปุ่น 💯</div>
+<div class="meta">id: <span class="cid">45610159493</span></div>
+<div class="meta">kw เดิม: <code>一番くじ ドラゴンボール THE CHRONICLE OF GOKU</code></div>
+<div class="prob">⚠ DB THE CHRONICLE OF GOKU → ไม่ชัวร์ชุด</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>F</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="45610159493" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztj-mlc2r5145csiab" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji The Great Cats War ~Let&#x27;s all play Peri-Peri together~ // ศึกแห่งแมว</div>
+<div class="meta">id: <span class="cid">45056668486</span></div>
+<div class="meta">kw เดิม: <code>一番くじ にゃんこ大戦争</code></div>
+<div class="prob">⚠ kw にゃんこ大戦争 → ค้นได้ mofusand (คนละแบรนด์)</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>A</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="45056668486" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-7ras9-m9s6m2bmg6zk9c" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">: ดิจิม่อน Digimon Two Powers that Emit Light ฟิกเกอร์ งานจับฉลาก /  Digimon Ichiban Kuji Figure</div>
+<div class="meta">id: <span class="cid">44250945731</span></div>
+<div class="meta">kw เดิม: <code>一番くじ デジモン 光を放つ、ふたつの力</code></div>
+<div class="prob">⚠ kw デジモン → ค้นได้ モンスト</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>LastOne</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="44250945731" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-7rasb-mamgkx1b7ki85e" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">: Ichiban Kuji Harry Potter Magical Sweets Party / งานจับฉลาก แฮรี่พอตเตอร์</div>
+<div class="meta">id: <span class="cid">43253320163</span></div>
+<div class="meta">kw เดิม: <code>一番くじ ハリーポッター マジカルスイーツ</code></div>
+<div class="prob">⚠ ハリポタ マジカルスイーツ → ได้ Magical Holiday (คนละชุด)</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>A Last one</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="43253320163" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztf-ml4qlwbnwop8d2" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji My Hero Academia Continuous Stars มายฮีโร่ อคาเดเมีย ฟิกเกอร์งานจับฉลากแท้ญี่ปุ่น</div>
+<div class="meta">id: <span class="cid">42078881687</span></div>
+<div class="meta">kw เดิม: <code>一番くじ 僕のヒーローアカデミア Continuous Stars</code></div>
+<div class="prob">⚠ ヒロアカ Continuous Stars → ได้ NEXT GEN/YOU&#x27;RE NEXT</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>C Last one B D A</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="42078881687" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-7rase-mamfxhn7g8ls33" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">: Mobile Suit Gundam ฟิกเกอร์ งานจับฉลาก / Ichiban Kuji Figure</div>
+<div class="meta">id: <span class="cid">41953299727</span></div>
+<div class="meta">kw เดิม: <code>一番くじ 機動戦士ガンダム</code></div>
+<div class="prob">⚠ kw แค่ &#x27;機動戦士ガンダム&#x27; กว้างไป — ได้หลายชุดปน</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>Last one A</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="41953299727" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztq-mlfeucytm3gide" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji BLEACH Stirring Souls vol.3 // อิจิบัง คุจิ บลีช เทพมรณะ</div>
+<div class="meta">id: <span class="cid">53056751729</span></div>
+<div class="meta">kw เดิม: <code>一番くじ BLEACH Stirring Souls vol.3</code></div>
+<div class="prob">⚠ BLEACH Stirring Souls vol.3 → ค้นได้ vol.4 (ของในชุดน้อย)</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>C A</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="53056751729" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztn-mlhl5ypegmj341" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji Idolmaster Shiny Colors Lolita Collection // ไอดอลมาสเตอร์ อิจิบัง คุจิ</div>
+<div class="meta">id: <span class="cid">50656861986</span></div>
+<div class="meta">kw เดิม: <code>一番くじ アイドルマスター シャイニーカラーズ Lolita Fashion Collection</code></div>
+<div class="prob">⚠ アイマス Lolita Fashion — A賞 ไม่เจอ</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>A</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="50656861986" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztc-ml0qnl3r5o1z1d" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge a">ค้นผิดชุด</span>
+<div class="name">Ichiban Kuji Crows &amp; Worst ~ Wandering Crows ~  อิจิบัง คุจิ โครวส์ &amp; เวิร์ส – แก๊งอีกาเร่ร่อน</div>
+<div class="meta">id: <span class="cid">46806343082</span></div>
+<div class="meta">kw เดิม: <code>一番くじ クローズ WORST 流浪のカラス</code></div>
+<div class="prob">⚠ クローズWORST 流浪のカラス — A賞 ไม่เจอ</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>A</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="46806343082" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div></div>
+<h2>🟣 กลุ่ม B — คุจิจริงที่ยังไม่มี keyword</h2>
+<div class="grid"><div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81zth-mpg3ir9ggu1ba2" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge b">ยังไม่มี kw</span>
+<div class="name">Ichiban Kuji One Piece  Sculptor King Senor Pink ~With Love for Lucien~ (วันพีซ) ของแท้จากญี่ปุ่น 💯</div>
+<div class="meta">id: <span class="cid">50112186474</span></div>
+<div class="meta">kw เดิม: <code>— ไม่มี —</code></div>
+<div class="prob">⚠ คุจิจริงแต่ยังไม่มี keyword — ใส่ชื่อชุดญี่ปุ่นเฉพาะ</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>B สีเข้มกว่า A สีอ่อนกว่า</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="50112186474" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztg-mlc3qn301n9k4d" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge b">ยังไม่มี kw</span>
+<div class="name">Ichiban Kuji Hololive ~Villain Style~ // อิจิบัง คุจิ โฮโลไลฟ์</div>
+<div class="meta">id: <span class="cid">49506671485</span></div>
+<div class="meta">kw เดิม: <code>— ไม่มี —</code></div>
+<div class="prob">⚠ คุจิจริงแต่ยังไม่มี keyword — ใส่ชื่อชุดญี่ปุ่นเฉพาะ</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>Watame Tsunomaki Shihaku Botan Shirakami Fubuki Ogami Mio</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="49506671485" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztp-mlchop8f6wb338" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge b">ยังไม่มี kw</span>
+<div class="name">Ichiban Kuji Hololive ~Wedding Dress Style~ // อิจิบัง คุจิ โฮโลไลฟ์</div>
+<div class="meta">id: <span class="cid">43428996169</span></div>
+<div class="meta">kw เดิม: <code>— ไม่มี —</code></div>
+<div class="prob">⚠ คุจิจริงแต่ยังไม่มี keyword — ใส่ชื่อชุดญี่ปุ่นเฉพาะ</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>Shirogane Noel Houshou Marine Towa Tokoyami Yukihana Lamy</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="43428996169" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztf-moan28oik4y174" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge b">ยังไม่มี kw</span>
+<div class="name">Ichiban Kuji REBORN! แหวน รีบอร์น ล็อตใหม่ ของแท้จากญี่ปุ่น 💯</div>
+<div class="meta">id: <span class="cid">58110673783</span></div>
+<div class="meta">kw เดิม: <code>— ไม่มี —</code></div>
+<div class="prob">⚠ คุจิจริงแต่ยังไม่มี keyword — ใส่ชื่อชุดญี่ปุ่นเฉพาะ</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>1 7 แรมโบ้ 4 6 แรมโบ้ 3 แรมโบ้ 2 4 แรมโบ้ 1 2 5 3</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="58110673783" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztq-mnblc7pttz489d" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge b">ยังไม่มี kw</span>
+<div class="name">Ichiban Kuji Spring and Autumn Warring States… (คิงดอม จอมคนเจ้าแผ่นดิน) ล็อตใหม่ ของแท้จากญี่ปุ่น 💯</div>
+<div class="meta">id: <span class="cid">51059266945</span></div>
+<div class="meta">kw เดิม: <code>— ไม่มี —</code></div>
+<div class="prob">⚠ คุจิจริงแต่ยังไม่มี keyword — ใส่ชื่อชุดญี่ปุ่นเฉพาะ</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>1 3 2 4 5 6</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="51059266945" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81zto-ml4q7kgeqm1591" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge b">ยังไม่มี kw</span>
+<div class="name">Ichiban kuji Dragon Ball ASSEMBLE COLLECTION ~ Goku childhood edition~ // อิจิบัง คุจิ ดราก้อนบอล</div>
+<div class="meta">id: <span class="cid">55106414178</span></div>
+<div class="meta">kw เดิม: <code>— ไม่มี —</code></div>
+<div class="prob">⚠ คุจิจริงแต่ยังไม่มี keyword — ใส่ชื่อชุดญี่ปุ่นเฉพาะ</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>20 ชิ้น ป้าย dragon 24 ชิ้น</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="55106414178" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-81ztc-mpg3rcuxzuv5d8" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge b">ยังไม่มี kw</span>
+<div class="name">Ichiban Kui Jujutsu Kaisen ０ (มหาเวทย์ผนึกมาร) ล็อตใหม่ ของแท้จากญี่ปุ่น 💯</div>
+<div class="meta">id: <span class="cid">44381689424</span></div>
+<div class="meta">kw เดิม: <code>— ไม่มี —</code></div>
+<div class="prob">⚠ คุจิจริงแต่ยังไม่มี keyword — ใส่ชื่อชุดญี่ปุ่นเฉพาะ</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>1</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="44381689424" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div>
+<div class="card">
+<img loading="lazy" src="https://cf.shopee.co.th/file/th-11134207-7rasd-m3a6vb6qsm070f" onerror="this.style.opacity=.12">
+<div class="body">
+<span class="badge b">ยังไม่มี kw</span>
+<div class="name">Ichiban kuji: Jujutsu kaisen sukuna ซุคุนะ งานจับฉลาก</div>
+<div class="meta">id: <span class="cid">28069432993</span></div>
+<div class="meta">kw เดิม: <code>— ไม่มี —</code></div>
+<div class="prob">⚠ คุจิจริงแต่ยังไม่มี keyword — ใส่ชื่อชุดญี่ปุ่นเฉพาะ</div>
+<div class="null">รางวัลที่ยังไม่มีราคา: <b>-</b></div>
+<label class="fix">keyword ใหม่ (ชื่อชุดญี่ปุ่นเฉพาะ):
+<input class="kwin" data-id="28069432993" placeholder="เช่น 一番くじ ..." spellcheck="false"></label>
+</div></div></div>
+<div class="toast" id="toast"></div>
+<script>
+const KEY='kuji_kw_input_v1';
+const ins=[...document.querySelectorAll('.kwin')];
+function load(){let s={};try{s=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+ ins.forEach(i=>{const v=s[i.dataset.id]||'';i.value=v;i.classList.toggle('done',!!v.trim())});upd()}
+function collect(){const o={};ins.forEach(i=>{const v=i.value.trim();if(v)o[i.dataset.id]=v});return o}
+function persist(){localStorage.setItem(KEY,JSON.stringify(collect()))}
+function upd(){document.getElementById('stat').textContent='กรอกแล้ว '+Object.keys(collect()).length+' / '+ins.length+' งาน'}
+ins.forEach(i=>i.addEventListener('input',()=>{i.classList.toggle('done',!!i.value.trim());persist();upd()}));
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2200)}
+async function saveFile(){const data=collect();
+ if(!Object.keys(data).length){toast('ยังไม่ได้กรอก keyword');return}
+ const blob=new Blob([JSON.stringify(data,null,1)],{type:'application/json'});
+ const fname='keyword_input.json';
+ if(window.showSaveFilePicker){try{
+   const h=await showSaveFilePicker({suggestedName:fname,types:[{description:'JSON',accept:{'application/json':['.json']}}]});
+   const w=await h.createWritable();await w.write(blob);await w.close();toast('บันทึกแล้ว ✓ (เลือกโฟลเดอร์ PriceUpdate)');return
+ }catch(e){if(e.name==='AbortError')return}}
+ const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=fname;a.click();
+ toast('ดาวน์โหลด keyword_input.json แล้ว — ย้ายไปไว้โฟลเดอร์ PriceUpdate')}
+async function copyJSON(){const data=collect();if(!Object.keys(data).length){toast('ยังไม่ได้กรอก');return}
+ const t=JSON.stringify(data,null,1);try{await navigator.clipboard.writeText(t);toast('คัดลอก JSON แล้ว — วางในแชทได้เลย')}catch(e){prompt('ก๊อปข้อความนี้:',t)}}
+function clearAll(){if(!confirm('ล้าง keyword ที่กรอกทั้งหมด?'))return;localStorage.removeItem(KEY);ins.forEach(i=>{i.value='';i.classList.remove('done')});upd()}
+load();
+</script></body></html>

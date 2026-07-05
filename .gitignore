@@ -1,0 +1,23 @@
+# secrets
+.netlify_token
+.netlify/
+
+# node / netlify build (generate ได้ ไม่ต้อง commit)
+node_modules/
+/store/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# local scratch / generated (DB เก็บใน data/ ตัวเดียว, ไฟล์อื่น generate ได้)
+*.db-journal
+prices.db-journal
+keyword_input*.json
+/tmp/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+# Netlify config สำหรับ "เว็บร้าน + backend" (Functions + Blobs)
+# ใช้กับเว็บสาธารณะ (store) — deploy แบบ git หรือ CLI ก็ได้ (ดู NETLIFY_BACKEND.md)
+
+[build]
+  command  = "bash build_store.sh"   # ประกอบโฟลเดอร์ store จาก site/ ล่าสุด
+  publish  = "store"                  # โฟลเดอร์ที่เผยแพร่ (หน้าร้าน)
+  functions = "netlify/functions"     # โฟลเดอร์ serverless functions (/api/*)
+
+[functions]
+  node_bundler = "esbuild"

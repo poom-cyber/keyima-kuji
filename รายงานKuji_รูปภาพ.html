@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="th"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>รายงานต้นทุน Mercari × Shopee (มีรูป)</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f5f6f8;--surface:#fff;--ink:#0f172a;--ink2:#475569;--muted:#94a3b8;--line:#e7e9ee;--line2:#dfe2e8;
+--accent:#4f46e5;--accentsoft:#eef2ff;--red:#e11d48;--redsoft:#fff1f3;--amber:#b45309;--ambersoft:#fef3c7;--green:#059669;--greensoft:#d1fae5;--graysoft:#f1f5f9;
+--shadow:0 1px 2px rgba(15,23,42,.04),0 2px 8px rgba(15,23,42,.05);}
+body{font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans Thai",sans-serif;background:var(--bg);color:var(--ink);padding:20px;font-size:14px;line-height:1.45}
+h1{font-size:20px;font-weight:800}
+.sub{color:var(--ink2);font-size:13px;margin:3px 0 16px}
+.summary{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 16px;min-width:110px;box-shadow:var(--shadow)}
+.stat .n{font-size:22px;font-weight:800}.stat .l{font-size:11px;color:var(--muted);font-weight:700}
+.stat.red .n{color:var(--red)}.stat.amber .n{color:var(--amber)}.stat.green .n{color:var(--green)}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.chip{font-size:12px;font-weight:600;color:var(--ink2);padding:7px 13px;border-radius:18px;border:1px solid var(--line2);background:#fff;cursor:pointer}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}.chip.on.red{background:var(--red);border-color:var(--red)}
+.col{margin-bottom:26px}
+.colhd{display:flex;align-items:center;gap:10px;margin-bottom:11px}
+.colhd img{width:42px;height:42px;border-radius:10px;object-fit:cover;border:1px solid var(--line);background:var(--graysoft)}
+.colhd .nm{font-size:15px;font-weight:700;flex:1;min-width:0}
+.colhd a{font-size:12px;color:var(--accent);text-decoration:none;font-weight:600;white-space:nowrap}
+.colhd a:hover{text-decoration:underline}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:13px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);position:relative;display:flex;flex-direction:column}
+.card.red{border-color:#fecdd3}.card.amber{border-color:#fde68a}
+.thumb{width:100%;aspect-ratio:1/1;object-fit:cover;background:var(--graysoft);display:block}
+.badge{position:absolute;top:8px;left:8px;background:rgba(15,23,42,.78);color:#fff;border-radius:8px;padding:2px 8px;font-size:11px;font-weight:700}
+.mpill{position:absolute;top:8px;right:8px;border-radius:9px;padding:3px 8px;font-size:12px;font-weight:800}
+.p-red{background:var(--redsoft);color:var(--red)}.p-amber{background:var(--ambersoft);color:var(--amber)}.p-green{background:var(--greensoft);color:var(--green)}.p-none{background:var(--graysoft);color:var(--muted)}
+.body{padding:9px 11px 11px}
+.char{font-size:13.5px;font-weight:700;margin-bottom:7px;min-height:36px}
+.row{display:flex;justify-content:space-between;font-size:12px;color:var(--ink2);margin-bottom:2px}
+.row b{color:var(--ink);font-weight:700}
+.note{font-size:11px;color:var(--muted);font-style:italic;margin-top:4px}
+.foot{color:var(--muted);font-size:12px;margin-top:22px;border-top:1px solid var(--line);padding-top:13px}
+</style></head><body>
+<h1>📦 รายงานต้นทุน Mercari × Shopee</h1>
+<div class="sub">เช็ก 24/6/2026 · เรต JPY→THB <b>0.206</b> · มาร์จิน% = (ขาย Shopee − ต้นทุน฿)/ขาย×100 · รูปจาก Shopee จริง · 🔴&lt;55% 🟡55–62% 🟢≥62%</div>
+<div class="summary" id="summary"></div>
+<div class="controls">
+  <span class="chip on" data-f="all">ทั้งหมด</span>
+  <span class="chip red" data-f="red">🔴 ต้องขึ้นราคา</span>
+  <span class="chip" data-f="amber">🟡 เฝ้าระวัง</span>
+  <span class="chip" data-f="green">🟢 โอเค</span>
+  <span class="chip" data-f="skip">⏭️ หาราคาไม่ได้</span>
+</div>
+<div id="app"></div>
+<div class="foot">รูป + ราคาขายดึงจากแอดมิน Shopee ของคุณ · ต้นทุน JP = รายการซื้อได้เลยที่ถูกสุดบน Mercari (ข้ามออคชัน 現在) · ตัวที่ขึ้น ⏭️ คือหน้าแรกเจอแต่ออคชัน/เป็นร้าน Shops เลยใช้ค่าอ้างอิงเดิมไปก่อน</div>
+<script>
+const FX=0.206;
+const IMG="https://cf.shopee.co.th/file/";
+// collection: name, fr, coverCode, mercariSearch, prizes[ {pz, code, shopee, jp, ref(optional, when jp null)} ]
+const COLS=[
+ {name:"ヒロアカ いつまでも手を差し伸べ続ける物語",cover:"th-11134207-81ztg-mpoq48fuxqtq59",
+  s:"https://jp.mercari.com/search?keyword=%E3%83%92%E3%83%AD%E3%82%A2%E3%82%AB%20%E6%89%8B%E3%82%92%E5%B7%AE%E3%81%97%E4%BC%B8%E3%81%B9%E7%B6%9A%E3%81%91%E3%82%8B%E7%89%A9%E8%AA%9E",
+  pz:[
+   {pz:"A 緑谷出久",code:"th-11134207-81ztl-mpoq5fu0c2kr57",shopee:2690,jp:5400},
+   {pz:"B 死柄木弔",code:"th-11134207-81ztn-mpoq5ixjomq37e",shopee:3290,jp:6999},
+   {pz:"C 爆豪勝己",code:"th-11134207-81zto-mpoqamxmcumj66",shopee:4950,jp:12500},
+   {pz:"D ステイン",code:"th-11134207-81zti-mpoq48isr6yqda",shopee:2490,jp:null,ref:3999,why:"มีแต่ออคชัน 現在 ¥3,900"},
+   {pz:"E 峰田実",code:"th-11134207-81ztc-mpoqb1zeqmtr88",shopee:2290,jp:null,ref:4499,why:"มีแต่ออคชัน/เซ็ต"},
+   {pz:"ラストワン アーマードオールマイト",code:"th-11134207-81zte-mpoq48iqc3r48d",shopee:8390,jp:null,ref:16777,why:"ไม่พบในหน้าแรก"}
+  ]},
+ {name:"ワンピース 赤髪海賊団",cover:"th-11134207-81ztp-mp4mrwuvhlvkdd",
+  s:"https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E8%B5%A4%E9%AB%AA%E6%B5%B7%E8%B3%8A%E5%9B%A3",
+  pz:[
+   {pz:"A シャンクス",code:"th-11134207-81ztn-mp4muzm3k4qq1a",shopee:2890,jp:4300},
+   {pz:"B ベン・ベックマン",code:"th-11134207-81zti-mp4mv2x9zklc80",shopee:2690,jp:4599},
+   {pz:"C ヤソップ",code:"th-11134207-81ztn-mp4mv86p7a4s5b",shopee:2690,jp:4000},
+   {pz:"D ラッキー・ルウ",code:"th-11134207-81ztf-mp4mrwyxm2oe33",shopee:3890,jp:6000},
+   {pz:"ラストワン シャンクス&ルフィ",code:"th-11134207-81ztp-mp4mrwx3jz7ka1",shopee:3490,jp:4100}
+  ]},
+ {name:"北斗の拳",cover:"th-11134207-81ztm-mpoped5q5ukrab",
+  s:"https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%8C%97%E6%96%97%E3%81%AE%E6%8B%B3",
+  pz:[
+   {pz:"A ケンシロウ",code:"th-11134207-81ztj-mpoped6581s0af",shopee:5390,jp:null,ref:9900,why:"มีแต่ออคชัน 現在 ~¥9,100-10,000"},
+   {pz:"B レイ",code:"th-11134207-81ztl-mpoped5vwc1t86",shopee:4590,jp:8980},
+   {pz:"ラストワン ラオウ",code:"th-11134207-81ztj-mpoped65xc01ca",shopee:9890,jp:21499}
+  ]},
+ {name:"ドラゴンボール EX 対決!レッドリボン軍",cover:"th-11134207-81ztj-mpg30u8eo5j6d5",
+  s:"https://jp.mercari.com/search?keyword=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%AF%BE%E6%B1%BA%20%E3%83%AC%E3%83%83%E3%83%89%E3%83%AA%E3%83%9C%E3%83%B3%E8%BB%8D",
+  pz:[
+   {pz:"A 孫悟空",code:"th-11134207-81ztn-mpg31gcpzlds20",shopee:1990,jp:4100},
+   {pz:"B ムラサキ曹長",code:"th-11134207-81ztm-mpg31jsjq8ea92",shopee:1990,jp:3799},
+   {pz:"C ブルー将軍",code:"th-11134207-81zti-mpg31p62z8jl12",shopee:1890,jp:2850},
+   {pz:"D 潜水艇",code:"th-11134207-81zte-mpg31ul6djwted",shopee:4950,jp:8299},
+   {pz:"ラストワン 8号&悟空",code:"th-11134207-81ztk-mpg31xqebk01ed",shopee:5900,jp:11500}
+  ]},
+ {name:"薬屋のひとりごと",cover:"th-11134207-81ztq-mp4odsv6itjh98",
+  s:"https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%96%AC%E5%B1%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8",
+  pz:[
+   {pz:"A 猫猫",code:"th-11134207-81zti-mp4odswr7r4e12",shopee:2890,jp:5555},
+   {pz:"ラストワン 猫猫",code:"th-11134207-81zth-mp4odswmyn7w4d",shopee:6490,jp:16000}
+  ]},
+ {name:"五等分の花嫁 五つ子ハネムーン",cover:"th-11134207-81zth-mlhlt51czif645",
+  s:"https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E3%83%8F%E3%83%8D%E3%83%A0%E3%83%BC%E3%83%B3",
+  pz:[
+   {pz:"A 一花",code:"th-11134207-81ztj-mlhlt4irpb7p73",shopee:1890,jp:1450},
+   {pz:"B 二乃",code:"th-11134207-81ztn-mlhlt4osn8qwa3",shopee:1790,jp:1680},
+   {pz:"C 三玖",code:"th-11134207-81ztn-mlhlt4pqe9z851",shopee:1790,jp:1439},
+   {pz:"D 四葉",code:"th-11134207-81ztf-mlhlt56oomj371",shopee:1690,jp:2200},
+   {pz:"E 五月",code:"th-11134207-81ztn-mlhlt4xgfwua46",shopee:1890,jp:1430}
+  ]},
+ {name:"ワンピース TVアニメ25周年 海賊王への道",cover:"th-11134207-81zth-ml63lmd5p5a8d8",
+  s:"https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%2025%E5%91%A8%E5%B9%B4",
+  pz:[
+   {pz:"A ルフィ",code:"th-11134207-81ztl-ml63lmcteoe917",shopee:1690,jp:2530},
+   {pz:"B ギア2",code:"th-11134207-81zto-ml63lmcw0sgf3e",shopee:4790,jp:9500},
+   {pz:"C ギア3",code:"th-11134207-81ztj-ml63lmdxk2rla1",shopee:1890,jp:4100},
+   {pz:"D ギア4",code:"th-11134207-81ztc-ml63lmfohssvbb",shopee:2190,jp:3100},
+   {pz:"ラストワン ギア5ニカ",code:"th-11134207-81ztn-ml63lmgcoow364",shopee:3490,jp:6500}
+  ]}
+];
+const baht=n=>'฿'+Math.round(n).toLocaleString('en-US');
+function lvl(m){return m==null?'skip':(m<55?'red':m<62?'amber':'green')}
+let filter='all';
+function calc(){COLS.forEach(c=>c.pz.forEach(z=>{
+  if(z.jp==null){z.m=null;z.lvl='skip';}
+  else{z.bahtcost=z.jp*FX;z.m=(z.shopee-z.bahtcost)/z.shopee*100;z.lvl=lvl(z.m);}
+}));}
+function render(){
+ const all=COLS.flatMap(c=>c.pz);const cnt={red:0,amber:0,green:0,skip:0};all.forEach(z=>cnt[z.lvl]++);
+ document.getElementById('summary').innerHTML=
+  `<div class="stat"><div class="n">${all.length}</div><div class="l">รางวัลทั้งหมด</div></div>`+
+  `<div class="stat red"><div class="n">${cnt.red}</div><div class="l">🔴 ต้องขึ้นราคา</div></div>`+
+  `<div class="stat amber"><div class="n">${cnt.amber}</div><div class="l">🟡 เฝ้าระวัง</div></div>`+
+  `<div class="stat green"><div class="n">${cnt.green}</div><div class="l">🟢 โอเค</div></div>`+
+  `<div class="stat"><div class="n">${cnt.skip}</div><div class="l">⏭️ หาราคาไม่ได้</div></div>`;
+ let h='';
+ COLS.forEach(c=>{
+  const items=c.pz.filter(z=>filter==='all'||z.lvl===filter);
+  if(!items.length)return;
+  h+=`<div class="col"><div class="colhd"><img src="${IMG}${c.cover}" onerror="this.style.visibility='hidden'"><div class="nm">${c.name}</div><a href="${c.s}" target="_blank">↗ เช็ก Mercari</a></div><div class="grid">`;
+  items.forEach(z=>{
+   const ic=z.lvl==='red'?'🔴':z.lvl==='amber'?'🟡':z.lvl==='green'?'🟢':'';
+   const mp=z.m==null?`<span class="mpill p-none">⏭️</span>`:`<span class="mpill p-${z.lvl}">${ic} ${Math.round(z.m)}%</span>`;
+   let info;
+   if(z.m==null){
+    info=`<div class="row"><span>ขาย Shopee</span><b>${baht(z.shopee)}</b></div>`+
+         `<div class="note">${z.why} · อ้างอิงเดิม ¥${z.ref.toLocaleString()}</div>`;
+   }else{
+    info=`<div class="row"><span>ขาย Shopee</span><b>${baht(z.shopee)}</b></div>`+
+         `<div class="row"><span>ต้นทุน JP</span><b>¥${z.jp.toLocaleString()}</b></div>`+
+         `<div class="row"><span>ต้นทุน ฿</span><b>${baht(z.bahtcost)}</b></div>`;
+   }
+   h+=`<div class="card ${z.lvl}"><img class="thumb" src="${IMG}${z.code}" loading="lazy" onerror="this.style.opacity=.12"><span class="badge">${z.pz.split(' ')[0]}</span>${mp}<div class="body"><div class="char">${z.pz}</div>${info}</div></div>`;
+  });
+  h+=`</div></div>`;
+ });
+ document.getElementById('app').innerHTML=h||'<p style="color:var(--muted)">ไม่มีรายการในกลุ่มนี้</p>';
+}
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');filter=c.dataset.f;render();});
+calc();render();
+</script>
+</body></html>

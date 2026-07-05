@@ -1,0 +1,50 @@
+{
+ "prices": {
+  "52559790200": { "A": 6200, "B": 5480, "Last one": 13333 },
+  "52412521997": { "A": 9900 },
+  "52358553981": { "A": 4900, "B": 1899, "Last one": 11111 },
+  "52206477897": { "A": 1880, "B": 2999, "C": 1300, "D": 1999, "LO": 4555 },
+  "52156408579": { "A อาลูกะ": 13333, "A นานิกะ": 8777, "B": 6799, "C": 10999, "D": 2900, "E": 4600, "Last One": 19500 },
+  "51756662469": { "A": 3700, "B": 6000, "C": 4646 },
+  "51556662145": { "A": 2222, "LO": 7899 },
+  "51456748969": { "A": 6000, "B": 2555, "C": 4699, "LO": 6200 },
+  "51206849910": { "A": 4899, "B": 12455, "C": 5000, "D": 15000, "E": 2900, "LO": 4444 },
+  "51206477637": { "A": 10470, "B": 2499, "C": 9680, "D": 8000, "E": 1300, "LO": 8700 },
+  "51158269201": { "A": 1800, "B": 1500, "Last one": 350 },
+  "50956844451": { "A": 6500, "B": 11000, "C": 8400, "D": 8400, "LO": 6270 }
+ },
+ "keywords": {
+  "52756322318": "一番くじ NARUTO 疾風伝 忍界大戦",
+  "52706417814": "一番くじ 僕のヒーローアカデミア Conflicting Feelings",
+  "52559790200": "一番くじ 勝利の女神 NIKKE CHAPTER7",
+  "52412521997": "一番くじ 北斗の拳",
+  "52358553981": "一番くじ 葬送のフリーレン",
+  "52356755972": "一番くじ アイドルマスター シャイニーカラーズ Midnight Secret Party",
+  "52206477897": "一番くじ ワンピース 未来島エッグヘッド きみへの想い",
+  "52156408579": "一番くじ HUNTER×HUNTER Cross the X-Day",
+  "51756662469": "一番くじ ブルーロック 存在の証明",
+  "51556662145": "一番くじ ダンダダン オカルティックバトル、開幕！",
+  "51456748969": "一番くじ 銀魂 3年Z組銀八先生",
+  "51206849910": "一番くじ ジョジョの奇妙な冒険 スターダストクルセイダース STAND RUSH",
+  "51206477637": "一番くじ ワンピース The Throne of Power",
+  "51158269201": "一番くじ 劇場版 転生したらスライムだった件 紅蓮の絆編",
+  "50956844451": "一番くじ ぼっち・ざ・ろっく VOLUME 4"
+ },
+ "attempts": {
+  "52756322318": "null - series 'ninja war/忍界大戦' ambiguous; broad NARUTO 疾風伝 search returned mixed unrelated kuji series, no confident match",
+  "52706417814": "null - 'Conflicting Feelings' JP subtitle unknown; guessed 相反する想い returned only a bundle (まとめ), no confident series match",
+  "52559790200": "A=6200,B=5480,LO=13333 (skipped F/G/H per rules; only A,B,LO in null_prizes)",
+  "52412521997": "A=9900 (cheapest A賞 ケンシロウ figure; 800/999 were tickets/poster)",
+  "52358553981": "A=4900,B=1899(ヒンメル fig),LO=11111 (excluded エニマイくじ different lottery)",
+  "52356755972": "null - 'Midnight Secret Party' JP subtitle unknown; guessed 真夜中 returned n=0 (retried 12s, still 0)",
+  "52206477897": "A=1880,B=2999,C=1300,D=1999,LO=4555 (F skipped per rules; series きみへの想い matched)",
+  "52156408579": "A อาลูกะ=13333(アルカ),A นานิกะ=8777(ナニカ),B=6799,C=10999,D=2900,E=4600,LastOne=19500(キルア&アルカ); F skipped",
+  "51756662469": "A=3700,B=6000,C=4646 (series 存在の証明; excluded まとめ売り)",
+  "51556662145": "A=2222,LO=7899 (matched オカルティックバトル開幕 series; excluded 圧倒的怪奇/呪いの家 variants)",
+  "51456748969": "A=6000,B=2555,C=4699,LO=6200 (excluded ちびきゅんキャラ/銀魂展 goods)",
+  "51206849910": "A=4899,B=12455,C=5000,D=15000,E=2900,LO=4444(イギー); excluded 台座のみ/空箱",
+  "51206477637": "A=10470,B=2499,C=9680,D=8000,E=1300,LO=8700(虚の玉座) - all Gorosei figures matched",
+  "51158269201": "A=1800,B=1500,LO=350(リムル LWver, cheapest valid by ascending rule); series 紅蓮の絆編",
+  "50956844451": "A=6500,B=11000,C=8400,D=8400,LO=6270 (VOLUME 4 Gracemaster; needed explicit VOLUME 4 to exclude vol2/3)"
+ }
+}

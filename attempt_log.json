@@ -1,0 +1,778 @@
+{
+ "48462876505": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,E,Last one all found"
+ },
+ "58056602741": {
+  "date": "2026-06-27",
+  "result": "A none (no figure A賞 on Mercari; only J/K/I merch prizes)"
+ },
+ "58009463285": {
+  "date": "2026-06-27",
+  "result": "Last one found; J,G skipped per rules"
+ },
+ "57956332011": {
+  "date": "2026-06-27",
+  "result": "E,D,Last one found; G,F,H skipped"
+ },
+ "57756760150": {
+  "date": "2026-06-27",
+  "result": "C,LO found (used kw without 千年血戦篇; original kw returned n=0)"
+ },
+ "57559478785": {
+  "date": "2026-06-27",
+  "result": "A,Last one สีพิเศษ found"
+ },
+ "56909474721": {
+  "date": "2026-06-27",
+  "result": "B,C,D found (gunpla prizes)"
+ },
+ "56456644725": {
+  "date": "2026-06-27",
+  "result": "A,LO found"
+ },
+ "56356602541": {
+  "date": "2026-06-27",
+  "result": "A,C,Last one found"
+ },
+ "55556314536": {
+  "date": "2026-06-27",
+  "result": "A,C,D,Last one found; B1,B2,E1,E2 skipped (non-letter)"
+ },
+ "54855890409": {
+  "date": "2026-06-27",
+  "result": "A,C,D,E,Last one found"
+ },
+ "54556404971": {
+  "date": "2026-06-27",
+  "result": "C found (dropped Vol.2 from kw; with Vol.2 returned n=0)"
+ },
+ "54456755903": {
+  "date": "2026-06-27",
+  "result": "B found"
+ },
+ "53859051295": {
+  "date": "2026-06-27",
+  "result": "A,B,D,E,Last one found; F skipped"
+ },
+ "53857706340": {
+  "date": "2026-06-27",
+  "result": "B,C,D found"
+ },
+ "53656313898": {
+  "date": "2026-06-27",
+  "result": "C/D/E/LO ok; F,G skipped"
+ },
+ "53556580932": {
+  "date": "2026-06-27",
+  "result": "A,LO ok; B no valid single (bundles only) -> null"
+ },
+ "53506724571": {
+  "date": "2026-06-27",
+  "result": "A,B,C,LO all ok"
+ },
+ "53456755783": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,LO all ok"
+ },
+ "53408269050": {
+  "date": "2026-06-27",
+  "result": "A,B,LO all ok"
+ },
+ "53356745456": {
+  "date": "2026-06-27",
+  "result": "A,B,LO all ok"
+ },
+ "53206569462": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,E,LO ok (stands/bundles skipped); F skipped"
+ },
+ "53106464920": {
+  "date": "2026-06-27",
+  "result": "map kw '未来への躍動' wrong; corrected to 未来島エッグヘッド Burst of Energy; A,B,C,D,LO ok"
+ },
+ "53059000746": {
+  "date": "2026-06-27",
+  "result": "kw '5th' returned 0; corrected to 原作5周年; A,B,LO ok"
+ },
+ "53056751729": {
+  "date": "2026-06-27",
+  "result": "B,LO ok; A only compset(null); C 0 listings(null)"
+ },
+ "53010942760": {
+  "date": "2026-06-27",
+  "result": "derived kw ゾルディック家; A,B,C,D,E1,E2,LO ok"
+ },
+ "52956639883": {
+  "date": "2026-06-27",
+  "result": "derived kw; A,LO ok"
+ },
+ "52906633801": {
+  "date": "2026-06-27",
+  "result": "derived kw Part4; A,B,C,LO ok"
+ },
+ "52906567375": {
+  "date": "2026-06-27",
+  "result": "derived kw: 妹の仇 wrong, corrected to 姉の仇; A,B,C,LO ok"
+ },
+ "52810593473": {
+  "date": "2026-06-27",
+  "result": "derived kw: リングバトル wrong, corrected to リング争奪戦; A,B,C,D,LO ok; Thai prize skipped"
+ },
+ "52756322318": {
+  "date": "2026-06-27",
+  "result": "null - series 'ninja war/忍界大戦' ambiguous; broad NARUTO 疾風伝 search returned mixed unrelated kuji series, no confident match"
+ },
+ "52706417814": {
+  "date": "2026-06-27",
+  "result": "null - 'Conflicting Feelings' JP subtitle unknown; guessed 相反する想い returned only a bundle (まとめ), no confident series match"
+ },
+ "52559790200": {
+  "date": "2026-06-27",
+  "result": "A=6200,B=5480,LO=13333 (skipped F/G/H per rules; only A,B,LO in null_prizes)"
+ },
+ "52412521997": {
+  "date": "2026-06-27",
+  "result": "A=9900 (cheapest A賞 ケンシロウ figure; 800/999 were tickets/poster)"
+ },
+ "52358553981": {
+  "date": "2026-06-27",
+  "result": "A=4900,B=1899(ヒンメル fig),LO=11111 (excluded エニマイくじ different lottery)"
+ },
+ "52356755972": {
+  "date": "2026-06-27",
+  "result": "null - 'Midnight Secret Party' JP subtitle unknown; guessed 真夜中 returned n=0 (retried 12s, still 0)"
+ },
+ "52206477897": {
+  "date": "2026-06-27",
+  "result": "A=1880,B=2999,C=1300,D=1999,LO=4555 (F skipped per rules; series きみへの想い matched)"
+ },
+ "52156408579": {
+  "date": "2026-06-27",
+  "result": "A อาลูกะ=13333(アルカ),A นานิกะ=8777(ナニカ),B=6799,C=10999,D=2900,E=4600,LastOne=19500(キルア&アルカ); F skipped"
+ },
+ "51756662469": {
+  "date": "2026-06-27",
+  "result": "A=3700,B=6000,C=4646 (series 存在の証明; excluded まとめ売り)"
+ },
+ "51556662145": {
+  "date": "2026-06-27",
+  "result": "A=2222,LO=7899 (matched オカルティックバトル開幕 series; excluded 圧倒的怪奇/呪いの家 variants)"
+ },
+ "51456748969": {
+  "date": "2026-06-27",
+  "result": "A=6000,B=2555,C=4699,LO=6200 (excluded ちびきゅんキャラ/銀魂展 goods)"
+ },
+ "51206849910": {
+  "date": "2026-06-27",
+  "result": "A=4899,B=12455,C=5000,D=15000,E=2900,LO=4444(イギー); excluded 台座のみ/空箱"
+ },
+ "51206477637": {
+  "date": "2026-06-27",
+  "result": "A=10470,B=2499,C=9680,D=8000,E=1300,LO=8700(虚の玉座) - all Gorosei figures matched"
+ },
+ "51158269201": {
+  "date": "2026-06-27",
+  "result": "A=1800,B=1500,LO=350(リムル LWver, cheapest valid by ascending rule); series 紅蓮の絆編"
+ },
+ "50956844451": {
+  "date": "2026-06-27",
+  "result": "A=6500,B=11000,C=8400,D=8400,LO=6270 (VOLUME 4 Gracemaster; needed explicit VOLUME 4 to exclude vol2/3)"
+ },
+ "50656861986": {
+  "date": "2026-06-27",
+  "result": "A null (no on_sale Lolita A figure confirmable); LO 8500"
+ },
+ "50606851051": {
+  "date": "2026-06-27",
+  "result": "all null - 0 results (likely pre-release, EN subtitle not on Mercari)"
+ },
+ "50556855619": {
+  "date": "2026-06-27",
+  "result": "A 1500, B 3100, C 4100, LO 5999"
+ },
+ "50506749053": {
+  "date": "2026-06-27",
+  "result": "A 16665, B 3900 (acrylic block), LO 12000"
+ },
+ "50506603158": {
+  "date": "2026-06-27",
+  "result": "A 3400, B 14888, C 5980, Last one 3000"
+ },
+ "50406851818": {
+  "date": "2026-06-27",
+  "result": "A 4800, B 1999, C 2000, D 3111, E 1520, LO 5999 (Zetts&Gavv set)"
+ },
+ "50356639195": {
+  "date": "2026-06-27",
+  "result": "A 14000, LO 28000 (Season 2 only)"
+ },
+ "50206654322": {
+  "date": "2026-06-27",
+  "result": "A 2200, LO 4500"
+ },
+ "50056411889": {
+  "date": "2026-06-27",
+  "result": "A 7000, B 7500, C 2700, D 18600, E 5900, Last One 17500"
+ },
+ "49756664462": {
+  "date": "2026-06-27",
+  "result": "A 3800, B 1700, C 8100, LO 4500"
+ },
+ "49606446896": {
+  "date": "2026-06-27",
+  "result": "LO 8555 (golden great ape Goku)"
+ },
+ "49556753289": {
+  "date": "2026-06-27",
+  "result": "A 9000, B 7499, C 3444, LO 24999 (Land of Waves)"
+ },
+ "49256342444": {
+  "date": "2026-06-27",
+  "result": "A 4300, B 5300, Last one 6500 (UC SAGA)"
+ },
+ "49156623230": {
+  "date": "2026-06-27",
+  "result": "A 4080, B 3000, Last one 3999 (GQuuuuuuX vol.3)"
+ },
+ "49006759453": {
+  "date": "2026-06-27",
+  "result": "A 8300, B 2000, LO 7777 (2nd edition / 2弾)"
+ },
+ "48856739408": {
+  "date": "2026-06-27",
+  "result": "set not found on Mercari (継ぐ者/継子 0 valid); all null"
+ },
+ "48459009724": {
+  "date": "2026-06-27",
+  "result": "A,B,C,LO all found"
+ },
+ "48362427144": {
+  "date": "2026-06-27",
+  "result": "FuRyu Goods Collection 2; A,B,C found; Last one=LG賞 4500"
+ },
+ "48261073994": {
+  "date": "2026-06-27",
+  "result": "A,B,C,Last one all found"
+ },
+ "48106771880": {
+  "date": "2026-06-27",
+  "result": "怪獣乱舞 荒ぶるモノ; A,B,C,D,LO all found"
+ },
+ "47958289082": {
+  "date": "2026-06-27",
+  "result": "A,B,Last one found"
+ },
+ "47856682698": {
+  "date": "2026-06-27",
+  "result": "Banpresto/Gigo set not Ichiban Kuji; series mismatch; A,B null (Light out of scope)"
+ },
+ "47856383407": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,Last one all found"
+ },
+ "47456626606": {
+  "date": "2026-06-27",
+  "result": "A,B,Last one found"
+ },
+ "47406764360": {
+  "date": "2026-06-27",
+  "result": "LO found (2億V雷神 エネル)"
+ },
+ "47356780698": {
+  "date": "2026-06-27",
+  "result": "A,B,C,E,LO found; D null (only base/box-only listings); F out of scope"
+ },
+ "47356685902": {
+  "date": "2026-06-27",
+  "result": "A,B,LO found"
+ },
+ "47308289160": {
+  "date": "2026-06-27",
+  "result": "A,B,C,Last one all found"
+ },
+ "47256743763": {
+  "date": "2026-06-27",
+  "result": "plush set; A,B,C,D,LO all found"
+ },
+ "47209844104": {
+  "date": "2026-06-27",
+  "result": "あでぃしょなる・たいむ; A,B,C,Last one all found"
+ },
+ "47156378418": {
+  "date": "2026-06-27",
+  "result": "A2800 B3999 C2800 D4666 LO6299 (vol generic; E not in list)"
+ },
+ "47056772542": {
+  "date": "2026-06-27",
+  "result": "A4299 B5750 LO6500 all ok"
+ },
+ "46906885643": {
+  "date": "2026-06-27",
+  "result": "null - no listings for movie 'Secret Ride-along' subtitle (n=0 after retry)"
+ },
+ "46806343082": {
+  "date": "2026-06-27",
+  "result": "B7200 C4700 LO6800; A null (no Wandering Crows A listings)"
+ },
+ "46656525764": {
+  "date": "2026-06-27",
+  "result": "A6500 B6380 LastOne22060; C null (no Counterattack C figure)"
+ },
+ "46506739987": {
+  "date": "2026-06-27",
+  "result": "null - only bundles under 絆ノ装 弐; A/B bundles only, LO n=0"
+ },
+ "46456755364": {
+  "date": "2026-06-27",
+  "result": "LO2000 A3600 B6100 C2400 all ok (plush prizes)"
+ },
+ "46406880305": {
+  "date": "2026-06-27",
+  "result": "null - no Vol.12 listings (n=0 after retry)"
+ },
+ "46106446763": {
+  "date": "2026-06-27",
+  "result": "LastOne10200 B3399 C5700 D6555 A3600 E7000 (F skipped)"
+ },
+ "46056619756": {
+  "date": "2026-06-27",
+  "result": "E3000 A4180 LastOne11500 D4500 B7000 C4080 all ok"
+ },
+ "45954306493": {
+  "date": "2026-06-27",
+  "result": "null - art lottery; non-figure tags; only LO listing was 様-reserved"
+ },
+ "45656872645": {
+  "date": "2026-06-27",
+  "result": "B5600 C1310 LO8900; A null (no A figure on sale)"
+ },
+ "45656755169": {
+  "date": "2026-06-27",
+  "result": "C4000 LO2500 A1980 B2900 all ok"
+ },
+ "45656673294": {
+  "date": "2026-06-27",
+  "result": "LASTONE77777; A/B null (goods kuji, no A/B figure listings)"
+ },
+ "45610159493": {
+  "date": "2026-06-27",
+  "result": "D12200 B8000 C9200 LastOne7900 A2555 E3980 (F skipped)"
+ },
+ "45356445655": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,E,LO all found (VSオムニバスCROSS); D box-only skipped to figure"
+ },
+ "45356437721": {
+  "date": "2026-06-27",
+  "result": "only LO found; A/B no clean 其之一 figure (台座/F賞/其之二 noise) -> null"
+ },
+ "45306442231": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,LO all found (SNAP COLLECTION 2)"
+ },
+ "45256628214": {
+  "date": "2026-06-27",
+  "result": "A,B,C,LO found; corrected series 大怪獣列伝G (not 伝説)"
+ },
+ "45256628041": {
+  "date": "2026-06-27",
+  "result": "C,LO found (STAND RUSH); A/B/D/E no STAND RUSH-specific figure -> null"
+ },
+ "45206579148": {
+  "date": "2026-06-27",
+  "result": "A,B,LO found; corrected series 雷の兄弟 (Brothers of Thunder)"
+ },
+ "45206492112": {
+  "date": "2026-06-27",
+  "result": "A,B,LO found (P5 ザ・ロイヤル); skipped 様/くじ券 bundles"
+ },
+ "45056668486": {
+  "date": "2026-06-27",
+  "result": "B,LO found (にゃんこ大戦争 ~ペリペリ~); A no にゃんこ figure (mofusand noise) -> null"
+ },
+ "44758289171": {
+  "date": "2026-06-27",
+  "result": "A,B,C,LO found; series uses 13弾 not Vol.13"
+ },
+ "44756500214": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,LO found (エヴァ 30th Anniversary); skipped 様-prefixed"
+ },
+ "44609855070": {
+  "date": "2026-06-27",
+  "result": "A,C,LO found via subtitle 冒険の記憶と未来への航路; B-1/B-2 numbered + D skipped/null"
+ },
+ "44481866040": {
+  "date": "2026-06-27",
+  "result": "D,E,LO found (map kw); LO=clean アーマードオールマイト, bundles skipped"
+ },
+ "44478911250": {
+  "date": "2026-06-27",
+  "result": "A,B,C,LO all found (ドラマティックメモリーズ)"
+ },
+ "44403354384": {
+  "date": "2026-06-27",
+  "result": "A,LO found; series ~刃を振るい心を燃やせ~"
+ },
+ "44329110935": {
+  "date": "2026-06-27",
+  "result": "LO found (死滅回游 壱, 日車寛見); F/G/H/I skipped -> null"
+ },
+ "44328881071": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,LastOne all found (REVENGE OF SCARLET / 緋色の追憶編)"
+ },
+ "44328829559": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,LastOne found; subtitle corrected to 紡がれる想い"
+ },
+ "44250945731": {
+  "date": "2026-06-27",
+  "result": "A,B found; LastOne 0 results after retry -> null; subtitle 光を放つ、ふたつの力"
+ },
+ "44051641214": {
+  "date": "2026-06-27",
+  "result": "A,LastOne found; subtitle いくつになってもくじはワクワクする"
+ },
+ "44000527996": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,E,LastOne all found; subtitle 試練のその先へ"
+ },
+ "43853369911": {
+  "date": "2026-06-27",
+  "result": "A(plush),LastOne(plush) found; Kirby Cafe PETIT goods kuji"
+ },
+ "43678990721": {
+  "date": "2026-06-27",
+  "result": "A,B,C,LO all found; 最強の挑戦者"
+ },
+ "43557127126": {
+  "date": "2026-06-27",
+  "result": "A,B,C,LastOne found; subtitle corrected to 大将軍の見る景色"
+ },
+ "43418398072": {
+  "date": "2026-06-27",
+  "result": "A,B,C,LastOne found; series 最高位の剣士 柱"
+ },
+ "43253320163": {
+  "date": "2026-06-27",
+  "result": "A only bundle->null; LastOne 0 results->null; マジカルスイーツ"
+ },
+ "43179041826": {
+  "date": "2026-06-27",
+  "result": "A,B,LO found; 新機動戦記ガンダムW 30th (BUSTISAN)"
+ },
+ "43079095349": {
+  "date": "2026-06-27",
+  "result": "A,B,C,LO all found; 学園アイドルマスター Part2"
+ },
+ "43079024592": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,LO all found; SAKAMOTO DAYS vol.3"
+ },
+ "42979128109": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,E,LastOne all found; 暗黒武術会編 vol.3"
+ },
+ "42778996261": {
+  "date": "2026-06-27",
+  "result": "A,B,LO found; subtitle corrected to 街の英雄と祭りの時 (vs older 街の英雄)"
+ },
+ "42705907184": {
+  "date": "2026-06-27",
+  "result": "6/6 (STAND RUSH/DiU figures)"
+ },
+ "42678835316": {
+  "date": "2026-06-27",
+  "result": "5/5 (A,B,C,D,LO)"
+ },
+ "42656292026": {
+  "date": "2026-06-27",
+  "result": "3/3 (A,B,LO)"
+ },
+ "42505669825": {
+  "date": "2026-06-27",
+  "result": "4/4 (A,B,C,LO)"
+ },
+ "42466908968": {
+  "date": "2026-06-27",
+  "result": "5/5 (A,B,C,D,LO; +フィギュア to keyword)"
+ },
+ "42078881687": {
+  "date": "2026-06-27",
+  "result": "null all: English subtitle 'Continuous Stars' no JP match"
+ },
+ "42028898599": {
+  "date": "2026-06-27",
+  "result": "6/6 (A,B,C,D,E,LO; 中忍試験編)"
+ },
+ "41953299727": {
+  "date": "2026-06-27",
+  "result": "null all: generic 'Mobile Suit Gundam' no series subtitle, ambiguous"
+ },
+ "41879095662": {
+  "date": "2026-06-27",
+  "result": "4/4 (A,B,C,LO)"
+ },
+ "41853359607": {
+  "date": "2026-06-27",
+  "result": "2/2 (A,LO; -Linking Hearts- スタチュー)"
+ },
+ "41800589986": {
+  "date": "2026-06-27",
+  "result": "A,B ok; LASTONE null (only bundle/set on sale)"
+ },
+ "41729088622": {
+  "date": "2026-06-27",
+  "result": "null all: 'With Love from the Quintuplets' subtitle unmatched, many 五等分 sets"
+ },
+ "41700934018": {
+  "date": "2026-06-27",
+  "result": "LastOne ok (究極進化 ディアボロモン); A,B no single figure on sale"
+ },
+ "41501635085": {
+  "date": "2026-06-27",
+  "result": "null all: 'Gundam vol.2' ambiguous (likely 水星の魔女 vol.2 but unconfirmed)"
+ },
+ "41379005547": {
+  "date": "2026-06-27",
+  "result": "4/4 (A,B,C,LO; 遊☆戯☆王 vol.4 三幻神顕現 魂豪示像)"
+ },
+ "41325048263": {
+  "date": "2026-06-27",
+  "result": "null: Saint Seiya set 3 (Hyoga/Shun/Athena) unverifiable; generic kw returns 黄金聖闘士編 Gemini Saga (different set), subtitle mismatch"
+ },
+ "41029040028": {
+  "date": "2026-06-27",
+  "result": "null: Digimon 'Collision of Light and Darkness' JP subtitle unconfirmed; 光と闇の激突 returns n=0 for A and B"
+ },
+ "40929029594": {
+  "date": "2026-06-27",
+  "result": "A=2600 (skip 1300 台座無 incomplete), B=3200, LO=3400 シャイニールミナス"
+ },
+ "40751645880": {
+  "date": "2026-06-27",
+  "result": "B=24000, C=9111 (skip 訳あり/破損/別シリーズ), LO=5000 土方; 銀魂展 はたちのつどい confirmed"
+ },
+ "40709026177": {
+  "date": "2026-06-27",
+  "result": "A=16767 志々雄 MASTERLISE, LO=37000 修羅照炎Ver (skip bundles/unconfirmed-set)"
+ },
+ "40703369431": {
+  "date": "2026-06-27",
+  "result": "A=2000 ゲンガー, B=3300 ミミッキュライト, LO=2333 ミミッキュ"
+ },
+ "40678991811": {
+  "date": "2026-06-27",
+  "result": "A=5400 アラームクロック, B=4999 ブランケット, LO=null (only 2点セット bundle)"
+ },
+ "40678903967": {
+  "date": "2026-06-27",
+  "result": "A=2333, B=2000, C=1999, D=2111, LO=2500 フーシャ村の記憶"
+ },
+ "40651473927": {
+  "date": "2026-06-27",
+  "result": "A=14555 弥海砂 (DMM A賞), LO=15900 弥海砂; DMM set"
+ },
+ "40551636923": {
+  "date": "2026-06-27",
+  "result": "A=6500 銀時 MASTERLISE, B=11000 土方, LO=8999; くじはノリとタイミング"
+ },
+ "40401317912": {
+  "date": "2026-06-27",
+  "result": "A=5800, B=5600, C=13000, D=13800, LO=8030 後藤ひとり; VOLUME 3"
+ },
+ "40378933927": {
+  "date": "2026-06-27",
+  "result": "B=3500 虎杖, C=6499 東堂, LO=11500 真人; corrected kw 渋谷事変 肆 (kanji 4)"
+ },
+ "40253380010": {
+  "date": "2026-06-27",
+  "result": "A=3630 なでしこ, B=1700 志摩リン, LO=2299 アナザーカラー"
+ },
+ "40155662010": {
+  "date": "2026-06-27",
+  "result": "A=5860 日向 (skip other Haikyu sets), B=8300 影山; 10th anniversary"
+ },
+ "40129411018": {
+  "date": "2026-06-27",
+  "result": "A=1380 ボニー, B=2000 ルフィGear5, C=6500 エメト, D=1999 アトラス, LO=4780 ルフィ野球ver; E1-E4 skipped (numbered). kw corrected to 思い描く未来"
+ },
+ "40103321295": {
+  "date": "2026-06-27",
+  "result": "all null: WIND BREAKER 'After the battle' subtitle unconfirmed, broad search returns wrong sub-series (街の英雄); subtitle search n=0"
+ },
+ "40063736078": {
+  "date": "2026-06-27",
+  "result": "A=3999 B=13300 C=588(clearfile) LO=5399; all figures/items matched 全国への道"
+ },
+ "29965776108": {
+  "date": "2026-06-27",
+  "result": "B=2500 C=4500 LO=26999; matched 渋谷事変 参"
+ },
+ "29914062351": {
+  "date": "2026-06-27",
+  "result": "all null: Naruto 'Connected Feelings' subtitle (つながる想い) n=0, unconfirmed"
+ },
+ "29906244679": {
+  "date": "2026-06-27",
+  "result": "A=2222 B=2222 C=2000 LO=2999; matched BEYOND THE LEVEL (Luffy/Law/Kid)"
+ },
+ "29488922987": {
+  "date": "2026-06-27",
+  "result": "A=1777 B=1400 LO=3520; matched 怪獣8号 1弾"
+ },
+ "29363994705": {
+  "date": "2026-06-27",
+  "result": "A=25000 B=6499 C=8910 D=2500 LO=5499; matched 絶対的正義"
+ },
+ "29339788269": {
+  "date": "2026-06-27",
+  "result": "A=600 B=1299 C=2100 D=1300 E(dish)=1850; matched オラお腹いっぱいだゾ; F White/Blue/Black skipped per rules"
+ },
+ "29326715260": {
+  "date": "2026-06-27",
+  "result": "A=4200 B=2600 LO=4300; matched SAKAMOTO DAYS vol.1"
+ },
+ "28987903100": {
+  "date": "2026-06-27",
+  "result": "all null: Re:Zero 'i will remember this day' subtitle (この日を忘れない) n=0; broad リゼロ search mixes many distinct sets, cannot isolate, NEVER guess"
+ },
+ "28863480387": {
+  "date": "2026-06-27",
+  "result": "A=1780 B=4700 C=1400 LO=3833; garp set = 伝説の英雄 (Garp=B賞)"
+ },
+ "28834134449": {
+  "date": "2026-06-27",
+  "result": "A=2300 B=2420 C=1666 D=2400 LO=5720; matched DRAGON HISTORY II Revible Moment"
+ },
+ "28793307142": {
+  "date": "2026-06-27",
+  "result": "all null: 'MEGA BRAVE' not found on Mercari (n=0); broad キングギドラ shows only different set 大怪獣列伝G, cannot confirm"
+ },
+ "28621287519": {
+  "date": "2026-06-27",
+  "result": "all null: Demon Slayer 'The Connected Trail' subtitle unconfirmed, search n=0, NEVER guess"
+ },
+ "28436654371": {
+  "date": "2026-06-27",
+  "result": "A=3500 B=3500 C=5000 LO=5720; matched 黄金聖闘士編"
+ },
+ "28344320719": {
+  "date": "2026-06-27",
+  "result": "OK 6/6 (A,B,C,D,E,LO)"
+ },
+ "28016411525": {
+  "date": "2026-06-27",
+  "result": "OK 4/4 (A,B,C,LO; series 開催文化祭)"
+ },
+ "27982151942": {
+  "date": "2026-06-27",
+  "result": "OK 6/6 (A,B,C,D,E,LO)"
+ },
+ "27774034037": {
+  "date": "2026-06-27",
+  "result": "OK 4/4 (A,B,C,LO)"
+ },
+ "27536611650": {
+  "date": "2026-06-27",
+  "result": "0/0: A=null (うずまきナルト A賞 unverifiable to 紡がれる火の意志 series); LO=null (only other Naruto series found); B/C Thai-word qualifier prizes -> null"
+ },
+ "27532843507": {
+  "date": "2026-06-27",
+  "result": "OK 3/3 (A,B,LO)"
+ },
+ "27525733581": {
+  "date": "2026-06-27",
+  "result": "OK 6/6 (A,B,C,D,E,LO; series 孫悟空修業編)"
+ },
+ "27468909073": {
+  "date": "2026-06-27",
+  "result": "OK 4/4 (A,B,C,LO)"
+ },
+ "27462024036": {
+  "date": "2026-06-27",
+  "result": "0/4: 'bleach op2 set' series ambiguous (many BLEACH kuji), cannot confirm series -> all null"
+ },
+ "27371367576": {
+  "date": "2026-06-27",
+  "result": "OK 5/5 (A,B,C,D,LO)"
+ },
+ "27367141774": {
+  "date": "2026-06-27",
+  "result": "OK 5/5 (A,B,C,D,E; no LO; DAIMA 1, excluded 2nd Edition)"
+ },
+ "27279490589": {
+  "date": "2026-06-27",
+  "result": "OK 3/3 (A,B,C; no LO; figures only, skipped acrylic/sets)"
+ },
+ "26924040996": {
+  "date": "2026-06-27",
+  "result": "OK 4/4 (A,B,C,D; no LO)"
+ },
+ "26772432006": {
+  "date": "2026-06-27",
+  "result": "A,B,C,LO OK; D=null (no D賞 figure listing found, D is non-figure prize)"
+ },
+ "26771661632": {
+  "date": "2026-06-27",
+  "result": "A,B,C,D,E,LO OK; F=null (skip per rules)"
+ },
+ "26666406261": {
+  "date": "2026-06-27",
+  "result": "6/6: A3500 B4900 C4000 D300(towel) E530 LO4800"
+ },
+ "26485109954": {
+  "date": "2026-06-27",
+  "result": "2 hits: C27777 LO11399; A/B/D null (figures bundled or not listed standalone)"
+ },
+ "26461332572": {
+  "date": "2026-06-27",
+  "result": "4/4 VS海軍編: A3111(海軍船) B2444(赤犬) C2999(黄猿) LO1700(クザン)"
+ },
+ "26367108519": {
+  "date": "2026-06-27",
+  "result": "B8026 C7098 D10978 LO19999; A null (no A賞 listing)"
+ },
+ "26137341614": {
+  "date": "2026-06-27",
+  "result": "all null: Funshape Akatsuki line, not a 賞-tagged kuji, no clean match"
+ },
+ "26127303647": {
+  "date": "2026-06-27",
+  "result": "6/6 HITMAN TEAM: A5600 B10070 C4000 D5000 E3782 LO11300"
+ },
+ "26030629652": {
+  "date": "2026-06-27",
+  "result": "5/5 第2弾: A2000 B2310 C2200 D4400 LO7499"
+ },
+ "26030509869": {
+  "date": "2026-06-27",
+  "result": "B42000(市丸) C21822(剣八); A/LO null (only sets listed)"
+ },
+ "25436103198": {
+  "date": "2026-06-27",
+  "result": "4/4 地鳴らし: A20250 B7500(リヴァイ) C10100(ハンジ) LO56400(終尾の巨人)"
+ },
+ "24842876699": {
+  "date": "2026-06-27",
+  "result": "all null: could not confirm JP keyword for Pokemon 'A Moment of Peace'"
+ },
+ "24648010270": {
+  "date": "2026-06-27",
+  "result": "5/5 暴かれた刀鍛冶の里: A1980 B7222 C2999 D3338 LO14000"
+ },
+ "24292200175": {
+  "date": "2026-06-27",
+  "result": "6/6 ロジャー海賊団: A2250 B2222 C2080 D1100 E2000 LO6980"
+ },
+ "24233481989": {
+  "date": "2026-06-27",
+  "result": "3/3 鬼ヶ島: B1999(ヤマト獣変化) C1600(モモの助) LO6000(モモの助大龍変化)"
+ },
+ "41073594858": {
+  "date": "2026-06-27",
+  "result": "A/B/LO filled (manual, user image)"
+ }
+}

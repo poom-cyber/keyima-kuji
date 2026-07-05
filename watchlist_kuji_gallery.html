@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mercari Margin Gallery — Ichiban Kuji</title>
+<style>
+  :root{--bg:#0f1115;--card:#1a1d24;--line:#2a2e38;--txt:#e8eaed;--mut:#9aa0aa;
+        --red:#ff4d4f;--redbg:#3a1b1d;--yel:#f0a020;--yelbg:#3a2f12;--grn:#36c275;--grnbg:#16321f;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans Thai",sans-serif;
+       background:var(--bg);color:var(--txt);padding:24px;line-height:1.45}
+  h1{font-size:22px;margin:0 0 4px}
+  .sub{color:var(--mut);font-size:13px;margin-bottom:18px}
+  .summary{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 16px;min-width:104px}
+  .stat .n{font-size:24px;font-weight:700}.stat .l{font-size:12px;color:var(--mut)}
+  .stat.red .n{color:var(--red)}.stat.yel .n{color:var(--yel)}.stat.grn .n{color:var(--grn)}
+  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+  .controls button{background:var(--card);color:var(--txt);border:1px solid var(--line);
+       padding:7px 14px;border-radius:20px;cursor:pointer;font-size:13px}
+  .controls button.active{background:#2d6cdf;border-color:#2d6cdf}
+  .col-group{margin-bottom:26px}
+  .col-head{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:16px;font-weight:600}
+  .col-head a{color:#5b9dff;font-size:12px;font-weight:400;text-decoration:none}
+  .col-head a:hover{text-decoration:underline}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;
+        text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:.15s;position:relative}
+  .card:hover{transform:translateY(-3px);border-color:#3a4256}
+  .card.red{border-color:#5a2528}.card.yel{border-color:#5a4718}
+  .thumb{width:100%;aspect-ratio:1/1;object-fit:cover;background:#11141a;display:block}
+  .ph{width:100%;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;
+      background:linear-gradient(135deg,#1c2029,#262b36);color:var(--mut);font-size:34px}
+  .badge{position:absolute;top:8px;left:8px;background:rgba(0,0,0,.65);border-radius:8px;
+         padding:3px 8px;font-size:12px;font-weight:700}
+  .mpill{position:absolute;top:8px;right:8px;border-radius:10px;padding:3px 9px;font-size:13px;font-weight:800}
+  .red .mpill,.mpill.red{background:var(--redbg);color:var(--red)}
+  .yel .mpill,.mpill.yel{background:var(--yelbg);color:var(--yel)}
+  .grn .mpill,.mpill.grn{background:var(--grnbg);color:var(--grn)}
+  .body{padding:10px 12px 12px}
+  .char{font-size:14px;font-weight:600;margin-bottom:6px;min-height:38px}
+  .px{font-size:12px;color:var(--mut);display:flex;justify-content:space-between}
+  .px b{color:var(--txt);font-weight:600}
+  .skipnote{font-size:11px;color:var(--mut);font-style:italic;margin-top:4px}
+  .foot{color:var(--mut);font-size:12px;margin-top:24px;border-top:1px solid var(--line);padding-top:14px}
+</style>
+</head>
+<body>
+<h1>🖼️ Mercari Margin Gallery — Ichiban Kuji</h1>
+<div class="sub">เช็ก 24/6/2026 · เรต JPY→THB 0.206 · มาร์จิน% = (ขาย Shopee − ต้นทุน฿)/ขาย×100 · เตือน &lt;55% · คลิกการ์ด = เปิดหน้าสินค้า Mercari</div>
+
+<div class="summary" id="summary"></div>
+<div class="controls">
+  <button data-f="all" class="active">ทั้งหมด</button>
+  <button data-f="red">🔴 ต้องขึ้นราคา</button>
+  <button data-f="yel">🟡 เฝ้าระวัง</button>
+  <button data-f="grn">🟢 โอเค</button>
+  <button data-f="skip">⏭️ หาราคาไม่ได้</button>
+</div>
+<div id="app"></div>
+<div class="foot">รูป + ราคาต้นทุนมาจาก "รายการซื้อได้เลยที่ถูกสุด" บนหน้าค้นหา Mercari ของแต่ละคอล (ข้ามออคชัน 現在) · บางตัว (เมล์คาริ Shops) ไม่มีรูปแบบลิงก์ตรงเลยใช้กรอบ ⏭️/🛍️ แทน · ข้อมูลดิบ: watchlist_kuji.json</div>
+
+<script>
+const RATE=0.206;
+const SEARCH={
+ "ヒロアカ いつまでも手を差し伸べ続ける物語":"https://jp.mercari.com/search?keyword=%E3%83%92%E3%83%AD%E3%82%A2%E3%82%AB%20%E6%89%8B%E3%82%92%E5%B7%AE%E3%81%97%E4%BC%B8%E3%81%B9%E7%B6%9A%E3%81%91%E3%82%8B%E7%89%A9%E8%AA%9E",
+ "ワンピース 赤髪海賊団":"https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E8%B5%A4%E9%AB%AA%E6%B5%B7%E8%B3%8A%E5%9B%A3",
+ "北斗の拳":"https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%8C%97%E6%96%97%E3%81%AE%E6%8B%B3",
+ "ドラゴンボール EX 対決!レッドリボン軍":"https://jp.mercari.com/search?keyword=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%AF%BE%E6%B1%BA%20%E3%83%AC%E3%83%83%E3%83%89%E3%83%AA%E3%83%9C%E3%83%B3%E8%BB%8D",
+ "薬屋のひとりごと":"https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%96%AC%E5%B1%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8",
+ "五等分の花嫁 五つ子ハネムーン":"https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E3%83%8F%E3%83%8D%E3%83%A0%E3%83%BC%E3%83%B3",
+ "ワンピース TVアニメ25周年 海賊王への道":"https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%2025%E5%91%A8%E5%B9%B4"
+};
+// col, prize, char, shopee, yen, itemId(null=ไม่มีรูป/shops), note
+const DATA=[
+ ["ヒロアカ いつまでも手を差し伸べ続ける物語","A賞","緑谷出久",2690,5400,"m18028898209"],
+ ["ヒロアカ いつまでも手を差し伸べ続ける物語","B賞","死柄木弔",3290,6999,"m43231193174"],
+ ["ヒロアカ いつまでも手を差し伸べ続ける物語","C賞","爆豪勝己",4950,12500,"m91040850349"],
+ ["ヒロアカ いつまでも手を差し伸べ続ける物語","D賞","ステイン",2490,null,null,"มีแต่ออคชัน 現在 ¥3,900"],
+ ["ヒロアカ いつまでも手を差し伸べ続ける物語","E賞","峰田実",2290,null,null,"มีแต่ออคชัน/เซ็ต"],
+ ["ヒロアカ いつまでも手を差し伸べ続ける物語","ラストワン","アーマードオールマイト",8390,null,null,"ไม่พบในหน้าแรก"],
+ ["ワンピース 赤髪海賊団","A賞","シャンクス",2890,4300,"m14680100910"],
+ ["ワンピース 赤髪海賊団","B賞","ベン・ベックマン",2690,4599,"m86638049327"],
+ ["ワンピース 赤髪海賊団","C賞","ヤソップ",2690,4000,"m30240590251"],
+ ["ワンピース 赤髪海賊団","D賞","ラッキー・ルウ",3890,6000,"m36659488167"],
+ ["ワンピース 赤髪海賊団","ラストワン","シャンクス&ルフィ",3490,4100,"m11256036596"],
+ ["北斗の拳","A賞","ケンシロウ",5390,null,null,"มีแต่ออคชัน 現在 ~¥9,100-10,000"],
+ ["北斗の拳","B賞","レイ",4590,8980,"m56750707258"],
+ ["北斗の拳","ラストワン","ラオウ",9890,21499,"m38946030660"],
+ ["ドラゴンボール EX 対決!レッドリボン軍","A賞","孫悟空",1990,4100,"m83129810738"],
+ ["ドラゴンボール EX 対決!レッドリボン軍","B賞","ムラサキ曹長",1990,3799,"m12853906585"],
+ ["ドラゴンボール EX 対決!レッドリボン軍","C賞","ブルー将軍",1890,2850,"m18794144938"],
+ ["ドラゴンボール EX 対決!レッドリボン軍","D賞","潜水艇(悟空&ブルマ&クリリン)",4950,8299,"m46829661212"],
+ ["ドラゴンボール EX 対決!レッドリボン軍","ラストワン","人造人間8号&悟空",5900,11500,"m54213860534"],
+ ["薬屋のひとりごと","A賞","猫猫",2890,5555,"m76394585089"],
+ ["薬屋のひとりごと","ラストワン","猫猫",6490,16000,"m63143128470"],
+ ["五等分の花嫁 五つ子ハネムーン","A賞","一花",1890,1450,"m57590442612"],
+ ["五等分の花嫁 五つ子ハネムーン","B賞","二乃",1790,1680,"m45359029303"],
+ ["五等分の花嫁 五つ子ハネムーン","C賞","三玖",1790,1439,"m99233738854"],
+ ["五等分の花嫁 五つ子ハネムーン","D賞","四葉",1690,2200,null,"ราคาถูกสุดเป็นร้าน Mercari Shops"],
+ ["五等分の花嫁 五つ子ハネムーン","E賞","五月",1890,1430,null,"ราคาถูกสุดเป็นร้าน Mercari Shops"],
+ ["ワンピース TVアニメ25周年 海賊王への道","A賞","ルフィ",1690,2530,null,"ราคาถูกสุดเป็นร้าน Mercari Shops"],
+ ["ワンピース TVアニメ25周年 海賊王への道","B賞","ギア2",4790,9500,"m61095332614"],
+ ["ワンピース TVアニメ25周年 海賊王への道","C賞","ギア3",1890,4100,"m19955178428"],
+ ["ワンピース TVアニメ25周年 海賊王への道","D賞","ギア4",2190,3100,"m43559934253"],
+ ["ワンピース TVアニメ25周年 海賊王への道","ラストワン","ギア5ニカ",3490,6500,"m22182054668"]
+];
+
+const rows=DATA.map(d=>{
+  const[col,prize,char,shopee,yen,id,note]=d;
+  if(yen==null) return {col,prize,char,shopee,yen:null,baht:null,margin:null,cls:"skip",id:null,note:note||""};
+  const baht=yen*RATE, margin=(shopee-baht)/shopee*100;
+  const cls=margin<55?"red":margin<60?"yel":"grn";
+  return {col,prize,char,shopee,yen,baht,margin,cls,id:id||null,note:note||""};
+});
+const img=id=>`https://static.mercdn.net/c!/w=360,f=webp/thumb/photos/${id}_1.jpg`;
+
+let filter="all";
+function render(){
+  const c={red:0,yel:0,grn:0,skip:0};rows.forEach(r=>c[r.cls]++);
+  document.getElementById("summary").innerHTML=
+   `<div class="stat"><div class="n">${rows.length}</div><div class="l">รางวัลทั้งหมด</div></div>`+
+   `<div class="stat red"><div class="n">${c.red}</div><div class="l">🔴 ต้องขึ้นราคา</div></div>`+
+   `<div class="stat yel"><div class="n">${c.yel}</div><div class="l">🟡 เฝ้าระวัง</div></div>`+
+   `<div class="stat grn"><div class="n">${c.grn}</div><div class="l">🟢 โอเค</div></div>`+
+   `<div class="stat"><div class="n">${c.skip}</div><div class="l">⏭️ หาราคาไม่ได้</div></div>`;
+
+  let html="";
+  [...new Set(rows.map(r=>r.col))].forEach(col=>{
+    const items=rows.filter(r=>r.col===col && (filter==="all"||r.cls===filter));
+    if(!items.length) return;
+    html+=`<div class="col-group"><div class="col-head">${col} <a href="${SEARCH[col]}" target="_blank">↗ เปิด Mercari</a></div><div class="grid">`;
+    items.forEach(r=>{
+      const href=r.id?`https://jp.mercari.com/item/${r.id}`:SEARCH[r.col];
+      let media;
+      if(r.id){
+        media=`<img class="thumb" src="${img(r.id)}" loading="lazy" referrerpolicy="no-referrer"
+                onerror="this.outerHTML='<div class=\\'ph\\'>🖼️</div>'">`;
+      }else{
+        media=`<div class="ph">${r.cls==="skip"?"⏭️":"🛍️"}</div>`;
+      }
+      const mp=r.margin==null?"":`<span class="mpill ${r.cls}">${r.margin.toFixed(1)}%</span>`;
+      const info=r.cls==="skip"
+        ? `<div class="px"><span>ขาย ฿</span><b>${r.shopee.toLocaleString()}</b></div><div class="skipnote">${r.note}</div>`
+        : `<div class="px"><span>ขาย Shopee</span><b>฿${r.shopee.toLocaleString()}</b></div>
+           <div class="px"><span>ต้นทุน JP</span><b>¥${r.yen.toLocaleString()} · ฿${r.baht.toFixed(0)}</b></div>
+           ${r.note?`<div class="skipnote">${r.note}</div>`:""}`;
+      html+=`<a class="card ${r.cls}" href="${href}" target="_blank">
+               ${media}<span class="badge">${r.prize}</span>${mp}
+               <div class="body"><div class="char">${r.char}</div>${info}</div></a>`;
+    });
+    html+=`</div></div>`;
+  });
+  document.getElementById("app").innerHTML=html||`<p style="color:var(--mut)">ไม่มีรายการในกลุ่มนี้</p>`;
+}
+document.querySelectorAll(".controls button").forEach(b=>{
+  b.onclick=()=>{filter=b.dataset.f;
+    document.querySelectorAll(".controls button").forEach(x=>x.classList.remove("active"));
+    b.classList.add("active");render();};
+});
+render();
+</script>
+</body>
+</html>

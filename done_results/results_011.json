@@ -1,0 +1,53 @@
+{
+ "prices": {
+  "40103321295": {},
+  "40063736078": {"A": 3999, "B": 13300, "C": 588, "LO": 5399},
+  "29965776108": {"B": 2500, "C": 4500, "Last one": 26999},
+  "29914062351": {},
+  "29906244679": {"A Luffy": 2222, "B law": 2222, "C Kid": 2000, "Last one luffy": 2999},
+  "29488922987": {"A": 1777, "B": 1400, "LO": 3520},
+  "29363994705": {"A": 25000, "B": 6499, "C": 8910, "D": 2500, "Last one": 5499},
+  "29339788269": {"A": 600, "B": 1299, "C": 2100, "D": 1300, "E Dish": 1850},
+  "29326715260": {"A": 4200, "B": 2600, "Last one": 4300},
+  "28987903100": {},
+  "28863480387": {"A": 1780, "B": 4700, "C": 1400, "Last one": 3833},
+  "28834134449": {"A": 2300, "B": 2420, "C": 1666, "D": 2400, "Last one": 5720},
+  "28793307142": {},
+  "28621287519": {},
+  "28436654371": {"A": 3500, "B": 3500, "C": 5000, "Last One": 5720}
+ },
+ "keywords": {
+  "40103321295": "一番くじ WIND BREAKER 戦いの後で",
+  "40063736078": "一番くじ ハイキュー 全国への道",
+  "29965776108": "一番くじ 呪術廻戦 渋谷事変 参",
+  "29914062351": "一番くじ NARUTO 疾風伝 つながる想い",
+  "29906244679": "一番くじ ワンピース BEYOND THE LEVEL",
+  "29488922987": "一番くじ 怪獣8号 1弾",
+  "29363994705": "一番くじ ワンピース 絶対的正義",
+  "29339788269": "一番くじ クレヨンしんちゃん オラお腹いっぱいだゾ",
+  "29326715260": "一番くじ SAKAMOTO DAYS vol.1",
+  "28987903100": "一番くじ リゼロ この日を忘れない",
+  "28863480387": "一番くじ ワンピース 伝説の英雄",
+  "28834134449": "一番くじ ドラゴンボール DRAGON HISTORY II Revible Moment",
+  "28793307142": "一番くじ ゴジラ キングギドラ MEGA BRAVE",
+  "28621287519": "一番くじ 鬼滅の刃 The Connected Trail",
+  "28436654371": "一番くじ 聖闘士星矢 黄金聖闘士編"
+ },
+ "attempts": {
+  "40103321295": "all null: WIND BREAKER 'After the battle' subtitle unconfirmed, broad search returns wrong sub-series (街の英雄); subtitle search n=0",
+  "40063736078": "A=3999 B=13300 C=588(clearfile) LO=5399; all figures/items matched 全国への道",
+  "29965776108": "B=2500 C=4500 LO=26999; matched 渋谷事変 参",
+  "29914062351": "all null: Naruto 'Connected Feelings' subtitle (つながる想い) n=0, unconfirmed",
+  "29906244679": "A=2222 B=2222 C=2000 LO=2999; matched BEYOND THE LEVEL (Luffy/Law/Kid)",
+  "29488922987": "A=1777 B=1400 LO=3520; matched 怪獣8号 1弾",
+  "29363994705": "A=25000 B=6499 C=8910 D=2500 LO=5499; matched 絶対的正義",
+  "29339788269": "A=600 B=1299 C=2100 D=1300 E(dish)=1850; matched オラお腹いっぱいだゾ; F White/Blue/Black skipped per rules",
+  "29326715260": "A=4200 B=2600 LO=4300; matched SAKAMOTO DAYS vol.1",
+  "28987903100": "all null: Re:Zero 'i will remember this day' subtitle (この日を忘れない) n=0; broad リゼロ search mixes many distinct sets, cannot isolate, NEVER guess",
+  "28863480387": "A=1780 B=4700 C=1400 LO=3833; garp set = 伝説の英雄 (Garp=B賞)",
+  "28834134449": "A=2300 B=2420 C=1666 D=2400 LO=5720; matched DRAGON HISTORY II Revible Moment",
+  "28793307142": "all null: 'MEGA BRAVE' not found on Mercari (n=0); broad キングギドラ shows only different set 大怪獣列伝G, cannot confirm",
+  "28621287519": "all null: Demon Slayer 'The Connected Trail' subtitle unconfirmed, search n=0, NEVER guess",
+  "28436654371": "A=3500 B=3500 C=5000 LO=5720; matched 黄金聖闘士編"
+ }
+}

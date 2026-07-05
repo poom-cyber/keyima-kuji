@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="th"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ราคา Kuji ทั้งร้าน (Shopee × Mercari)</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f5f6f8;--surface:#fff;--ink:#0f172a;--ink2:#475569;--muted:#94a3b8;--line:#e7e9ee;--line2:#dfe2e8;
+--accent:#4f46e5;--accentsoft:#eef2ff;--red:#e11d48;--redsoft:#fff1f3;--amber:#b45309;--ambersoft:#fef3c7;--green:#059669;--greensoft:#d1fae5;--graysoft:#f1f5f9;
+--shadow:0 1px 2px rgba(15,23,42,.04),0 2px 8px rgba(15,23,42,.05);}
+body{font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans Thai",sans-serif;background:var(--bg);color:var(--ink);padding:18px;font-size:14px;line-height:1.45}
+h1{font-size:20px;font-weight:800}
+.sub{color:var(--ink2);font-size:13px;margin:3px 0 14px}
+.summary{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:14px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:9px 15px;min-width:92px;box-shadow:var(--shadow)}
+.stat .n{font-size:21px;font-weight:800}.stat .l{font-size:11px;color:var(--muted);font-weight:700}
+.stat.red .n{color:var(--red)}.stat.amber .n{color:var(--amber)}.stat.green .n{color:var(--green)}
+.bar{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+.bar input[type=text],.bar select{font-family:inherit;font-size:13px;padding:8px 11px;border:1px solid var(--line2);border-radius:9px;background:#fff;color:var(--ink)}
+.bar input[type=text]{min-width:200px;flex:1}
+.controls{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}
+.chip{font-size:12px;font-weight:600;color:var(--ink2);padding:7px 12px;border-radius:18px;border:1px solid var(--line2);background:#fff;cursor:pointer}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}.chip.on.red{background:var(--red);border-color:var(--red)}
+.selbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:16px;padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+.selbar #selcount{font-size:13px;font-weight:800;flex:1;min-width:110px}
+.selbar button,.fbtn{font-size:12.5px;font-weight:700;border:1px solid var(--line2);background:#fff;color:var(--ink2);border-radius:9px;padding:8px 13px;cursor:pointer}
+.selbar button:hover,.fbtn:hover{background:var(--graysoft)}
+.selbar button.cp{background:var(--accent);color:#fff;border-color:var(--accent)}.selbar button.cp:hover{background:#4338ca}
+.selbar button.cp:disabled{opacity:.45;cursor:not-allowed}
+.cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.cc{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);cursor:pointer;transition:.15s;display:flex;flex-direction:column}
+.cc:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(15,23,42,.11);border-color:#cfd4dd}
+.cc.red{border-color:#fca5b5}.cc.sel{outline:2.5px solid var(--accent);outline-offset:-2px}
+.cc-chk{position:absolute;top:8px;left:8px;width:27px;height:27px;border-radius:8px;border:none;background:rgba(255,255,255,.92);box-shadow:0 1px 5px rgba(0,0,0,.22);display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:800;cursor:pointer;color:var(--muted);z-index:4}
+.cc-chk.on{background:var(--accent);color:#fff}
+.cc-img{position:relative;aspect-ratio:4/3;background:var(--graysoft)}
+.cc-img img{width:100%;height:100%;object-fit:cover;display:block}
+.cc-pill{position:absolute;left:8px;bottom:8px;border-radius:8px;padding:3px 9px;font-size:12px;font-weight:800}
+.ribbon{position:absolute;top:8px;right:8px;background:var(--red);color:#fff;font-size:11px;font-weight:800;padding:3px 9px;border-radius:8px}
+.cc-b{padding:10px 12px 12px}
+.cc-name{font-size:13px;font-weight:700;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:35px}
+.cc-meta{font-size:11.5px;color:var(--muted);font-weight:600;margin-top:4px}
+.p-red{background:var(--redsoft);color:var(--red)}.p-amber{background:var(--ambersoft);color:var(--amber)}.p-green{background:var(--greensoft);color:var(--green)}.p-none{background:var(--graysoft);color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:13px;overflow:hidden;box-shadow:var(--shadow);position:relative;display:flex;flex-direction:column}
+.card.red{border-color:#fecdd3}.card.amber{border-color:#fde68a}.card.adj{border-color:var(--green);box-shadow:0 0 0 1.5px var(--green)}
+.thumb{width:100%;aspect-ratio:1/1;object-fit:cover;background:var(--graysoft);display:block}
+.badge{position:absolute;top:7px;left:7px;background:rgba(15,23,42,.78);color:#fff;border-radius:7px;padding:2px 7px;font-size:11px;font-weight:700;max-width:84%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mpill{position:absolute;top:7px;right:7px;border-radius:8px;padding:2px 7px;font-size:11.5px;font-weight:800}
+.cbody{padding:8px 10px 10px}
+.char{font-size:13px;font-weight:700;margin-bottom:6px;min-height:34px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.row{display:flex;justify-content:space-between;font-size:12px;color:var(--ink2);margin-bottom:1px}
+.row b{color:var(--ink);font-weight:700}
+.note{font-size:10.5px;color:var(--muted);font-style:italic;margin-top:3px}
+.adjbtn{width:100%;margin-top:8px;border:1px solid var(--accent);color:var(--accent);background:#fff;border-radius:8px;padding:7px;font-size:12px;font-weight:700;cursor:pointer}
+.adjbtn:hover{background:var(--accentsoft)}
+.adjbar{display:flex;align-items:center;gap:5px;margin-top:8px;font-size:11px;font-weight:700;color:var(--green);background:var(--greensoft);border-radius:8px;padding:5px 6px}
+.adjbar span{flex:1}.adjbar button{border:none;background:#fff;color:var(--ink2);border-radius:6px;padding:3px 7px;font-size:11px;font-weight:700;cursor:pointer}
+.modal{position:fixed;inset:0;background:rgba(15,23,42,.55);display:none;align-items:flex-start;justify-content:center;padding:28px 14px;z-index:100;overflow:auto}
+.modal.show{display:flex}
+.sheet{background:var(--bg);border-radius:18px;width:100%;max-width:920px;position:relative;box-shadow:0 24px 70px rgba(0,0,0,.34);padding:18px}
+.x{position:absolute;right:14px;top:14px;width:38px;height:38px;border-radius:11px;background:#fff;border:1px solid var(--line2);font-size:15px;color:var(--ink2);cursor:pointer;z-index:3}
+.mhead{display:flex;gap:14px;align-items:center;margin-bottom:16px;padding-right:40px}
+.mh-img{width:84px;height:84px;border-radius:14px;object-fit:cover;border:1px solid var(--line);background:var(--graysoft);flex:none}
+.mh-name{font-size:16px;font-weight:800;line-height:1.3}.mh-meta{font-size:12px;color:var(--muted);font-weight:600;margin:4px 0 9px}
+.mh-act{display:flex;gap:8px;flex-wrap:wrap}
+.mbtn{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:700;padding:8px 13px;border-radius:9px;border:1px solid var(--line2);background:#fff;color:var(--ink2);cursor:pointer;text-decoration:none}
+.mbtn.pri{background:var(--accent);color:#fff;border-color:var(--accent)}
+textarea{width:100%;height:170px;border:1px solid var(--line2);border-radius:10px;padding:10px;font-family:monospace;font-size:12px}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(10px);background:var(--ink);color:#fff;padding:12px 20px;border-radius:12px;font-size:13.5px;font-weight:600;opacity:0;transition:.22s;pointer-events:none;z-index:200;max-width:90%;text-align:center}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.empty{background:#fff;border:1px dashed var(--line2);border-radius:16px;padding:48px 22px;text-align:center;color:var(--ink2)}
+.empty h2{font-size:17px;margin-bottom:8px}.empty p{color:var(--muted);font-size:13px;margin-bottom:16px}
+.loadbtn{display:inline-block;background:var(--accent);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;cursor:pointer;font-size:14px}
+.more{margin:18px auto 0;display:block;background:var(--accent);color:#fff;border:none;border-radius:10px;padding:11px 22px;font-size:14px;font-weight:700;cursor:pointer}
+.foot{color:var(--muted);font-size:12px;margin-top:20px;border-top:1px solid var(--line);padding-top:12px}
+@media(max-width:520px){.mhead{flex-direction:column;align-items:flex-start}.sheet{padding:14px}}
+</style></head><body>
+<h1>🏪 ราคา Kuji ทั้งร้าน — Shopee × Mercari</h1>
+<div class="sub">เรต JPY→THB <b>0.206</b> · มาร์จิน% = (ขาย−ทุน฿)/ขาย×100 · 🔴&lt;55% 🟡55–62% 🟢≥62% · ⚪ ยังไม่ใส่ต้นทุน JP · โหลดจากไฟล์ export Shopee ของคุณ</div>
+<div class="bar">
+  <label class="fbtn" style="cursor:pointer">📂 โหลด CSV จาก Shopee (2 ไฟล์)<input id="files" type="file" accept=".csv" multiple style="display:none"></label>
+  <input id="q" type="text" placeholder="🔍 ค้นหาคอลเลคชั่น...">
+  <select id="sortsel">
+    <option value="checked">ใส่ทุนแล้วขึ้นก่อน</option>
+    <option value="margin">มาร์จินน้อย→มาก</option>
+    <option value="name">ชื่อ A-Z</option>
+  </select>
+  <button class="fbtn" onclick="exportData()">⬇️ ดาวน์โหลด data.json (สำหรับเว็บออนไลน์)</button>
+</div>
+<div class="summary" id="summary"></div>
+<div class="controls">
+  <span class="chip on" data-f="all">ทั้งหมด</span>
+  <span class="chip" data-f="checked">✅ ใส่ทุนแล้ว</span>
+  <span class="chip red" data-f="red">🔴 มาร์จินบาง</span>
+  <span class="chip" data-f="amber">🟡 เฝ้าระวัง</span>
+  <span class="chip" data-f="green">🟢 โอเค</span>
+  <span class="chip" data-f="unchecked">⚪ ยังไม่ใส่ทุน</span>
+</div>
+<div class="selbar">
+  <span id="selcount">เลือกแล้ว 0 คอล</span>
+  <button onclick="selectAllVisible()">เลือกที่แสดง</button>
+  <button onclick="clearSel()">ล้าง</button>
+  <button class="cp" id="copyselbtn" onclick="copySel()">📋 ก๊อปคำขอราคา (ที่เลือก)</button>
+  <button onclick="openImp()">📥 วางราคาจาก Claude</button>
+</div>
+<div id="app"></div>
+<button class="more" id="moreBtn" style="display:none" onclick="PAGE++;render()">แสดงเพิ่ม ▾</button>
+<div class="foot">ข้อมูล รูป ราคาขาย = ไฟล์ export Shopee (product list + photo list) · ต้นทุน JP = ราคาที่ Claude ดึงจาก Mercari แล้ว import เข้ามา · ทุกอย่างเก็บในเครื่อง (ไม่ส่งออก)</div>
+
+<div id="modal" class="modal" onclick="if(event.target===this)closeModal()"><div class="sheet"><button class="x" onclick="closeModal()">✕</button><div id="mhead" class="mhead"></div><div id="mbody" class="grid"></div></div></div>
+<div id="impmodal" class="modal" onclick="if(event.target===this)closeImp()"><div class="sheet" style="max-width:560px"><button class="x" onclick="closeImp()">✕</button><div class="mh-name" style="margin-bottom:4px">📥 วางราคาที่ได้จาก Claude</div><div class="mh-meta" style="margin-bottom:10px">ก๊อปบล็อกราคาที่ Claude ส่งกลับ มาวาง แล้วกดอัปเดต</div><textarea id="imptext" placeholder='{ "58110673783": {"1":1690,"7":2990} }'></textarea><div style="display:flex;gap:8px;margin-top:10px"><button class="mbtn pri" onclick="doImport()">✓ อัปเดตราคา</button><button class="mbtn" onclick="closeImp()">ยกเลิก</button></div></div></div>
+<div id="toast"></div>
+<script>
+const FX=0.206, PAGESIZE=24;
+let DB=[], PAGE=1, filter='all', q='', sortMode='checked', OPEN=null;
+let JPOV={},ADJ={},SEL=new Set();
+try{JPOV=JSON.parse(localStorage.getItem('shp_jpov')||'{}')}catch(e){}
+try{ADJ=JSON.parse(localStorage.getItem('shp_adj')||'{}')}catch(e){}
+try{SEL=new Set(JSON.parse(localStorage.getItem('shp_sel')||'[]'))}catch(e){}
+try{DB=JSON.parse(localStorage.getItem('shp_db')||'[]')}catch(e){}
+const saveJpov=()=>localStorage.setItem('shp_jpov',JSON.stringify(JPOV));
+const saveAdj=()=>localStorage.setItem('shp_adj',JSON.stringify(ADJ));
+const saveSel=()=>localStorage.setItem('shp_sel',JSON.stringify([...SEL]));
+const saveDB=()=>{try{localStorage.setItem('shp_db',JSON.stringify(DB))}catch(e){toast('ข้อมูลใหญ่ เก็บถาวรไม่ได้ แต่ใช้งานรอบนี้ได้')}};
+const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const baht=n=>'฿'+Math.round(n).toLocaleString('en-US');
+// ---------- CSV ----------
+function parseCSV(t){const rows=[];let f='',row=[],q=false;for(let i=0;i<t.length;i++){const c=t[i];
+ if(q){if(c==='"'){if(t[i+1]==='"'){f+='"';i++}else q=false}else f+=c}
+ else{if(c==='"')q=true;else if(c===','){row.push(f);f=''}else if(c==='\n'){row.push(f);rows.push(row);row=[];f=''}else if(c==='\r'){}else f+=c}}
+ if(f!==''||row.length){row.push(f);rows.push(row)}return rows;}
+function isId(s){return /^\d{6,}$/.test((s||'').trim());}
+function buildDB(salesRows,photoRows){
+ const prod={};
+ salesRows.forEach(r=>{if(!isId(r[0]))return;const id=r[0].trim();const name=(r[1]||'').trim();const vname=(r[3]||'').trim();const price=parseFloat((r[6]||'').toString().replace(/[^0-9.]/g,''));
+  if(!prod[id])prod[id]={id,name,prizes:[],pmap:{}};
+  let pz=vname.includes(',')?vname.slice(0,vname.indexOf(',')).trim():vname.trim();if(!pz)pz='-';
+  if(!(pz in prod[id].pmap)){prod[id].pmap[pz]={pz,shopee:isNaN(price)?null:price,img:''};prod[id].prizes.push(prod[id].pmap[pz]);}
+  else if(!isNaN(price)){const o=prod[id].pmap[pz];o.shopee=(o.shopee==null)?price:Math.min(o.shopee,price);}
+ });
+ const ph={};
+ photoRows.forEach(r=>{if(!isId(r[0]))return;const id=r[0].trim();const cover=(r[4]||'').trim();const opt={};
+  for(let k=0;k<30;k++){const nm=(r[16+2*k]||'').trim();const im=(r[17+2*k]||'').trim();if(nm)opt[nm]=im;}
+  ph[id]={cover,opt};});
+ const out=[];Object.values(prod).forEach(p=>{const pg=ph[p.id]||{cover:'',opt:{}};
+  p.prizes.forEach(z=>{z.img=pg.opt[z.pz]||pg.cover||'';});
+  out.push({id:p.id,name:p.name,cover:pg.cover||(p.prizes[0]&&p.prizes[0].img)||'',prizes:p.prizes});});
+ return out;
+}
+function onFiles(files){let sales=null,photo=null,done=0;if(!files.length)return;
+ [...files].forEach(file=>{const rd=new FileReader();rd.onload=e=>{const rows=parseCSV(e.target.result);
+   const head=(rows[0]||[]).join(',');
+   if(head.includes('variation_price'))sales=rows;else if(head.includes('cover_image'))photo=rows;else{ // guess
+     if(head.includes('image'))photo=rows;else sales=rows;}
+   if(++done===files.length){if(!sales||!photo){toast('ต้องโหลดทั้ง 2 ไฟล์ (product list + photo list)');return;}
+     DB=buildDB(sales,photo);saveDB();PAGE=1;renderStats();render();updSel();toast('✓ โหลด '+DB.length+' คอลเลคชั่นแล้ว');}
+ };rd.readAsText(file,'utf-8')});}
+document.getElementById('files').addEventListener('change',e=>{onFiles(e.target.files);e.target.value='';});
+// ---------- calc ----------
+const jpOf=(c,z)=>{const o=JPOV[c.id];return(o&&o[z.pz]!=null&&o[z.pz]!=='')?+o[z.pz]:null;};
+const adjOf=(c,z)=>ADJ[c.id+'|'+z.pz];
+const effPrice=(c,z)=>{const a=adjOf(c,z);return(a&&a.price)?a.price:z.shopee;};
+function pmar(c,z){const s=effPrice(c,z),jp=jpOf(c,z);if(jp==null||s==null)return null;return(s-jp*FX)/s*100;}
+const lvl=m=>m==null?'none':(m<55?'red':m<62?'amber':'green');
+const hasJP=c=>c.prizes.some(z=>jpOf(c,z)!=null);
+function colMin(c){let b=null;c.prizes.forEach(z=>{const m=pmar(c,z);if(m!=null&&(b==null||b>m))b=m});return b;}
+function prizeOK(c,z){if(filter==='all')return true;if(filter==='checked')return jpOf(c,z)!=null;if(filter==='unchecked')return jpOf(c,z)==null;if(filter==='adjusted')return!!adjOf(c,z);return lvl(pmar(c,z))===filter;}
+function colOK(c){if(q&&!(c.name||'').toLowerCase().includes(q))return false;return c.prizes.some(z=>prizeOK(c,z));}
+function sortCols(v){if(sortMode==='checked')v.sort((a,b)=>(hasJP(b)-hasJP(a))||((colMin(a)??999)-(colMin(b)??999)));
+ else if(sortMode==='margin')v.sort((a,b)=>((colMin(a)??999)-(colMin(b)??999)));
+ else if(sortMode==='name')v.sort((a,b)=>(a.name||'').localeCompare(b.name||''));return v;}
+// ---------- render ----------
+function renderStats(){let r=0,a=0,g=0,n=0,ck=0;DB.forEach(c=>{if(hasJP(c))ck++;c.prizes.forEach(z=>{const L=lvl(pmar(c,z));if(L==='red')r++;else if(L==='amber')a++;else if(L==='green')g++;else n++;})});
+ document.getElementById('summary').innerHTML=
+  `<div class="stat"><div class="n">${DB.length}</div><div class="l">คอลเลคชั่น</div></div>`+
+  `<div class="stat"><div class="n">${ck}</div><div class="l">✅ ใส่ทุนแล้ว</div></div>`+
+  `<div class="stat red"><div class="n">${r}</div><div class="l">🔴 บาง</div></div>`+
+  `<div class="stat amber"><div class="n">${a}</div><div class="l">🟡 เฝ้าระวัง</div></div>`+
+  `<div class="stat green"><div class="n">${g}</div><div class="l">🟢 โอเค</div></div>`+
+  `<div class="stat"><div class="n">${n}</div><div class="l">⚪ ยังไม่ใส่</div></div>`;}
+function render(){
+ if(!DB.length){document.getElementById('app').innerHTML='<div class="empty"><h2>📂 ยังไม่มีข้อมูล</h2><p>กดปุ่ม "โหลด CSV จาก Shopee" ด้านบน แล้วเลือก 2 ไฟล์: <b>product list.csv</b> และ <b>photo_product_list.csv</b></p><label class="loadbtn" style="cursor:pointer">เลือกไฟล์ CSV<input type="file" accept=".csv" multiple style="display:none" onchange="onFiles(this.files)"></label></div>';document.getElementById('moreBtn').style.display='none';return;}
+ let v=sortCols(DB.filter(colOK));const total=v.length;const shown=v.slice(0,PAGE*PAGESIZE);let h='';
+ shown.forEach(c=>{const worst=colMin(c),L=lvl(worst);const red=c.prizes.some(z=>{const m=pmar(c,z);return m!=null&&m<55});
+  const adjN=c.prizes.filter(z=>adjOf(c,z)).length;const sel=SEL.has(c.id);
+  const pill=worst==null?'<span class="cc-pill p-none">⚪</span>':`<span class="cc-pill p-${L}">ต่ำสุด ${Math.round(worst)}%</span>`;
+  h+=`<div class="cc${red?' red':''}${sel?' sel':''}" onclick="openCol('${c.id}')">
+   <button class="cc-chk${sel?' on':''}" onclick="event.stopPropagation();toggleSel('${c.id}')">${sel?'✓':'+'}</button>
+   <div class="cc-img"><img src="${esc(c.cover)}" loading="lazy" onerror="this.style.opacity=.12">${red?'<span class="ribbon">⬆ ต้องขึ้นราคา</span>':''}${pill}</div>
+   <div class="cc-b"><div class="cc-name">${esc(c.name)}</div><div class="cc-meta">${c.prizes.length} รางวัล${adjN?` · ✏️ ${adjN}`:''}</div></div></div>`;});
+ document.getElementById('app').innerHTML=shown.length?`<div class="cgrid">${h}</div>`:'<p style="color:var(--muted)">ไม่พบรายการ</p>';
+ document.getElementById('moreBtn').style.display=(shown.length<total)?'block':'none';}
+function prizeCard(c,z){const a=adjOf(c,z),jp=jpOf(c,z),s=effPrice(c,z),m=pmar(c,z),L=lvl(m),cb=jp!=null?jp*FX:null;
+ const ic=L==='red'?'🔴':L==='amber'?'🟡':L==='green'?'🟢':'';
+ const mp=m==null?`<span class="mpill p-none">⚪</span>`:`<span class="mpill p-${L}">${ic} ${Math.round(m)}%</span>`;
+ let info=`<div class="row"><span>ขาย${a?' <i style="color:var(--accent);font-style:normal">(ปรับ)</i>':''}</span><b>${s!=null?baht(s):'—'}</b></div>`;
+ if(a&&z.shopee!=null&&z.shopee!==a.price)info+=`<div class="row"><span>เดิม</span><b style="color:var(--muted);text-decoration:line-through">${baht(z.shopee)}</b></div>`;
+ if(m!=null)info+=`<div class="row"><span>ทุน JP</span><b>¥${(+jp).toLocaleString()}</b></div><div class="row"><span>ทุน ฿</span><b>${baht(cb)}</b></div>`;
+ else info+=`<div class="note">ยังไม่ใส่ต้นทุน JP</div>`;
+ const k=c.id+'|'+z.pz;
+ const btn=a?`<div class="adjbar"><span>✏️ ปรับแล้ว · ${a.date}</span><button onclick="setAdj('${c.id}','${esc(z.pz)}')">แก้</button><button onclick="clearAdj('${c.id}','${esc(z.pz)}')">✕</button></div>`:`<button class="adjbtn" onclick="setAdj('${c.id}','${esc(z.pz)}')">✓ ปรับราคาแล้ว</button>`;
+ return `<div class="card ${a?'adj':(L==='none'?'':L)}"><img class="thumb" src="${esc(z.img||c.cover)}" loading="lazy" onerror="this.style.opacity=.12"><span class="badge">${esc(z.pz)}</span>${mp}<div class="cbody"><div class="char">${esc(z.pz)}</div>${info}${btn}</div></div>`;}
+function openCol(id){const c=DB.find(x=>x.id===id);if(!c)return;OPEN=id;
+ document.getElementById('mhead').innerHTML=`<img class="mh-img" src="${esc(c.cover)}" onerror="this.style.opacity=.12"><div><div class="mh-name">${esc(c.name)}</div><div class="mh-meta">id ${c.id} · ${c.prizes.length} รางวัล</div><div class="mh-act"><button class="mbtn pri" onclick="reqUpdate('${c.id}')">🔄 ก๊อปคำขอราคาล่าสุด</button></div></div>`;
+ document.getElementById('mbody').innerHTML=c.prizes.map(z=>prizeCard(c,z)).join('');
+ document.getElementById('modal').classList.add('show');document.body.style.overflow='hidden';}
+function closeModal(){document.getElementById('modal').classList.remove('show');document.body.style.overflow='';OPEN=null;}
+function refreshOpen(){if(OPEN)openCol(OPEN);}
+function setAdj(id,pz){const c=DB.find(x=>x.id===id);const z=c.prizes.find(x=>x.pz===pz);if(!z)return;const cur=(adjOf(c,z)&&adjOf(c,z).price)||z.shopee||'';
+ const v=prompt('ปรับราคาขาย Shopee ใหม่ (บาท)\n\n'+c.name+'\nรางวัล: '+pz,cur);if(v===null)return;const n=Math.round(+String(v).replace(/[^0-9.]/g,''));if(!n){alert('กรอกตัวเลข');return;}
+ ADJ[id+'|'+pz]={price:n,date:new Date().toISOString().slice(0,10)};saveAdj();renderStats();render();refreshOpen();toast('บันทึกแล้ว');}
+function clearAdj(id,pz){if(!confirm('ยกเลิกการปรับราคา?'))return;delete ADJ[id+'|'+pz];saveAdj();renderStats();render();refreshOpen();}
+function reqUpdate(id){const c=DB.find(x=>x.id===id);if(!c)return;const txt='อัปเดตราคา Mercari: '+c.name+' | id:'+c.id+' | รางวัล: '+c.prizes.map(z=>z.pz).join(', ');
+ cpy(txt,'ก๊อปคำขอแล้ว — วางในแชทให้ Claude');}
+function cpy(txt,msg){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(txt).then(()=>toast(msg),()=>prompt('ก๊อป:',txt));else prompt('ก๊อป:',txt);}
+// selection
+function updSel(){const e=document.getElementById('selcount');if(e)e.textContent='เลือกแล้ว '+SEL.size+' คอล';const b=document.getElementById('copyselbtn');if(b){b.disabled=!SEL.size;b.textContent=SEL.size?('📋 ก๊อปคำขอราคา ('+SEL.size+')'):'📋 ก๊อปคำขอราคา (ที่เลือก)';}}
+function toggleSel(id){SEL.has(id)?SEL.delete(id):SEL.add(id);saveSel();render();updSel();}
+function selectAllVisible(){DB.filter(colOK).forEach(c=>SEL.add(c.id));saveSel();render();updSel();}
+function clearSel(){SEL.clear();saveSel();render();updSel();}
+function copySel(){if(!SEL.size){toast('ยังไม่ได้เลือก');return;}const lines=[...SEL].map(id=>{const c=DB.find(x=>x.id===id);return c?('• '+c.name+' | id:'+c.id+' | รางวัล: '+c.prizes.map(z=>z.pz).join(', ')):null}).filter(Boolean);
+ cpy('อัปเดตราคา Mercari ให้คอลพวกนี้ ('+lines.length+'):\n'+lines.join('\n'),'ก๊อป '+lines.length+' คอลแล้ว — วางในแชทให้ Claude');}
+// import
+function openImp(){document.getElementById('imptext').value='';document.getElementById('impmodal').classList.add('show');document.body.style.overflow='hidden';}
+function closeImp(){document.getElementById('impmodal').classList.remove('show');document.body.style.overflow='';}
+function doImport(){let raw=(document.getElementById('imptext').value||'').trim();if(!raw){toast('ยังไม่ได้วาง');return;}
+ let data;try{const m=raw.match(/\{[\s\S]*\}/);data=JSON.parse(m?m[0]:raw)}catch(e){toast('อ่านไม่ได้ ต้องเป็น JSON');return;}
+ let cnt=0;const today=new Date().toISOString().slice(0,10);
+ Object.entries(data).forEach(([id,obj])=>{const c=DB.find(x=>x.id===id);if(!c||typeof obj!=='object')return;JPOV[id]=JPOV[id]||{};
+  Object.entries(obj).forEach(([k,val])=>{if(k==='_d')return;const n=Math.round(+val);if(isNaN(n))return;
+   // match prize by exact name, else by first token / letter
+   let pz=c.prizes.find(z=>z.pz===k);if(!pz)pz=c.prizes.find(z=>z.pz.split(/\s|,/)[0]===k);if(!pz)pz=c.prizes.find(z=>z.pz.toUpperCase()===String(k).toUpperCase());
+   if(pz){JPOV[id][pz.pz]=n;cnt++}});JPOV[id]._d=today;});
+ if(!cnt){toast('ไม่พบรางวัลที่ตรง (เช็กชื่อรางวัล/ id)');return;}
+ saveJpov();renderStats();render();refreshOpen();closeImp();toast('✓ อัปเดต '+cnt+' ราคาแล้ว');}
+function exportData(){if(!DB.length){toast('โหลด CSV ก่อน');return;}
+ const cols=DB.map(c=>({id:c.id,name:c.name,cover:c.cover,prizes:c.prizes.map(z=>({pz:z.pz,shopee:z.shopee,img:z.img,jp:(JPOV[c.id]&&JPOV[c.id][z.pz]!=null)?+JPOV[c.id][z.pz]:null}))}));
+ const out={rate:FX,updated:new Date().toISOString().slice(0,10),collections:cols};
+ const blob=new Blob([JSON.stringify(out)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='data.json';a.click();
+ toast('ดาวน์โหลด data.json แล้ว — เอาไปวางในโฟลเดอร์ PriceUpdate');}
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');clearTimeout(e._t);e._t=setTimeout(()=>e.classList.remove('show'),2400);}
+document.getElementById('q').addEventListener('input',e=>{q=e.target.value.toLowerCase().trim();PAGE=1;render();});
+document.getElementById('sortsel').addEventListener('change',e=>{sortMode=e.target.value;render();});
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');filter=c.dataset.f;PAGE=1;render();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModal();closeImp();}});
+renderStats();render();updSel();
+</script>
+</body></html>

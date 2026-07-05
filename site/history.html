@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="th"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ประวัติราคา Kuji — Mercari</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f5f6f8;--surface:#fff;--ink:#0f172a;--ink2:#475569;--muted:#94a3b8;--line:#e7e9ee;--line2:#dfe2e8;
+--accent:#4f46e5;--red:#e11d48;--green:#059669;--amber:#b45309;--graysoft:#f1f5f9;
+--shadow:0 1px 2px rgba(15,23,42,.04),0 2px 8px rgba(15,23,42,.05);}
+body{font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans Thai",sans-serif;background:var(--bg);color:var(--ink);padding:16px;font-size:14px;line-height:1.45}
+h1{font-size:19px;font-weight:800}
+.sub{color:var(--ink2);font-size:12.5px;margin:3px 0 12px}
+.topbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.tb{font-size:13px;font-weight:700;text-decoration:none;border:1px solid var(--line2);background:#fff;color:var(--ink);border-radius:9px;padding:8px 13px;display:inline-block}
+.tb.dl{background:#059669;color:#fff;border-color:#059669}
+.tb.home{background:var(--accent);color:#fff;border-color:var(--accent)}
+.summary{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px 14px;min-width:84px;box-shadow:var(--shadow)}
+.stat .n{font-size:20px;font-weight:800}.stat .l{font-size:11px;color:var(--muted);font-weight:700}
+.bar input{font-family:inherit;font-size:13px;padding:9px 12px;border:1px solid var(--line2);border-radius:9px;width:100%;margin-bottom:14px}
+.col{background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);margin-bottom:10px;overflow:hidden}
+.col-h{display:flex;gap:11px;align-items:center;padding:10px 12px;cursor:pointer}
+.col-h img{width:46px;height:46px;border-radius:10px;object-fit:cover;background:var(--graysoft);flex:none}
+.col-h .nm{font-size:13px;font-weight:700;line-height:1.3;flex:1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.col-h .cnt{font-size:11px;color:var(--muted);font-weight:700;white-space:nowrap}
+.col-b{display:none;padding:0 12px 10px}
+.col.open .col-b{display:block}
+.prz{border-top:1px solid var(--line);padding:9px 2px}
+.prz-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.pz{font-weight:800;font-size:13px;background:var(--graysoft);border-radius:7px;padding:2px 9px}
+.cur{font-size:12.5px;color:var(--ink2)}.cur b{color:var(--ink)}
+.mg{font-size:11.5px;font-weight:800;border-radius:7px;padding:2px 8px;margin-left:auto}
+.mg.red{background:#fff1f3;color:var(--red)}.mg.amber{background:#fef3c7;color:var(--amber)}.mg.green{background:#d1fae5;color:var(--green)}.mg.none{background:var(--graysoft);color:var(--muted)}
+.spark{display:flex;align-items:center;gap:7px;margin-top:6px}
+.sparklbl{font-size:10.5px;font-weight:700;color:var(--muted)}
+.mlink{font-size:11px;font-weight:700;color:#fff;background:#ff5b5b;border-radius:7px;padding:3px 8px;text-decoration:none;margin-left:6px}
+.hist{margin-top:7px;font-size:11.5px;color:var(--ink2);display:none}
+.prz.exp .hist{display:block}
+.hist table{width:100%;border-collapse:collapse}
+.hist td{padding:3px 6px;border-top:1px dashed var(--line)}
+.hist td:nth-child(2),.hist td:nth-child(3){text-align:right;font-variant-numeric:tabular-nums}
+.tap{font-size:10.5px;color:var(--accent);font-weight:700;cursor:pointer;margin-top:4px;display:inline-block}
+.empty{background:#fff;border:1px dashed var(--line2);border-radius:14px;padding:40px 20px;text-align:center;color:var(--ink2)}
+.foot{color:var(--muted);font-size:12px;margin-top:18px;border-top:1px solid var(--line);padding-top:11px}
+</style></head><body>
+<h1>📈 ประวัติราคา Kuji</h1>
+<div class="sub" id="sub">กำลังโหลด…</div>
+<div class="topbar">
+  <a class="tb home" href="index.html">← กลับหน้าหลัก</a>
+  <a class="tb dl" id="dlcsv" href="prices.csv" download>⬇️ โหลด CSV (Excel)</a>
+</div>
+<div class="summary" id="summary"></div>
+<div class="bar"><input id="q" type="text" placeholder="🔍 ค้นหาคอลเลคชั่น..."></div>
+<div id="app"></div>
+<div class="foot" id="foot"></div>
+<script>
+let DATA={}, HIST={}, COLS=[], MAP={}, FX=0.2043, UPDATED='', q='';
+const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const yen=n=>'¥'+(+n).toLocaleString('en-US');
+const baht=n=>'฿'+Math.round(n).toLocaleString('en-US');
+const lvl=m=>m==null?'none':(m<55?'red':m<62?'amber':'green');
+function mlabel(pz){const s=String(pz).trim(),l=s.toLowerCase();if(l.includes('last')||['LO','ラストワン','ラストワン賞'].includes(s))return'ラストワン';const m=s.match(/^([A-J])(?![A-Za-z])/);return m?m[1]+'賞':'';}
+function mUrl(c,pz){const z=(c.prizes||[]).find(x=>x.pz===pz);if(z&&z.jpUrl)return z.jpUrl;if(!c.jpkw)return'';return'https://jp.mercari.com/search?keyword='+encodeURIComponent((c.jpkw+' '+mlabel(pz)).trim())+'&status=on_sale&sort=price&order=asc';}
+function spark(arr){const pts=arr.map(p=>p[1]).filter(v=>v!=null);if(!pts.length)return'';const last=pts[pts.length-1],first=pts[0];
+ if(pts.length<2)return '<span class="sparklbl">📈 เริ่มเก็บประวัติ · '+yen(last)+'</span>';
+ const w=120,h=26,mn=Math.min(...pts),mx=Math.max(...pts),rg=(mx-mn)||1,dx=w/(pts.length-1);
+ const d=pts.map((v,i)=>(i?'L':'M')+(i*dx).toFixed(1)+','+(h-2-((v-mn)/rg)*(h-4)).toFixed(1)).join(' ');
+ const up=last>first,dn=last<first,col=up?'#e11d48':(dn?'#059669':'#94a3b8'),pct=first?Math.round((last-first)/first*100):0;
+ return '<svg width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'"><path d="'+d+'" fill="none" stroke="'+col+'" stroke-width="1.6"/></svg><span class="sparklbl" style="color:'+col+'">'+(pct>0?'+':'')+pct+'% · '+pts.length+' จุด</span>';}
+function pmar(c,pz,jp){const z=(c.prizes||[]).find(x=>x.pz===pz);const s=z&&z.shopee;if(jp==null||!s)return null;return(s-jp*FX)/s*100;}
+function colsWithHist(){return COLS.filter(c=>HIST[c.id]).map(c=>{
+  const series=HIST[c.id];let pts=0;Object.values(series).forEach(a=>pts+=a.length);return {c,series,pts};});}
+function render(){
+ let list=colsWithHist();
+ if(q)list=list.filter(o=>(o.c.name||'').toLowerCase().includes(q));
+ list.sort((a,b)=>{const am=worst(a),bm=worst(b);return (am==null?999:am)-(bm==null?999:bm);});
+ if(!list.length){document.getElementById('app').innerHTML='<div class="empty">ยังไม่มีประวัติราคา (จะเริ่มมีหลังระบบรันรอบถัดไป)</div>';return;}
+ let h='';
+ list.forEach(o=>{const c=o.c;
+  let body='';
+  (c.prizes||[]).forEach(z=>{const arr=o.series[z.pz];if(!arr)return;
+   const last=arr[arr.length-1][1],m=pmar(c,z.pz,last),L=lvl(m);
+   const url=mUrl(c,z.pz);
+   const rows=arr.slice().reverse().map(p=>{const mm=pmar(c,z.pz,p[1]);return '<tr><td>'+p[0]+'</td><td>'+yen(p[1])+'</td><td>'+(mm==null?'—':Math.round(mm)+'%')+'</td></tr>';}).join('');
+   body+='<div class="prz"><div class="prz-top"><span class="pz">'+esc(z.pz)+'</span><span class="cur">ทุน <b>'+yen(last)+'</b> · '+baht(last*FX)+'</span><span class="mg '+L+'">'+(m==null?'—':Math.round(m)+'%')+'</span></div>'
+     +'<div class="spark">'+spark(arr)+(url?'<a class="mlink" href="'+url+'" target="_blank" rel="noopener">🔗 Mercari</a>':'')+'</div>'
+     +'<span class="tap" onclick="this.parentNode.classList.toggle(\'exp\')">▼ ดูราคาย้อนหลัง ('+arr.length+')</span>'
+     +'<div class="hist"><table>'+rows+'</table></div></div>';});
+  h+='<div class="col"><div class="col-h" onclick="this.parentNode.classList.toggle(\'open\')"><img src="'+esc(c.cover)+'" loading="lazy" onerror="this.style.opacity=.12"><div class="nm">'+esc(c.name)+'</div><div class="cnt">'+Object.keys(o.series).length+' รางวัล ▾</div></div><div class="col-b">'+body+'</div></div>';});
+ document.getElementById('app').innerHTML=h;
+}
+function worst(o){let b=null;(o.c.prizes||[]).forEach(z=>{const a=o.series[z.pz];if(!a)return;const m=pmar(o.c,z.pz,a[a.length-1][1]);if(m!=null&&(b==null||m<b))b=m;});return b;}
+Promise.all([
+  fetch('data.json?t='+Date.now()).then(r=>r.json()),
+  fetch('history.json?t='+Date.now()).then(r=>r.json()).catch(()=>({}))
+]).then(([d,hh])=>{
+  DATA=d;COLS=d.collections||[];HIST=hh||{};FX=d.rate||0.2043;UPDATED=d.updated||'';
+  const nc=Object.keys(HIST).length;let np=0,nd=new Set();
+  Object.values(HIST).forEach(s=>Object.values(s).forEach(a=>{np+=a.length;a.forEach(p=>nd.add(p[0]));}));
+  document.getElementById('sub').innerHTML='ฐานข้อมูลต้นทุน Mercari (เยน) ย้อนหลัง · เรต <b>'+FX+'</b> · เปิดได้ทุกอุปกรณ์';
+  document.getElementById('summary').innerHTML=
+    '<div class="stat"><div class="n">'+nc+'</div><div class="l">คอลที่มีประวัติ</div></div>'+
+    '<div class="stat"><div class="n">'+np+'</div><div class="l">จุดราคา</div></div>'+
+    '<div class="stat"><div class="n">'+nd.size+'</div><div class="l">วันที่บันทึก</div></div>';
+  document.getElementById('foot').textContent='อัปเดตล่าสุด: '+(UPDATED||'-')+' · โหลด CSV ไปเปิดใน Excel ได้ · กราฟจะลากเส้นเมื่อมีข้อมูล ≥2 วัน';
+  document.getElementById('dlcsv').href='prices.csv?t='+Date.now();
+  render();
+}).catch(e=>{document.getElementById('app').innerHTML='<div class="empty">โหลดข้อมูลไม่ได้</div>';});
+document.getElementById('q').addEventListener('input',e=>{q=e.target.value.toLowerCase().trim();render();});
+</script>
+</body></html>

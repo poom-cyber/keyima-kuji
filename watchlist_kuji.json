@@ -1,0 +1,316 @@
+[
+  {
+    "collection": "ヒロアカ いつまでも手を差し伸べ続ける物語",
+    "prize": "A",
+    "character": "緑谷出久",
+    "shopee": 2690,
+    "jp_yen_latest": 5400,
+    "jp_baht": 1103.22,
+    "margin_pct": 59.0,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ヒロアカ いつまでも手を差し伸べ続ける物語",
+    "prize": "B",
+    "character": "死柄木弔",
+    "shopee": 3290,
+    "jp_yen_latest": 6999,
+    "jp_baht": 1429.9,
+    "margin_pct": 56.5,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ヒロアカ いつまでも手を差し伸べ続ける物語",
+    "prize": "C",
+    "character": "爆豪勝己",
+    "shopee": 4950,
+    "jp_yen_latest": 12500,
+    "jp_baht": 2553.75,
+    "margin_pct": 48.4,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ヒロアカ いつまでも手を差し伸べ続ける物語",
+    "prize": "D",
+    "character": "ステイン",
+    "shopee": 2490,
+    "jp_yen_latest": null,
+    "jp_baht": null,
+    "margin_pct": null,
+    "checked_date": "2026-06-25",
+    "note": "หาราคาซื้อเลยไม่ได้ มีแต่ออคชัน(現在 ¥3,900)"
+  },
+  {
+    "collection": "ヒロアカ いつまでも手を差し伸べ続ける物語",
+    "prize": "E",
+    "character": "峰田実",
+    "shopee": 2290,
+    "jp_yen_latest": null,
+    "jp_baht": null,
+    "margin_pct": null,
+    "checked_date": "2026-06-25",
+    "note": "หาราคาซื้อเลยไม่ได้ มีแต่ออคชัน"
+  },
+  {
+    "collection": "ヒロアカ いつまでも手を差し伸べ続ける物語",
+    "prize": "ラストワン",
+    "character": "アーマードオールマイト",
+    "shopee": 8390,
+    "jp_yen_latest": null,
+    "jp_baht": null,
+    "margin_pct": null,
+    "checked_date": "2026-06-25",
+    "note": "ไม่พบรายการในหน้าค้นหา"
+  },
+  {
+    "collection": "ワンピース 赤髪海賊団",
+    "prize": "A",
+    "character": "シャンクス",
+    "shopee": 2890,
+    "jp_yen_latest": 4300,
+    "jp_baht": 878.49,
+    "margin_pct": 69.6,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ワンピース 赤髪海賊団",
+    "prize": "B",
+    "character": "ベン・ベックマン",
+    "shopee": 2690,
+    "jp_yen_latest": 4599,
+    "jp_baht": 939.58,
+    "margin_pct": 65.1,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ワンピース 赤髪海賊団",
+    "prize": "C",
+    "character": "ヤソップ",
+    "shopee": 2690,
+    "jp_yen_latest": 4000,
+    "jp_baht": 817.2,
+    "margin_pct": 69.6,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ワンピース 赤髪海賊団",
+    "prize": "D",
+    "character": "ラッキー・ルウ",
+    "shopee": 3890,
+    "jp_yen_latest": 6000,
+    "jp_baht": 1225.8,
+    "margin_pct": 68.5,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ワンピース 赤髪海賊団",
+    "prize": "ラストワン",
+    "character": "シャンクス&ルフィ",
+    "shopee": 3490,
+    "jp_yen_latest": 4100,
+    "jp_baht": 837.63,
+    "margin_pct": 76.0,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "北斗の拳",
+    "prize": "A",
+    "character": "ケンシロウ",
+    "shopee": 5390,
+    "jp_yen_latest": null,
+    "jp_baht": null,
+    "margin_pct": null,
+    "checked_date": "2026-06-25",
+    "note": "หาราคาซื้อเลยไม่ได้ มีแต่ออคชัน(現在 ¥9,111+)"
+  },
+  {
+    "collection": "北斗の拳",
+    "prize": "B",
+    "character": "レイ",
+    "shopee": 4590,
+    "jp_yen_latest": 8980,
+    "jp_baht": 1834.61,
+    "margin_pct": 60.0,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "北斗の拳",
+    "prize": "ラストワン",
+    "character": "ラオウ",
+    "shopee": 9890,
+    "jp_yen_latest": 21499,
+    "jp_baht": 4392.25,
+    "margin_pct": 55.6,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ドラゴンボール EX 対決!レッドリボン軍",
+    "prize": "A",
+    "character": "孫悟空",
+    "shopee": 1990,
+    "jp_yen_latest": 4100,
+    "jp_baht": 837.63,
+    "margin_pct": 57.9,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ドラゴンボール EX 対決!レッドリボン軍",
+    "prize": "B",
+    "character": "ムラサキ曹長",
+    "shopee": 1990,
+    "jp_yen_latest": 3799,
+    "jp_baht": 776.14,
+    "margin_pct": 61.0,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ドラゴンボール EX 対決!レッドリボン軍",
+    "prize": "C",
+    "character": "ブルー将軍",
+    "shopee": 1890,
+    "jp_yen_latest": 2850,
+    "jp_baht": 582.25,
+    "margin_pct": 69.2,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ドラゴンボール EX 対決!レッドリボン軍",
+    "prize": "D",
+    "character": "潜水艇(悟空&ブルマ&クリリン)",
+    "shopee": 4950,
+    "jp_yen_latest": 8299,
+    "jp_baht": 1695.49,
+    "margin_pct": 65.7,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ドラゴンボール EX 対決!レッドリボン軍",
+    "prize": "ラストワン",
+    "character": "8号&悟空",
+    "shopee": 5900,
+    "jp_yen_latest": 11500,
+    "jp_baht": 2349.45,
+    "margin_pct": 60.2,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "薬屋のひとりごと",
+    "prize": "A",
+    "character": "猫猫",
+    "shopee": 2890,
+    "jp_yen_latest": 5555,
+    "jp_baht": 1134.89,
+    "margin_pct": 60.7,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "薬屋のひとりごと",
+    "prize": "ラストワン",
+    "character": "猫猫(ラストワン)",
+    "shopee": 6490,
+    "jp_yen_latest": 16000,
+    "jp_baht": 3268.8,
+    "margin_pct": 49.6,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "五等分の花嫁 五つ子ハネムーン",
+    "prize": "A",
+    "character": "一花",
+    "shopee": 1890,
+    "jp_yen_latest": 1450,
+    "jp_baht": 296.24,
+    "margin_pct": 84.3,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "五等分の花嫁 五つ子ハネムーン",
+    "prize": "B",
+    "character": "二乃",
+    "shopee": 1790,
+    "jp_yen_latest": 1680,
+    "jp_baht": 343.22,
+    "margin_pct": 80.8,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "五等分の花嫁 五つ子ハネムーン",
+    "prize": "C",
+    "character": "三玖",
+    "shopee": 1790,
+    "jp_yen_latest": 1439,
+    "jp_baht": 293.99,
+    "margin_pct": 83.6,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "五等分の花嫁 五つ子ハネムーン",
+    "prize": "D",
+    "character": "四葉",
+    "shopee": 1690,
+    "jp_yen_latest": 2200,
+    "jp_baht": 449.46,
+    "margin_pct": 73.4,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "五等分の花嫁 五つ子ハネムーン",
+    "prize": "E",
+    "character": "五月",
+    "shopee": 1890,
+    "jp_yen_latest": 1430,
+    "jp_baht": 292.15,
+    "margin_pct": 84.5,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ワンピース TVアニメ25周年 海賊王への道",
+    "prize": "A",
+    "character": "ルフィ",
+    "shopee": 1690,
+    "jp_yen_latest": 2530,
+    "jp_baht": 516.88,
+    "margin_pct": 69.4,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ワンピース TVアニメ25周年 海賊王への道",
+    "prize": "B",
+    "character": "ギア2",
+    "shopee": 4790,
+    "jp_yen_latest": 9500,
+    "jp_baht": 1940.85,
+    "margin_pct": 59.5,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ワンピース TVアニメ25周年 海賊王への道",
+    "prize": "C",
+    "character": "ギア3",
+    "shopee": 1890,
+    "jp_yen_latest": 4100,
+    "jp_baht": 837.63,
+    "margin_pct": 55.7,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ワンピース TVアニメ25周年 海賊王への道",
+    "prize": "D",
+    "character": "ギア4",
+    "shopee": 2190,
+    "jp_yen_latest": 3100,
+    "jp_baht": 633.33,
+    "margin_pct": 71.1,
+    "checked_date": "2026-06-25"
+  },
+  {
+    "collection": "ワンピース TVアニメ25周年 海賊王への道",
+    "prize": "ラストワン",
+    "character": "ギア5ニカ",
+    "shopee": 3490,
+    "jp_yen_latest": 6500,
+    "jp_baht": 1327.95,
+    "margin_pct": 61.9,
+    "checked_date": "2026-06-25"
+  }
+]

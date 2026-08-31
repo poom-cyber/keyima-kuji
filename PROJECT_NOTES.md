@@ -37,10 +37,20 @@
 ## เรต JPY→THB
 - ดึงล่าสุดด้วย WebSearch ก่อนคำนวณ; ถ้าไม่ได้ใช้ 0.206
 
+## ดึงราคาอัตโนมัติ: `mercari_fetch.cjs` (ตั้งแต่ 2026-08-31)
+```
+NODE_USE_ENV_PROXY=1 node mercari_fetch.cjs --limit 100 --rate <เรตวันนี้> --verbose
+python3 db_update.py            # เก็บประวัติ + เติม jpkw/jpUrl (ทำทุกครั้งหลังดึง)
+```
+- ยิง Mercari search API (`api.mercari.jp/v2/entities:search`) พร้อม DPoP token ที่เซ็นเองด้วย Node crypto — **ไม่ต้องใช้เบราว์เซอร์ ไม่ติด DataDome** ต่างจากการดึง HTML หน้า search ตรงๆ (หน้านั้น render ฝั่ง client เลยไม่มีรายการสินค้าใน HTML)
+- เลือกคอลตามลำดับความสำคัญใน AUTO_TASK.md ข้อ 3 (คอลใหม่ → คอลที่ยังไม่อัป → หมุน cursor) แล้วเขียน `site/data.json`, `cursor.json`, `site/notfound.json`, `fetch_log.json`
+- เลือกราคา "ซื้อได้เลยถูกสุด" ที่ชื่อระบุรางวัลตรงตัวเท่านั้น (ไม่เดา) — ตัดชุดรวม/อะไหล่ (台座・支柱)/ของจอง (`<ชื่อ>様`)/ออคชัน
+
 ## ข้อจำกัดที่รู้แล้ว
 - เว็บ static ดึง Mercari เองไม่ได้ — Claude เป็นคนดึง
 - Claude sandbox ต่อ Netlify ไม่ได้ — deploy ต้องทำบนเครื่องผู้ใช้ (deploy.bat)
-- ทำ 306 คอลในรันเดียวไม่ไหว — แบ่งล็อต (~40-50/วัน) และต้องมี keyword ก่อนถึงจะแม่น
+- ~~ทำ 306 คอลในรันเดียวไม่ไหว~~ ตอนนี้ `mercari_fetch.cjs` ทำได้เป็นร้อยคอลต่อรอบ แต่ยัง **ต้องมี keyword (jpkw) ก่อนถึงจะแม่น** — คอลที่ไม่มี keyword จะถูกข้าม
+- เบราว์เซอร์ (Chromium/Playwright) ในแซนด์บ็อกซ์คลาวด์ต่อเน็ตผ่าน proxy ไม่ได้ (ERR_CONNECTION_RESET) — ใช้วิธี API เท่านั้น
 
 
 ## ➕ เพิ่มคอลเลคชั่นใหม่ (เมื่อมีสินค้าใหม่บน Shopee)

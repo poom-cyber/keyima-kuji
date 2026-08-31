@@ -21,3 +21,6 @@ keyword_input*.json
 # OS
 .DS_Store
 Thumbs.db
+
+# สำเนาสำรอง data.json ก่อนรันอัปเดตราคา (ประวัติจริงอยู่ใน git + history.jsonl)
+site/data.json.bak_*

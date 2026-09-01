@@ -90,6 +90,10 @@ function normalize(s) {
     .toUpperCase();
 }
 
+// สภาพที่นับเป็น "มือ 1" — ค่าเริ่มต้น 1 = 新品、未使用 เท่านั้น (SPEC_PRICING ข้อ 2)
+// เปิดกว้างขึ้นได้ด้วย --cond 1,2 (2 = 未使用に近い) ถ้าเจอว่าของถูกซ่อนเยอะเกินไป
+const NEW_CONDS = new Set(((process.argv[process.argv.indexOf('--cond') + 1] || '1').match(/\d/g) || ['1']));
+
 const LAST_ONE_RE = /ラストワン|ラスワン|LAST\s*ONE|LASTONE/;
 
 // ชื่อรางวัลใน data.json -> คำค้นภาษาญี่ปุ่น (ตรงกับ db_update.py prize_label)
@@ -125,8 +129,12 @@ function seriesTokens(kw) {
     .filter((t) => t.length >= 2);
 }
 
-/** เลือกราคาถูกสุดที่ "ซื้อได้เลย" และมั่นใจว่าเป็นรางวัลนั้นจริง */
-function pickCheapest(items, label, tokens) {
+/**
+ * คัดรายการที่ "ซื้อได้เลย + เป็นรางวัลนั้นจริง" ออกมาเป็นสถิติต้นทุน
+ * คืน { jpPrices, jp, jpN, jpMin, jpMed, jpThin, jpDeal, jpUsed, st, jpItem }
+ * ตามสเปกที่ fe/admin/price.html (botHTML) ใช้ — jp = ค่าเฉลี่ยของมือ 1 ไม่ใช่ใบถูกสุด
+ */
+function pickStats(items, label, tokens) {
   const out = [];
   for (const it of items) {
     if (it.auction) continue;                          // ข้ามออคชัน (ราคายังไม่นิ่ง)
@@ -140,20 +148,50 @@ function pickCheapest(items, label, tokens) {
     if (tokens.length && !tokens.some((t) => name.includes(t))) continue;
     const price = parseInt(it.price, 10);
     if (!Number.isFinite(price) || price <= 0) continue;
-    out.push({ price, name: it.name, id: it.id });
+    // itemConditionId: 1 = 新品、未使用 (มือ 1) · 2-6 = ผ่านการใช้งาน
+    // ต้นทุนต้องคิดจากมือ 1 เท่านั้น (SPEC_PRICING ข้อ 2) มือ 2 เก็บไว้อ้างอิงอย่างเดียว
+    out.push({ price, name: it.name, id: it.id, isNew: NEW_CONDS.has(String(it.itemConditionId)) });
   }
   out.sort((a, b) => a.price - b.price);
   if (!out.length) return null;
   // กันของหลุด: บางรายการชื่อผ่านตัวกรองแต่ไม่ใช่ฟิกเกอร์ (เช่น กล่องคุจิเปล่า ของแถม)
-  // ราคาจะต่ำกว่าชาวบ้านมาก -> ถ้าถูกกว่า 30% ของค่ากลาง ให้ข้ามไปตัวถัดไป
+  // ราคาจะต่ำกว่าชาวบ้านมาก -> ถ้าถูกกว่า 30% ของค่ากลาง ให้ตัดทิ้ง
   // (ประเมินต้นทุนต่ำเกินอันตรายกว่าประเมินสูงเกิน เพราะทำให้คิดว่ามาร์จินดีทั้งที่ไม่ดี)
+  let pool = out;
   if (out.length >= 4) {
-    const median = out[Math.floor(out.length / 2)].price;
-    const floor = median * 0.3;
+    const floor = out[Math.floor(out.length / 2)].price * 0.3;
     const kept = out.filter((o) => o.price >= floor);
-    if (kept.length) return kept[0];
+    if (kept.length) pool = kept;
   }
-  return out[0];
+
+  const fresh = pool.filter((o) => o.isNew);
+  const used = pool.filter((o) => !o.isNew);
+
+  if (!fresh.length) {
+    // ไม่มีมือ 1 เลย -> ห้ามเอามือ 2 มาตั้งต้นทุน แค่บอกสถานะไว้ให้แอดมินเห็น
+    return used.length
+      ? { st: 'used', jpUsed: used[0].price }
+      : { st: 'none' };
+  }
+
+  const take = fresh.slice(0, 8);                       // ใบถูกสุดไม่เกิน 8 ใบ = ราคาที่จ่ายจริงได้
+  const prices = take.map((o) => o.price);
+  const n = prices.length;
+  const jp = Math.round(prices.reduce((a, b) => a + b, 0) / n);
+  const jpMin = prices[0];
+  const jpMed = n % 2 ? prices[(n - 1) / 2] : Math.round((prices[n / 2 - 1] + prices[n / 2]) / 2);
+  return {
+    jpPrices: prices,
+    jp,
+    jpN: n,
+    jpMin,
+    jpMed,
+    jpThin: n < 5,                                      // เจอน้อย = ราคายังไม่นิ่ง
+    jpDeal: jpMin * 2 < jp,                             // ใบถูกสุดถูกกว่าเฉลี่ยเกิน 2 เท่า
+    jpUsed: used.length ? used[0].price : null,
+    st: null,
+    jpItem: take[0].id,
+  };
 }
 
 // ---------- เลือกคอลที่จะดึงรอบนี้ (ตาม AUTO_TASK.md ข้อ 3) ----------
@@ -214,10 +252,12 @@ async function main() {
     ? data.collections.filter((c) => onlyIds.includes(String(c.id)))
     : pickCollections(data, limit, cursor.index || 0, createdate, today);
 
-  const rateArg = arg('rate', '');
-  if (rateArg) data.rate = parseFloat(rateArg);
+  // 🔴 data.json.rate ล็อกไว้ ห้ามเขียนทับ — สูตรราคาหน้าร้านอ่านค่านี้
+  //    (HANDOFF_PRICE.md ในรีโป keyima: "เรต data.json.rate คงที่ 0.21 ห้ามเขียนทับ")
+  if (arg('rate', '')) console.error('[warn] --rate ถูกยกเลิกแล้ว: เรตล็อกไว้ที่ data.json.rate');
 
-  let nCol = 0, nPrize = 0, nFail = 0, nReq = 0;
+  const iso = new Date().toISOString().slice(0, 10);
+  let nCol = 0, nPrize = 0, nFail = 0, nReq = 0, done = 0;
   const misses = [];
   const resolved = [];
   for (const c of targets) {
@@ -238,20 +278,37 @@ async function main() {
       nReq++;
       await sleep(delayMs);
       if (items === null) { nFail++; misses.push({ id: c.id, pz: p.pz, why: 'request-failed' }); continue; }
-      const best = pickCheapest(items, label, tokens);
-      if (!best) { misses.push({ id: c.id, pz: p.pz, why: 'no-match', n: items.length }); continue; }
-      if (p.jp !== best.price) touched = true;
-      p.jp = best.price;      // เขียนทับเฉพาะที่เจอจริง
-      p.jpItem = best.id;     // เก็บ id สินค้าที่เป็นที่มาของราคา
+      const r = pickStats(items, label, tokens) || { st: 'none' };
+      p.ck = iso;                       // บอทเช็กล่าสุดวันไหน
+
+      if (r.st) {
+        // ไม่มีของมือ 1 ขายอยู่ -> ห้ามคิดต้นทุนใหม่ คง jp เดิมไว้ แล้วให้ SPEC ปิดการขายเอง
+        p.st = r.st;
+        p.jpUsed = r.jpUsed ?? null;
+        misses.push({ id: c.id, pz: p.pz, why: r.st, n: items.length });
+        if (VERBOSE) console.error(`    ${p.pz}: ${r.st === 'used' ? 'มีแต่มือ 2' : 'ไม่มีของขาย'}`);
+        touched = true;
+        continue;
+      }
+
+      if (p.jp !== r.jp) touched = true;
+      Object.assign(p, {
+        jpPrices: r.jpPrices, jp: r.jp, jpN: r.jpN, jpMin: r.jpMin, jpMed: r.jpMed,
+        jpThin: r.jpThin, jpDeal: r.jpDeal, jpUsed: r.jpUsed, jpItem: r.jpItem, st: null,
+      });
       resolved.push(c.id + '|' + p.pz);
-      if (VERBOSE) console.error(`    ${p.pz}: ¥${best.price}  ${best.name.slice(0, 50)}`);
+      if (VERBOSE) {
+        console.error(`    ${p.pz}: ¥${r.jp.toLocaleString()} (เฉลี่ย ${r.jpN} ใบ · ถูกสุด ¥${r.jpMin.toLocaleString()})${r.jpThin ? ' ⚠️ยังไม่นิ่ง' : ''}${r.jpDeal ? ' ⚡มีใบถูกผิดปกติ' : ''}`);
+      }
       nPrize++;
     }
     if (touched) nCol++;
-    console.error(`[${nCol}/${targets.length}] ${c.id} ${String(c.name).slice(0, 40)}`);
+    done++;
+    console.error(`[${done}/${targets.length}] ${c.id} ${String(c.name).slice(0, 40)}`);
+    // เซฟทุกคอล — รอบเต็มใช้เวลาเป็นชั่วโมง ถ้าตายกลางทางแล้วไม่เคยเซฟจะเสียงานทั้งหมด
+    if (!dryRun) { data.updated = iso; fs.writeFileSync(DATA, JSON.stringify(data, null, 1), 'utf8'); }
   }
 
-  const iso = new Date().toISOString().slice(0, 10);
   data.updated = iso;
 
   if (dryRun) {

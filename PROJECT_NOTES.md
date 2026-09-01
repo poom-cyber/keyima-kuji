@@ -39,12 +39,20 @@
 
 ## ดึงราคาอัตโนมัติ: `mercari_fetch.cjs` (ตั้งแต่ 2026-08-31)
 ```
-NODE_USE_ENV_PROXY=1 node mercari_fetch.cjs --limit 100 --rate <เรตวันนี้> --verbose
+NODE_USE_ENV_PROXY=1 node mercari_fetch.cjs --limit 100 --verbose
 python3 db_update.py            # เก็บประวัติ + เติม jpkw/jpUrl (ทำทุกครั้งหลังดึง)
 ```
+🔴 **`data.json.rate` ล็อก 0.21 ห้ามเขียนทับ** (`--rate` ถูกยกเลิกแล้ว) · **`jp` = ค่าเฉลี่ยของมือ 1 ใบถูกสุดไม่เกิน 8 ใบ**
 - ยิง Mercari search API (`api.mercari.jp/v2/entities:search`) พร้อม DPoP token ที่เซ็นเองด้วย Node crypto — **ไม่ต้องใช้เบราว์เซอร์ ไม่ติด DataDome** ต่างจากการดึง HTML หน้า search ตรงๆ (หน้านั้น render ฝั่ง client เลยไม่มีรายการสินค้าใน HTML)
 - เลือกคอลตามลำดับความสำคัญใน AUTO_TASK.md ข้อ 3 (คอลใหม่ → คอลที่ยังไม่อัป → หมุน cursor) แล้วเขียน `site/data.json`, `cursor.json`, `site/notfound.json`, `fetch_log.json`
-- เลือกราคา "ซื้อได้เลยถูกสุด" ที่ชื่อระบุรางวัลตรงตัวเท่านั้น (ไม่เดา) — ตัดชุดรวม/อะไหล่ (台座・支柱)/ของจอง (`<ชื่อ>様`)/ออคชัน
+- เลือกเฉพาะรายการที่ชื่อระบุรางวัลตรงตัว (ไม่เดา) — ตัดชุดรวม/อะไหล่ (台座・支柱)/กล่องคุจิเปล่า (くじ箱)/ของจอง (`<ชื่อ>様`)/ออคชัน
+- เขียนฟิลด์ครบตามที่หน้าแอดมิน KEYIMA (`fe/admin/price.html`) ใช้: `jpPrices` `jpN` `jpMin` `jpMed` `jpThin` `jpDeal` `jpUsed` `st` `ck`
+
+## 🔗 ความสัมพันธ์กับรีโป `poom-cyber/keyima` (หน้าร้าน/แอดมินตัวจริง)
+- ท่อราคา: `PriceUpdate/site/data.json` → `price_data.data` (Turso) → แอดมินกด "ดึงราคาล่าสุด" → `products` → หน้าร้าน
+- **โฟลเดอร์นี้ (`keyima-kuji`) เป็นสำเนาที่เก่ากว่า `PriceUpdate` ตัวจริงบนเครื่อง poom** — ก่อนเชื่อโครงสร้างไฟล์ ให้เทียบกับ `HANDOFF_PRICE.md` ในรีโป `keyima` ก่อน
+- ตัวกวาดเดียวกันถูกพอร์ตเข้า `keyima` แล้วที่ `be/admin-api/mercari.js` + ปุ่ม "🔎 กวาดราคา Mercari" ในหน้าแอดมิน (ไม่ต้องรันจากเครื่องอีก)
+- กฎที่ห้ามแหก อยู่ที่ `SPEC_PRICING.md` ฝั่ง `keyima` — ห้ามขาดทุน · ต้นทุนจากมือ 1 เท่านั้น · `jp=null`/`st` = ห้ามขาย
 
 ## ข้อจำกัดที่รู้แล้ว
 - เว็บ static ดึง Mercari เองไม่ได้ — Claude เป็นคนดึง

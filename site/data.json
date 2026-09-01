@@ -14411,42 +14411,103 @@
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zti-ml5xuaim4xdt0a",
      "jp": 2750,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20E%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20E%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 4200
     },
     {
      "pz": "B",
      "shopee": 2790,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zth-ml5xtpx0ibrh3b",
-     "jp": 5200,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 6222,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6222
+     ],
+     "jpN": 1,
+     "jpMin": 6222,
+     "jpMed": 6222,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 6000,
+     "jpItem": "m82855679483",
+     "st": null
     },
     {
      "pz": "Last One",
      "shopee": 3490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztj-ml5xug653j0gee",
      "jp": 5300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 9777
     },
     {
      "pz": "D",
      "shopee": 4390,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztc-ml5xu5c6owe95d",
-     "jp": 9500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 11149,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      10299,
+      11999
+     ],
+     "jpN": 2,
+     "jpMin": 10299,
+     "jpMed": 11149,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 10555,
+     "jpItem": "m66365826507",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztp-ml5xtzhqd3b604",
-     "jp": 3500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 5478,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      5478
+     ],
+     "jpN": 1,
+     "jpMin": 5478,
+     "jpMed": 5478,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3980,
+     "jpItem": "2JRarAakvtA5nYsboxNXnF",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 2590,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztc-ml5xrt6iefib5d",
-     "jp": 5111,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4899,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E4%B8%AD%E5%BF%8D%E8%A9%A6%E9%A8%93%E7%B7%A8%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4000,
+      4980,
+      4980,
+      4999,
+      4999,
+      5111,
+      5222
+     ],
+     "jpN": 7,
+     "jpMin": 4000,
+     "jpMed": 4999,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 3500,
+     "jpItem": "m42031575387",
+     "st": null
     }
    ]
   },
@@ -14463,17 +14524,40 @@
      "pz": "Last one",
      "shopee": 4600,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasm-mamfybg5sp00b3",
-     "jp": 1000,
+     "jp": 1600,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
-     "jpItem": "oEneYPB945AENMEezi8tbk"
+     "jpItem": "m48898613803",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      1600
+     ],
+     "jpN": 1,
+     "jpMin": 1600,
+     "jpMed": 1600,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1000,
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 4600,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rash-mamfy8ek92tsa7",
-     "jp": 550,
+     "jp": 1950,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "m57777749207"
+     "jpItem": "m23318220244",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      1900,
+      2000
+     ],
+     "jpN": 2,
+     "jpMin": 1900,
+     "jpMed": 1950,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1000,
+     "st": null
     }
    ]
   },
@@ -14490,29 +14574,68 @@
      "pz": "C",
      "shopee": 2190,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztq-mlhmfc816o03d1",
-     "jp": 3000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%2011%E5%BC%BE%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4960,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%2011%E5%BC%BE%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4960
+     ],
+     "jpN": 1,
+     "jpMin": 4960,
+     "jpMed": 4960,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3400,
+     "jpItem": "2JQzkqawpcJQBZtgn3Y5sJ",
+     "st": null
     },
     {
      "pz": "LO",
      "shopee": 3190,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztm-mlhmfc81oxdt95",
      "jp": 3570,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%2011%E5%BC%BE%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%2011%E5%BC%BE%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 2900
     },
     {
      "pz": "A",
      "shopee": 2290,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zth-mlhmfc8159fnbc",
-     "jp": 3000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%2011%E5%BC%BE%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4280,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%2011%E5%BC%BE%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4280
+     ],
+     "jpN": 1,
+     "jpMin": 4280,
+     "jpMed": 4280,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3100,
+     "jpItem": "2JKjZLzGfnZ3Z8K9TYqXQX",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 1990,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztm-mlhmfc7vg6iw84",
-     "jp": 2530,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%2011%E5%BC%BE%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4036,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%A6%E3%83%9E%E5%A8%98%20%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC%2011%E5%BC%BE%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4036
+     ],
+     "jpN": 1,
+     "jpMin": 4036,
+     "jpMed": 4036,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2300,
+     "jpItem": "2JKdxHEAqizj3ZAmdo2iFG",
+     "st": null
     }
    ]
   },
@@ -14548,14 +14671,30 @@
      "shopee": 7290,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasg-mamz9ggopvi7f9",
      "jp": 16600,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0%E3%83%8F%E3%83%BC%E3%83%84%20Linking%20Hearts%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0%E3%83%8F%E3%83%BC%E3%83%84%20Linking%20Hearts%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 26600
     },
     {
      "pz": "A",
      "shopee": 4590,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasd-mamz9hysiowgc2",
-     "jp": 9976,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0%E3%83%8F%E3%83%BC%E3%83%84%20Linking%20Hearts%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 12340,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0%E3%83%8F%E3%83%BC%E3%83%84%20Linking%20Hearts%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      10980,
+      13700
+     ],
+     "jpN": 2,
+     "jpMin": 10980,
+     "jpMed": 12340,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 8920,
+     "jpItem": "m32947782199",
+     "st": null
     }
    ]
   },
@@ -14573,21 +14712,39 @@
      "shopee": 6990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasa-m9o5xpajf8c191",
      "jp": 16000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%90%E3%82%AD%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%90%E3%82%AD%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 7888
     },
     {
      "pz": "A",
      "shopee": 3290,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasi-m9o5xm4s1p3j33",
-     "jp": 6200,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%90%E3%82%AD%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 7300,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%90%E3%82%AD%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      7300
+     ],
+     "jpN": 1,
+     "jpMin": 7300,
+     "jpMed": 7300,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 6800,
+     "jpItem": "m64418329374",
+     "st": null
     },
     {
      "pz": "LASTONE",
      "shopee": 10690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rash-m9o5xs4n9sunbe",
      "jp": 24000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%90%E3%82%AD%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%90%E3%82%AD%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 17400
     }
    ]
   },
@@ -14673,35 +14830,50 @@
      "shopee": 4490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zte-mlhffm6xa9kz28",
      "jp": null,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20E%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20E%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "D",
      "shopee": 4490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zth-mlhffjduw5xr8c",
      "jp": null,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "A",
      "shopee": 2590,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztq-mlhffb3mrv2c1a",
      "jp": null,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "B",
      "shopee": 4490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztm-mlhffdofj6rnbc",
      "jp": null,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "C",
      "shopee": 4490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztk-mlhffgpxajuq61",
      "jp": null,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E4%BA%94%E7%AD%89%E5%88%86%E3%81%AE%E8%8A%B1%E5%AB%81%20%E6%83%B3%E3%81%84%E3%82%92%E8%BE%BC%E3%82%81%E3%81%A6%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     }
    ]
   },
@@ -14719,7 +14891,10 @@
      "shopee": 7150,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasl-m9s96swcrqpae0",
      "jp": null,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%20%E7%A9%B6%E6%A5%B5%E9%80%B2%E5%8C%96%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%20%E7%A9%B6%E6%A5%B5%E9%80%B2%E5%8C%96%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "B",
@@ -14727,7 +14902,10 @@
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasb-m9s8wca1zfn50d",
      "jp": 23333,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%20%E7%A9%B6%E6%A5%B5%E9%80%B2%E5%8C%96%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "m13948422516"
+     "jpItem": "m13948422516",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 23333
     },
     {
      "pz": "LastOne",
@@ -14735,7 +14913,10 @@
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasl-m9s9000753s082",
      "jp": 12888,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%20%E7%A9%B6%E6%A5%B5%E9%80%B2%E5%8C%96%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
-     "jpItem": "2JJWk3dgMbFChpyv5PJ23P"
+     "jpItem": "2JJWk3dgMbFChpyv5PJ23P",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 12888
     }
    ]
   },
@@ -14777,15 +14958,30 @@
      "pz": "Last one",
      "shopee": 3090,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-ma0rs30epcgw06",
-     "jp": 3700,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20vol.2%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 4696,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20vol.2%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4696
+     ],
+     "jpN": 1,
+     "jpMin": 4696,
+     "jpMed": 4696,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1400,
+     "jpItem": "2JJnMu5Vmn8N6XirdnPTXh",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 1800,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-ma0rs1g32kww5b",
      "jp": 1600,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20vol.2%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%A9%9F%E5%8B%95%E6%88%A6%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20vol.2%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 1500
     }
    ]
   },
@@ -14845,29 +15041,50 @@
      "pz": "A",
      "shopee": 4390,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zto-mlck8wk8treo48",
-     "jp": 8920,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%81%8A%E6%88%AF%E7%8E%8B%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%20vol.4%20%E4%B8%89%E5%B9%BB%E7%A5%9E%E9%A1%95%E7%8F%BE%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 9200,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%81%8A%E6%88%AF%E7%8E%8B%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%20vol.4%20%E4%B8%89%E5%B9%BB%E7%A5%9E%E9%A1%95%E7%8F%BE%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      9200
+     ],
+     "jpN": 1,
+     "jpMin": 9200,
+     "jpMed": 9200,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 10438,
+     "jpItem": "m74071487608",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 4390,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zti-mlck8wlipn9g14",
      "jp": 9036,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%81%8A%E6%88%AF%E7%8E%8B%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%20vol.4%20%E4%B8%89%E5%B9%BB%E7%A5%9E%E9%A1%95%E7%8F%BE%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%81%8A%E6%88%AF%E7%8E%8B%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%20vol.4%20%E4%B8%89%E5%B9%BB%E7%A5%9E%E9%A1%95%E7%8F%BE%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 11500
     },
     {
      "pz": "C",
      "shopee": 7390,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztm-mlck8wlg24n919",
      "jp": 14444,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%81%8A%E6%88%AF%E7%8E%8B%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%20vol.4%20%E4%B8%89%E5%B9%BB%E7%A5%9E%E9%A1%95%E7%8F%BE%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%81%8A%E6%88%AF%E7%8E%8B%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%20vol.4%20%E4%B8%89%E5%B9%BB%E7%A5%9E%E9%A1%95%E7%8F%BE%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "Last one",
      "shopee": 6490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztc-mlck8wknaw3n57",
      "jp": 14999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%81%8A%E6%88%AF%E7%8E%8B%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%20vol.4%20%E4%B8%89%E5%B9%BB%E7%A5%9E%E9%A1%95%E7%8F%BE%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%81%8A%E6%88%AF%E7%8E%8B%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%20vol.4%20%E4%B8%89%E5%B9%BB%E7%A5%9E%E9%A1%95%E7%8F%BE%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     }
    ]
   },
@@ -14909,22 +15126,53 @@
      "pz": "Last One",
      "shopee": 4999,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztq-mg128qged4w984",
-     "jp": 4100,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 18110,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      5444,
+      18888,
+      29999
+     ],
+     "jpN": 3,
+     "jpMin": 5444,
+     "jpMed": 18888,
+     "jpThin": true,
+     "jpDeal": true,
+     "jpUsed": 4700,
+     "jpItem": "m32913497892",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 2899,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztd-mg128qgoe4uh63",
      "jp": 3500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 5000
     },
     {
      "pz": "A",
      "shopee": 2899,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztf-mg128qga9n9kda",
-     "jp": 3500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 14694,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      7417,
+      16666,
+      19999
+     ],
+     "jpN": 3,
+     "jpMin": 7417,
+     "jpMed": 16666,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 7908,
+     "jpItem": "2JRri5ic6nU2N8bSE5rtB2",
+     "st": null
     }
    ]
   },
@@ -15027,22 +15275,63 @@
      "pz": "A Titan ลิง 30 cm",
      "shopee": 8690,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztd-mfos7avez28b5f",
-     "jp": 19999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%20%E7%8D%A3%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%81%AF%E4%BF%BA%E3%81%8C%E4%BB%95%E7%95%99%E3%82%81%E3%82%8B%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 21160,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%20%E7%8D%A3%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%81%AF%E4%BF%BA%E3%81%8C%E4%BB%95%E7%95%99%E3%82%81%E3%82%8B%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      15980,
+      17500,
+      29999
+     ],
+     "jpN": 3,
+     "jpMin": 15980,
+     "jpMed": 17500,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 16400,
+     "jpItem": "m32270936296",
+     "st": null
     },
     {
      "pz": "B Levi 22cm",
      "shopee": 4190,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztm-mfos7aw7ow7e10",
-     "jp": 9000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%20%E7%8D%A3%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%81%AF%E4%BF%BA%E3%81%8C%E4%BB%95%E7%95%99%E3%82%81%E3%82%8B%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 10232,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%20%E7%8D%A3%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%81%AF%E4%BF%BA%E3%81%8C%E4%BB%95%E7%95%99%E3%82%81%E3%82%8B%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      7555,
+      9800,
+      13342
+     ],
+     "jpN": 3,
+     "jpMin": 7555,
+     "jpMed": 9800,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 7200,
+     "jpItem": "m30048074190",
+     "st": null
     },
     {
      "pz": "LASTONE Titan 45 cm",
      "shopee": 12500,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztk-mfos7aymnw204f",
-     "jp": 29000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%20%E7%8D%A3%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%81%AF%E4%BF%BA%E3%81%8C%E4%BB%95%E7%95%99%E3%82%81%E3%82%8B%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 34500,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%20%E7%8D%A3%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%81%AF%E4%BF%BA%E3%81%8C%E4%BB%95%E7%95%99%E3%82%81%E3%82%8B%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      33000,
+      35999
+     ],
+     "jpN": 2,
+     "jpMin": 33000,
+     "jpMed": 34500,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 28000,
+     "jpItem": "m93359497294",
+     "st": null
     }
    ]
   },
@@ -15060,21 +15349,30 @@
      "shopee": 6590,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zte-mley4sl9e8lge1",
      "jp": 15000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%20%E5%85%89%E3%81%A8%E9%97%87%E3%81%AE%E6%BF%80%E7%AA%81%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%20%E5%85%89%E3%81%A8%E9%97%87%E3%81%AE%E6%BF%80%E7%AA%81%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 15000
     },
     {
      "pz": "A",
      "shopee": 6690,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztp-mlexpn4c8pogbe",
      "jp": 12500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%20%E5%85%89%E3%81%A8%E9%97%87%E3%81%AE%E6%BF%80%E7%AA%81%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%20%E5%85%89%E3%81%A8%E9%97%87%E3%81%AE%E6%BF%80%E7%AA%81%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "B",
      "shopee": 3490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zti-mley4sl91lhfa4",
      "jp": 7100,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%20%E5%85%89%E3%81%A8%E9%97%87%E3%81%AE%E6%BF%80%E7%AA%81%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%87%E3%82%B8%E3%83%A2%E3%83%B3%20%E5%85%89%E3%81%A8%E9%97%87%E3%81%AE%E6%BF%80%E7%AA%81%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     }
    ]
   },
@@ -15091,22 +15389,51 @@
      "pz": "B",
      "shopee": 2290,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztq-mlev078r21ovab",
-     "jp": 3200,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%20Forever%20Hearts%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 5140,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%20Forever%20Hearts%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4444,
+      5356,
+      5620
+     ],
+     "jpN": 3,
+     "jpMin": 4444,
+     "jpMed": 5356,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3599,
+     "jpItem": "m39130373152",
+     "st": null
     },
     {
      "pz": "LO",
      "shopee": 3290,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztd-mlev0bwxpd6p20",
      "jp": 3400,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%20Forever%20Hearts%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%20Forever%20Hearts%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 5900
     },
     {
      "pz": "A",
      "shopee": 2290,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztk-mlev027gfwundd",
-     "jp": 2600,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%20Forever%20Hearts%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 2800,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%20Forever%20Hearts%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2800
+     ],
+     "jpN": 1,
+     "jpMin": 2800,
+     "jpMed": 2800,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2700,
+     "jpItem": "m35077624900",
+     "st": null
     }
    ]
   },
@@ -15123,22 +15450,62 @@
      "pz": "C",
      "shopee": 6990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasd-ma0uua39d3s071",
-     "jp": 9111,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E9%8A%80%E9%AD%82%E5%B1%95%20%E3%81%AF%E3%81%9F%E3%81%A1%E3%81%AE%E3%81%A4%E3%81%A9%E3%81%84%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 5488,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E9%8A%80%E9%AD%82%E5%B1%95%20%E3%81%AF%E3%81%9F%E3%81%A1%E3%81%AE%E3%81%A4%E3%81%A9%E3%81%84%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      5356,
+      5620
+     ],
+     "jpN": 2,
+     "jpMin": 5356,
+     "jpMed": 5488,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2999,
+     "jpItem": "2JW3tfVwEJPgFVGuokgWwQ",
+     "st": null
     },
     {
      "pz": "Last One",
      "shopee": 12690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasl-ma0uubzil7xcac",
-     "jp": 5000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E9%8A%80%E9%AD%82%E5%B1%95%20%E3%81%AF%E3%81%9F%E3%81%A1%E3%81%AE%E3%81%A4%E3%81%A9%E3%81%84%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 12981,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E9%8A%80%E9%AD%82%E5%B1%95%20%E3%81%AF%E3%81%9F%E3%81%A1%E3%81%AE%E3%81%A4%E3%81%A9%E3%81%84%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      11999,
+      12500,
+      14444
+     ],
+     "jpN": 3,
+     "jpMin": 11999,
+     "jpMed": 12500,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 10800,
+     "jpItem": "m41752591354",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 12690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-ma0v4f5n4rwv86",
-     "jp": 24000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E9%8A%80%E9%AD%82%E5%B1%95%20%E3%81%AF%E3%81%9F%E3%81%A1%E3%81%AE%E3%81%A4%E3%81%A9%E3%81%84%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 9646,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E9%8A%80%E9%AD%82%E5%B1%95%20%E3%81%AF%E3%81%9F%E3%81%A1%E3%81%AE%E3%81%A4%E3%81%A9%E3%81%84%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      9580,
+      9712
+     ],
+     "jpN": 2,
+     "jpMin": 9580,
+     "jpMed": 9646,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 7555,
+     "jpItem": "2JW5hfyYdiKsKZspR8bSLQ",
+     "st": null
     }
    ]
   },
@@ -15156,14 +15523,20 @@
      "shopee": 8290,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0q-mcc8irp1lcxre9",
      "jp": 16767,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%8B%E3%82%8D%E3%81%86%E3%81%AB%E5%89%A3%E5%BF%83%20%E4%BA%AC%E9%83%BD%E5%8B%95%E4%B9%B1%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%8B%E3%82%8D%E3%81%86%E3%81%AB%E5%89%A3%E5%BF%83%20%E4%BA%AC%E9%83%BD%E5%8B%95%E4%B9%B1%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 18400
     },
     {
      "pz": "Last one",
      "shopee": 15900,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0j-mcc8jfti7npb6a",
      "jp": 37000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%8B%E3%82%8D%E3%81%86%E3%81%AB%E5%89%A3%E5%BF%83%20%E4%BA%AC%E9%83%BD%E5%8B%95%E4%B9%B1%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%8B%E3%82%8D%E3%81%86%E3%81%AB%E5%89%A3%E5%BF%83%20%E4%BA%AC%E9%83%BD%E5%8B%95%E4%B9%B1%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 35500
     }
    ]
   },
@@ -15180,22 +15553,58 @@
      "pz": "B",
      "shopee": 1650,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-mamysypxl8cwd4",
-     "jp": 3300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%20%E3%82%BF%E3%82%A4%E3%83%97%20%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 9580,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%20%E3%82%BF%E3%82%A4%E3%83%97%20%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      9580
+     ],
+     "jpN": 1,
+     "jpMin": 9580,
+     "jpMed": 9580,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3300,
+     "jpItem": "DMtG5WVcZeUd8tCXnL9bMS",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 1790,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasd-mamysxavnxxsb6",
-     "jp": 2000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%20%E3%82%BF%E3%82%A4%E3%83%97%20%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 2999,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%20%E3%82%BF%E3%82%A4%E3%83%97%20%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2999
+     ],
+     "jpN": 1,
+     "jpMin": 2999,
+     "jpMed": 2999,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1700,
+     "jpItem": "m84007596295",
+     "st": null
     },
     {
      "pz": "Last one",
      "shopee": 1650,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasg-mamyt1ub0scwfb",
-     "jp": 2333,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%20%E3%82%BF%E3%82%A4%E3%83%97%20%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 7600,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%20%E3%82%BF%E3%82%A4%E3%83%97%20%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      7600
+     ],
+     "jpN": 1,
+     "jpMin": 7600,
+     "jpMed": 7600,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3800,
+     "jpItem": "m38637615486",
+     "st": null
     }
    ]
   },
@@ -15213,21 +15622,30 @@
      "shopee": 2390,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztm-mlc3j7uj6ivc8e",
      "jp": 4230,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%2050%E5%91%A8%E5%B9%B4%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%2050%E5%91%A8%E5%B9%B4%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "A",
      "shopee": 3490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztf-mlc3j7us1ds565",
      "jp": 5400,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%2050%E5%91%A8%E5%B9%B4%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%2050%E5%91%A8%E5%B9%B4%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 7500
     },
     {
      "pz": "B",
      "shopee": 2490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztg-mlc3j7utwt1gae",
      "jp": 4999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%2050%E5%91%A8%E5%B9%B4%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3%2050%E5%91%A8%E5%B9%B4%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 4888
     }
    ]
   },
@@ -15244,36 +15662,91 @@
      "pz": "C",
      "shopee": 1390,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztm-ml64lykktts14f",
-     "jp": 1999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20ROAD%20TO%20DAWN%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4025,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20ROAD%20TO%20DAWN%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4025
+     ],
+     "jpN": 1,
+     "jpMin": 4025,
+     "jpMed": 4025,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1699,
+     "jpItem": "2JUuEKgRxVhwvgbT6uswY2",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztq-ml64mdlnvzes1e",
-     "jp": 2333,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20ROAD%20TO%20DAWN%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3267,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20ROAD%20TO%20DAWN%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2500,
+      3000,
+      4300
+     ],
+     "jpN": 3,
+     "jpMin": 2500,
+     "jpMed": 3000,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2200,
+     "jpItem": "m22357246887",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 1590,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztq-ml64lyjcqk1u5b",
      "jp": 2000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20ROAD%20TO%20DAWN%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20ROAD%20TO%20DAWN%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 2500
     },
     {
      "pz": "D",
      "shopee": 1390,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zth-ml64lylaxjprc7",
-     "jp": 2111,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20ROAD%20TO%20DAWN%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3200,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20ROAD%20TO%20DAWN%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3200
+     ],
+     "jpN": 1,
+     "jpMin": 3200,
+     "jpMed": 3200,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1700,
+     "jpItem": "2JUuEYg6pzjDmEKvFGqGd5",
+     "st": null
     },
     {
      "pz": "LO",
      "shopee": 1990,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztp-ml64m3b5ju337c",
-     "jp": 2500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20ROAD%20TO%20DAWN%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 3498,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20ROAD%20TO%20DAWN%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2980,
+      3479,
+      4036
+     ],
+     "jpN": 3,
+     "jpMin": 2980,
+     "jpMed": 3479,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2999,
+     "jpItem": "m33309217963",
+     "st": null
     }
    ]
   },
@@ -15291,14 +15764,29 @@
      "shopee": 9290,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasf-m9z6k36cn30145",
      "jp": 15900,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20DEATH%20NOTE%20DMM%20%E5%BC%A5%E6%B5%B7%E7%A0%82%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20DEATH%20NOTE%20DMM%20%E5%BC%A5%E6%B5%B7%E7%A0%82%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 14800
     },
     {
      "pz": "A",
      "shopee": 8290,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasl-m9z6k36cn2of8c",
-     "jp": 14555,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20DEATH%20NOTE%20DMM%20%E5%BC%A5%E6%B5%B7%E7%A0%82%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 39500,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20DEATH%20NOTE%20DMM%20%E5%BC%A5%E6%B5%B7%E7%A0%82%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      39500
+     ],
+     "jpN": 1,
+     "jpMin": 39500,
+     "jpMed": 39500,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 18999,
+     "jpItem": "m90597769306",
+     "st": null
     }
    ]
   },
@@ -15316,21 +15804,48 @@
      "shopee": 4690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasd-ma0vkooma9698f",
      "jp": 6500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E3%81%8F%E3%81%98%E3%81%AF%E3%83%8E%E3%83%AA%E3%81%A8%E3%82%BF%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E3%81%8F%E3%81%98%E3%81%AF%E3%83%8E%E3%83%AA%E3%81%A8%E3%82%BF%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 7000
     },
     {
      "pz": "Last one",
      "shopee": 5990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-ma0vl7ue8ultef",
-     "jp": 8999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E3%81%8F%E3%81%98%E3%81%AF%E3%83%8E%E3%83%AA%E3%81%A8%E3%82%BF%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 14444,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E3%81%8F%E3%81%98%E3%81%AF%E3%83%8E%E3%83%AA%E3%81%A8%E3%82%BF%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      14444
+     ],
+     "jpN": 1,
+     "jpMin": 14444,
+     "jpMed": 14444,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 9200,
+     "jpItem": "m79497146825",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 6990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-ma0vkt9fl2i902",
-     "jp": 11000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E3%81%8F%E3%81%98%E3%81%AF%E3%83%8E%E3%83%AA%E3%81%A8%E3%82%BF%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 15555,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%8A%80%E9%AD%82%20%E3%81%8F%E3%81%98%E3%81%AF%E3%83%8E%E3%83%AA%E3%81%A8%E3%82%BF%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      15555
+     ],
+     "jpN": 1,
+     "jpMin": 15555,
+     "jpMed": 15555,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 19999,
+     "jpItem": "m33320179475",
+     "st": null
     }
    ]
   },
@@ -15366,35 +15881,68 @@
      "shopee": 6500,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasc-m9wxwohuxd69f6",
      "jp": 13800,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%81%BC%E3%81%A3%E3%81%A1%E3%83%BB%E3%81%96%E3%83%BB%E3%82%8D%E3%81%A3%E3%81%8F%20VOLUME%203%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%81%BC%E3%81%A3%E3%81%A1%E3%83%BB%E3%81%96%E3%83%BB%E3%82%8D%E3%81%A3%E3%81%8F%20VOLUME%203%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 10997
     },
     {
      "pz": "A",
      "shopee": 3290,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasd-m9wxw9liq8279e",
      "jp": 5800,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%81%BC%E3%81%A3%E3%81%A1%E3%83%BB%E3%81%96%E3%83%BB%E3%82%8D%E3%81%A3%E3%81%8F%20VOLUME%203%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%81%BC%E3%81%A3%E3%81%A1%E3%83%BB%E3%81%96%E3%83%BB%E3%82%8D%E3%81%A3%E3%81%8F%20VOLUME%203%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 5800
     },
     {
      "pz": "LO",
      "shopee": 3990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasd-m9wxwsc1b5rl9d",
-     "jp": 8030,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%81%BC%E3%81%A3%E3%81%A1%E3%83%BB%E3%81%96%E3%83%BB%E3%82%8D%E3%81%A3%E3%81%8F%20VOLUME%203%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 14737,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%81%BC%E3%81%A3%E3%81%A1%E3%83%BB%E3%81%96%E3%83%BB%E3%82%8D%E3%81%A3%E3%81%8F%20VOLUME%203%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      14737
+     ],
+     "jpN": 1,
+     "jpMin": 14737,
+     "jpMed": 14737,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 7100,
+     "jpItem": "2JVuSSiuz7yL4CdTAq9E3N",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 4290,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-m9wxwgse7egh26",
      "jp": 5600,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%81%BC%E3%81%A3%E3%81%A1%E3%83%BB%E3%81%96%E3%83%BB%E3%82%8D%E3%81%A3%E3%81%8F%20VOLUME%203%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%81%BC%E3%81%A3%E3%81%A1%E3%83%BB%E3%81%96%E3%83%BB%E3%82%8D%E3%81%A3%E3%81%8F%20VOLUME%203%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 4399
     },
     {
      "pz": "C",
      "shopee": 5890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasm-m9wxwkoiicq9da",
-     "jp": 13000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%81%BC%E3%81%A3%E3%81%A1%E3%83%BB%E3%81%96%E3%83%BB%E3%82%8D%E3%81%A3%E3%81%8F%20VOLUME%203%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 14000,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%81%BC%E3%81%A3%E3%81%A1%E3%83%BB%E3%81%96%E3%83%BB%E3%82%8D%E3%81%A3%E3%81%8F%20VOLUME%203%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      14000
+     ],
+     "jpN": 1,
+     "jpMin": 14000,
+     "jpMed": 14000,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 10499,
+     "jpItem": "m41725435100",
+     "st": null
     }
    ]
   },
@@ -15411,22 +15959,62 @@
      "pz": "B",
      "shopee": 2390,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztl-ml7f2l60hds229",
-     "jp": 3500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E8%82%86%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 2899,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E8%82%86%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2899
+     ],
+     "jpN": 1,
+     "jpMin": 2899,
+     "jpMed": 2899,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2777,
+     "jpItem": "m35966587104",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 3890,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztf-ml7f2msgv4el2b",
-     "jp": 6499,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E8%82%86%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 6900,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E8%82%86%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      5500,
+      6799,
+      8400
+     ],
+     "jpN": 3,
+     "jpMin": 5500,
+     "jpMed": 6799,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 7080,
+     "jpItem": "m45232143062",
+     "st": null
     },
     {
      "pz": "Last one",
      "shopee": 6490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztc-ml7f2phm35ds4e",
-     "jp": 11500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E8%82%86%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 12877,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E8%82%86%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      11499,
+      13333,
+      13800
+     ],
+     "jpN": 3,
+     "jpMin": 11499,
+     "jpMed": 13333,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 9500,
+     "jpItem": "m96547269086",
+     "st": null
     }
    ]
   },
@@ -15462,21 +16050,52 @@
      "shopee": 1850,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasa-mamznjjwp0dya6",
      "jp": 3630,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%20vol.2%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%20vol.2%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 2500
     },
     {
      "pz": "B",
      "shopee": 1850,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasa-mamznla24nlg47",
-     "jp": 1700,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%20vol.2%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4092,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%20vol.2%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3280,
+      4300,
+      4696
+     ],
+     "jpN": 3,
+     "jpMin": 3280,
+     "jpMed": 4300,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2292,
+     "jpItem": "m20972379842",
+     "st": null
     },
     {
      "pz": "Last one",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasb-mamznn2pi1py41",
-     "jp": 2299,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%20vol.2%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 4967,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%20vol.2%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3280,
+      4630,
+      6990
+     ],
+     "jpN": 3,
+     "jpMin": 3280,
+     "jpMed": 4630,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1900,
+     "jpItem": "m74557178027",
+     "st": null
     }
    ]
   },
@@ -15566,14 +16185,29 @@
      "shopee": 3890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0k-mbcise8tnkapae",
      "jp": 8300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%2010th%20anniversary%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%2010th%20anniversary%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 8019
     },
     {
      "pz": "A",
      "shopee": 2999,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0q-mbcise8tm5q928",
-     "jp": 5860,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%2010th%20anniversary%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 8555,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%2010th%20anniversary%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      8555
+     ],
+     "jpN": 1,
+     "jpMin": 8555,
+     "jpMed": 8555,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 7790,
+     "jpItem": "m90696456130",
+     "st": null
     }
    ]
   },
@@ -15590,73 +16224,200 @@
      "pz": "B",
      "shopee": 2090,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztf-mm30406yax3792",
-     "jp": 2200,
+     "jp": 3653,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%80%9D%E3%81%84%E6%8F%8F%E3%81%8F%E6%9C%AA%E6%9D%A5%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "2JPS9zcQGrsjpMGkJaqU8c"
+     "jpItem": "m26433355448",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2900,
+      3904,
+      3904,
+      3904
+     ],
+     "jpN": 4,
+     "jpMin": 2900,
+     "jpMed": 3904,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2200,
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 4690,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztd-mm304a9qh7upc1",
-     "jp": 1499,
+     "jp": 8579,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%80%9D%E3%81%84%E6%8F%8F%E3%81%8F%E6%9C%AA%E6%9D%A5%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "m41843431058"
+     "jpItem": "m41270840369",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6000,
+      8920,
+      8986,
+      8986,
+      9000,
+      9580
+     ],
+     "jpN": 6,
+     "jpMin": 6000,
+     "jpMed": 8986,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 5400,
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 2090,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztc-mm303wwgasqs47",
-     "jp": 1500,
+     "jp": 2366,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%80%9D%E3%81%84%E6%8F%8F%E3%81%8F%E6%9C%AA%E6%9D%A5%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "2JPS9zkxhkyPAfrjCr9B4q"
+     "jpItem": "m85943120664",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2100,
+      2499,
+      2500
+     ],
+     "jpN": 3,
+     "jpMin": 2100,
+     "jpMed": 2499,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1500,
+     "st": null
     },
     {
      "pz": "E1",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztd-mm304licsy6n68",
-     "jp": 660,
+     "jp": 1280,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%80%9D%E3%81%84%E6%8F%8F%E3%81%8F%E6%9C%AA%E6%9D%A5%20E%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "2JPS9xn5RvJzTe8ptJovK9"
+     "jpItem": "m68100673927",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      900,
+      1100,
+      1399,
+      1500,
+      1500
+     ],
+     "jpN": 5,
+     "jpMin": 900,
+     "jpMed": 1399,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 660,
+     "st": null
     },
     {
      "pz": "E2",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zte-mm304rjydpfo39",
-     "jp": 660,
+     "jp": 1280,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%80%9D%E3%81%84%E6%8F%8F%E3%81%8F%E6%9C%AA%E6%9D%A5%20E%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "2JPS9xn5RvJzTe8ptJovK9"
+     "jpItem": "m68100673927",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      900,
+      1100,
+      1399,
+      1500,
+      1500
+     ],
+     "jpN": 5,
+     "jpMin": 900,
+     "jpMed": 1399,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 660,
+     "st": null
     },
     {
      "pz": "Last one",
      "shopee": 4590,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztd-mm305dqud81sad",
-     "jp": 3399,
+     "jp": 5285,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%80%9D%E3%81%84%E6%8F%8F%E3%81%8F%E6%9C%AA%E6%9D%A5%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
-     "jpItem": "m99477845468"
+     "jpItem": "m80494167628",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4799,
+      5500,
+      5555
+     ],
+     "jpN": 3,
+     "jpMin": 4799,
+     "jpMed": 5500,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3700,
+     "st": null
     },
     {
      "pz": "D",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztg-mm304da9to2715",
-     "jp": 1500,
+     "jp": 2599,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%80%9D%E3%81%84%E6%8F%8F%E3%81%8F%E6%9C%AA%E6%9D%A5%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "2JPSA4HYNvReD75qUR5CkV"
+     "jpItem": "m42933741448",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2599
+     ],
+     "jpN": 1,
+     "jpMin": 2599,
+     "jpMed": 2599,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1500,
+     "st": null
     },
     {
      "pz": "E3",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zte-mm3056b5tr7s38",
-     "jp": 660,
+     "jp": 1280,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%80%9D%E3%81%84%E6%8F%8F%E3%81%8F%E6%9C%AA%E6%9D%A5%20E%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "2JPS9xn5RvJzTe8ptJovK9"
+     "jpItem": "m68100673927",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      900,
+      1100,
+      1399,
+      1500,
+      1500
+     ],
+     "jpN": 5,
+     "jpMin": 900,
+     "jpMed": 1399,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 660,
+     "st": null
     },
     {
      "pz": "E4",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztj-mm305a3qrvusf9",
-     "jp": 660,
+     "jp": 1280,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%80%9D%E3%81%84%E6%8F%8F%E3%81%8F%E6%9C%AA%E6%9D%A5%20E%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "2JPS9xn5RvJzTe8ptJovK9"
+     "jpItem": "m68100673927",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      900,
+      1100,
+      1399,
+      1500,
+      1500
+     ],
+     "jpN": 5,
+     "jpMin": 900,
+     "jpMed": 1399,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 660,
+     "st": null
     }
    ]
   },
@@ -15673,22 +16434,49 @@
      "pz": "A",
      "shopee": 1999,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasa-mamh0vzvtras05",
-     "jp": 3100,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20WIND%20BREAKER%20After%20the%20battle%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 6082,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20WIND%20BREAKER%20After%20the%20battle%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6082
+     ],
+     "jpN": 1,
+     "jpMin": 6082,
+     "jpMed": 6082,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3000,
+     "jpItem": "2JUqxjJxtgug6Jn7AZ5Dh2",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 3099,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasi-mamh0ujfyhys7b",
      "jp": 3888,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20WIND%20BREAKER%20After%20the%20battle%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20WIND%20BREAKER%20After%20the%20battle%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 4450
     },
     {
      "pz": "Last one",
      "shopee": 3099,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasb-mamh0th5ij5ge6",
-     "jp": 5800,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20WIND%20BREAKER%20After%20the%20battle%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 8986,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20WIND%20BREAKER%20After%20the%20battle%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      8986
+     ],
+     "jpN": 1,
+     "jpMin": 8986,
+     "jpMed": 8986,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 5200,
+     "jpItem": "2JJ9x7ydHGCnGLTSKCYQAA",
+     "st": null
     }
    ]
   },
@@ -15705,29 +16493,71 @@
      "pz": "LO",
      "shopee": 3190,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0i-mdj5tvw110mqfb",
-     "jp": 5399,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%20%E5%85%A8%E5%9B%BD%E3%81%B8%E3%81%AE%E9%81%93%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 10642,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%20%E5%85%A8%E5%9B%BD%E3%81%B8%E3%81%AE%E9%81%93%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      7534,
+      8500,
+      12438,
+      14094
+     ],
+     "jpN": 4,
+     "jpMin": 7534,
+     "jpMed": 10469,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 4800,
+     "jpItem": "2JKC9x5ACkhr4ivsCNEddE",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0h-mdj5v5zjkir213",
-     "jp": 588,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%20%E5%85%A8%E5%9B%BD%E3%81%B8%E3%81%AE%E9%81%93%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 8111,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%20%E5%85%A8%E5%9B%BD%E3%81%B8%E3%81%AE%E9%81%93%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      8111
+     ],
+     "jpN": 1,
+     "jpMin": 8111,
+     "jpMed": 8111,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 588,
+     "jpItem": "m38448702528",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 2190,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0l-mdj5unsq6rjife",
-     "jp": 3999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%20%E5%85%A8%E5%9B%BD%E3%81%B8%E3%81%AE%E9%81%93%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 5620,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%20%E5%85%A8%E5%9B%BD%E3%81%B8%E3%81%AE%E9%81%93%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      5620
+     ],
+     "jpN": 1,
+     "jpMin": 5620,
+     "jpMed": 5620,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 5600,
+     "jpItem": "VSChJPXsqNQpp9ugYCoPAm",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 5890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0n-mdj5v3wwlqpee5",
      "jp": 13300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%20%E5%85%A8%E5%9B%BD%E3%81%B8%E3%81%AE%E9%81%93%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%20%E5%85%A8%E5%9B%BD%E3%81%B8%E3%81%AE%E9%81%93%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 15000
     }
    ]
   },
@@ -15744,22 +16574,66 @@
      "pz": "C",
      "shopee": 3190,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasf-m1wisrrguueh73",
-     "jp": 4500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E5%8F%82%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4000,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E5%8F%82%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3299,
+      4200,
+      4500
+     ],
+     "jpN": 3,
+     "jpMin": 3299,
+     "jpMed": 4200,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2888,
+     "jpItem": "m11067831394",
+     "st": null
     },
     {
      "pz": "Last one",
      "shopee": 11500,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasf-m1wisrrg8dbda2",
-     "jp": 26999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E5%8F%82%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 26713,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E5%8F%82%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      24300,
+      25555,
+      26999,
+      29999
+     ],
+     "jpN": 4,
+     "jpMin": 24300,
+     "jpMed": 26277,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 28000,
+     "jpItem": "m40253503791",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 2400,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasc-m1wisrrg2rjrd6",
-     "jp": 2500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E5%8F%82%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3495,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6%20%E6%B8%8B%E8%B0%B7%E4%BA%8B%E5%A4%89%20%E5%8F%82%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2800,
+      2800,
+      3805,
+      4575
+     ],
+     "jpN": 4,
+     "jpMin": 2800,
+     "jpMed": 3303,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1800,
+     "jpItem": "2JTY3L9bttrncpG9nrshT8",
+     "st": null
     }
    ]
   },
@@ -15777,35 +16651,50 @@
      "shopee": 3890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasj-m1dqvu1lvnhr47",
      "jp": 7999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%83%B3%E3%81%84%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%83%B3%E3%81%84%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "A",
      "shopee": 3290,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m1dqvu1l0qzzb3",
      "jp": 2200,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%83%B3%E3%81%84%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%83%B3%E3%81%84%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "B",
      "shopee": 3290,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras8-m1dqvu1lg78v9a",
      "jp": 5300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%83%B3%E3%81%84%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%83%B3%E3%81%84%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "D",
      "shopee": 6690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m1dqvu1l0r03a0",
      "jp": 5879,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%83%B3%E3%81%84%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%83%B3%E3%81%84%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "Last one",
      "shopee": 15190,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rash-m1dqvu1lvnhv91",
      "jp": 5600,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%83%B3%E3%81%84%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%83%B3%E3%81%84%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     }
    ]
   },
@@ -15822,29 +16711,88 @@
      "pz": "Last one luffy",
      "shopee": 2290,
      "img": "https://cf.shopee.co.th/file/th-11134207-7r991-ly56f6bwj98h99",
-     "jp": 2999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20BEYOND%20THE%20LEVEL%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 4382,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20BEYOND%20THE%20LEVEL%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3333,
+      3999,
+      4600,
+      4980,
+      4999
+     ],
+     "jpN": 5,
+     "jpMin": 3333,
+     "jpMed": 4600,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 2800,
+     "jpItem": "m75667375734",
+     "st": null
     },
     {
      "pz": "A Luffy",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7r990-ly56d6t15v7a7b",
-     "jp": 2222,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20BEYOND%20THE%20LEVEL%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3833,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20BEYOND%20THE%20LEVEL%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3500,
+      4000,
+      4000
+     ],
+     "jpN": 3,
+     "jpMin": 3500,
+     "jpMed": 4000,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2500,
+     "jpItem": "m71352536766",
+     "st": null
     },
     {
      "pz": "B law",
      "shopee": 1690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7r990-ly56d6t179rqb7",
-     "jp": 2222,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20BEYOND%20THE%20LEVEL%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3655,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20BEYOND%20THE%20LEVEL%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2111,
+      2222,
+      2700,
+      2900,
+      8343
+     ],
+     "jpN": 5,
+     "jpMin": 2111,
+     "jpMed": 2700,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 2100,
+     "jpItem": "m58818586597",
+     "st": null
     },
     {
      "pz": "C Kid",
      "shopee": 1790,
      "img": "https://cf.shopee.co.th/file/th-11134207-7r990-ly56f6bwhuo1b3",
-     "jp": 2000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20BEYOND%20THE%20LEVEL%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3675,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20BEYOND%20THE%20LEVEL%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3550,
+      3799
+     ],
+     "jpN": 2,
+     "jpMin": 3550,
+     "jpMed": 3675,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2199,
+     "jpItem": "m78311758430",
+     "st": null
     }
    ]
   },
@@ -15897,22 +16845,49 @@
      "pz": "B",
      "shopee": 1490,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0q-mchjy2wvww5h92",
-     "jp": 1400,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%80%AA%E7%8D%A38%E5%8F%B7%201%E5%BC%BE%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3900,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%80%AA%E7%8D%A38%E5%8F%B7%201%E5%BC%BE%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3900
+     ],
+     "jpN": 1,
+     "jpMin": 3900,
+     "jpMed": 3900,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1500,
+     "jpItem": "m48466944628",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 1990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0n-mchjy2rm4lzyb9",
      "jp": 1777,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%80%AA%E7%8D%A38%E5%8F%B7%201%E5%BC%BE%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%80%AA%E7%8D%A38%E5%8F%B7%201%E5%BC%BE%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 1777
     },
     {
      "pz": "LO",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0r-mchjy2uxzqlae4",
-     "jp": 3520,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%80%AA%E7%8D%A38%E5%8F%B7%201%E5%BC%BE%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 4339,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E6%80%AA%E7%8D%A38%E5%8F%B7%201%E5%BC%BE%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4339
+     ],
+     "jpN": 1,
+     "jpMin": 4339,
+     "jpMed": 4339,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2300,
+     "jpItem": "2JL4LTbprJFsrxYKLb7Rpc",
+     "st": null
     }
    ]
   },
@@ -15929,36 +16904,100 @@
      "pz": "Last one",
      "shopee": 2990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasi-m1d2ximrq2en55",
-     "jp": 5499,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E7%B5%B6%E5%AF%BE%E7%9A%84%E6%AD%A3%E7%BE%A9%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 11799,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E7%B5%B6%E5%AF%BE%E7%9A%84%E6%AD%A3%E7%BE%A9%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6300,
+      14007,
+      15091
+     ],
+     "jpN": 3,
+     "jpMin": 6300,
+     "jpMed": 14007,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 5400,
+     "jpItem": "m17758571145",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 3400,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m1d2xihhibvz9a",
-     "jp": 6499,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E7%B5%B6%E5%AF%BE%E7%9A%84%E6%AD%A3%E7%BE%A9%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 7525,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E7%B5%B6%E5%AF%BE%E7%9A%84%E6%AD%A3%E7%BE%A9%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6500,
+      8550
+     ],
+     "jpN": 2,
+     "jpMin": 6500,
+     "jpMed": 7525,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 5999,
+     "jpItem": "m49873930923",
+     "st": null
     },
     {
      "pz": "D",
      "shopee": 2490,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasj-m1d2ximram5vf9",
-     "jp": 2500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E7%B5%B6%E5%AF%BE%E7%9A%84%E6%AD%A3%E7%BE%A9%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4300,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E7%B5%B6%E5%AF%BE%E7%9A%84%E6%AD%A3%E7%BE%A9%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4300
+     ],
+     "jpN": 1,
+     "jpMin": 4300,
+     "jpMed": 4300,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3500,
+     "jpItem": "m19076054983",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 10790,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasf-m1d2xihhibw3a3",
-     "jp": 25000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E7%B5%B6%E5%AF%BE%E7%9A%84%E6%AD%A3%E7%BE%A9%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 26350,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E7%B5%B6%E5%AF%BE%E7%9A%84%E6%AD%A3%E7%BE%A9%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      22999,
+      29700
+     ],
+     "jpN": 2,
+     "jpMin": 22999,
+     "jpMed": 26350,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 25900,
+     "jpItem": "m15388038608",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 3990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m1d2ximram5rd3",
-     "jp": 8910,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E7%B5%B6%E5%AF%BE%E7%9A%84%E6%AD%A3%E7%BE%A9%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 6666,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E7%B5%B6%E5%AF%BE%E7%9A%84%E6%AD%A3%E7%BE%A9%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6666
+     ],
+     "jpN": 1,
+     "jpMin": 6666,
+     "jpMed": 6666,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 7000,
+     "jpItem": "m35696695372",
+     "st": null
     }
    ]
   },
@@ -15976,56 +17015,98 @@
      "shopee": 720,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0g-mddeciv79ccleb",
      "jp": 555,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20F%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20F%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 477
     },
     {
      "pz": "F Blue",
      "shopee": 890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0g-mddecky47psu47",
      "jp": 555,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20F%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20F%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 477
     },
     {
      "pz": "D",
      "shopee": 1090,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0t-mddeamf1fcg533",
      "jp": 1300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 1100
     },
     {
      "pz": "A",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0n-mddeaf6810p10e",
-     "jp": 600,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 1500,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      1500
+     ],
+     "jpN": 1,
+     "jpMin": 1500,
+     "jpMed": 1500,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1100,
+     "jpItem": "m90666660865",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0o-mddeail515cu34",
-     "jp": 1299,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4630,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4630
+     ],
+     "jpN": 1,
+     "jpMin": 4630,
+     "jpMed": 4630,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1480,
+     "jpItem": "2JLrxWXvcb7yPyrJxK4NLw",
+     "st": null
     },
     {
      "pz": "F Black",
      "shopee": 720,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0h-mddeccd0s1ge62",
      "jp": 555,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20F%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20F%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 477
     },
     {
      "pz": "C",
      "shopee": 1650,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0i-mddeaki881j923",
      "jp": 2100,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 1470
     },
     {
      "pz": "E Dish",
      "shopee": 1690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0o-mddecgr6cllqb1",
      "jp": 1850,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20E%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20%E3%82%AA%E3%83%A9%E3%81%8A%E8%85%B9%E3%81%84%E3%81%A3%E3%81%B1%E3%81%84%E3%81%A0%E3%82%BE%20E%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 1850
     }
    ]
   },
@@ -16061,21 +17142,40 @@
      "shopee": 2190,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasm-m6fjnb95rnsf95",
      "jp": 4200,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20SAKAMOTO%20DAYS%20vol.1%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20SAKAMOTO%20DAYS%20vol.1%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 2500
     },
     {
      "pz": "B",
      "shopee": 1990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-m6fjnfezoelcf8",
      "jp": 2600,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20SAKAMOTO%20DAYS%20vol.1%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20SAKAMOTO%20DAYS%20vol.1%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 1600
     },
     {
      "pz": "Last one",
      "shopee": 2990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-m6fjniqav7lb8b",
-     "jp": 4300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20SAKAMOTO%20DAYS%20vol.1%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 6907,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20SAKAMOTO%20DAYS%20vol.1%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6280,
+      7534
+     ],
+     "jpN": 2,
+     "jpMin": 6280,
+     "jpMed": 6907,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3499,
+     "jpItem": "2JUXxVUZT7xCFkKXqNnvCm",
+     "st": null
     }
    ]
   },
@@ -16129,21 +17229,30 @@
      "shopee": 4890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0k-mbck04h7wyup2c",
      "jp": null,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%20I%20will%20remember%20this%20day%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%20I%20will%20remember%20this%20day%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "Last one",
      "shopee": 3590,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0l-mbck0ctpp8c1c0",
      "jp": 5500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%20I%20will%20remember%20this%20day%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%20I%20will%20remember%20this%20day%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "B",
      "shopee": 4890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ra0q-mbck07l1dc3l40",
      "jp": null,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%20I%20will%20remember%20this%20day%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20Re%3A%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%20I%20will%20remember%20this%20day%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     }
    ]
   },
@@ -16178,29 +17287,82 @@
      "pz": "Last one",
      "shopee": 3890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7r98t-m05ebswp60fu24",
-     "jp": 3833,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E8%8B%B1%E9%9B%84%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 4908,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E8%8B%B1%E9%9B%84%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3800,
+      6016
+     ],
+     "jpN": 2,
+     "jpMin": 3800,
+     "jpMed": 4908,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 4000,
+     "jpItem": "m14017549752",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasd-m13or1baw3uhd6",
-     "jp": 1780,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E8%8B%B1%E9%9B%84%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4207,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E8%8B%B1%E9%9B%84%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2300,
+      2980,
+      4000,
+      7549
+     ],
+     "jpN": 4,
+     "jpMin": 2300,
+     "jpMed": 3490,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2000,
+     "jpItem": "m38872084347",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 3890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7r98y-m05ebswp60goab",
-     "jp": 4700,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E8%8B%B1%E9%9B%84%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 8156,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E8%8B%B1%E9%9B%84%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6600,
+      9712
+     ],
+     "jpN": 2,
+     "jpMin": 6600,
+     "jpMed": 8156,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 4000,
+     "jpItem": "2JVgDxwDdSXVtysZmwALVK",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasl-m13or1baxiex70",
-     "jp": 1400,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E8%8B%B1%E9%9B%84%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 2400,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E8%8B%B1%E9%9B%84%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2400
+     ],
+     "jpN": 1,
+     "jpMin": 2400,
+     "jpMed": 2400,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1180,
+     "jpItem": "m13971729573",
+     "st": null
     }
    ]
   },
@@ -16218,35 +17380,59 @@
      "shopee": 1390,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasm-m8swp3gn9mj3e8",
      "jp": 2300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DRAGON%20HISTORY%20II%20Revible%20Moment%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DRAGON%20HISTORY%20II%20Revible%20Moment%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 1799
     },
     {
      "pz": "Last one",
      "shopee": 2890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasl-m8swpmox4ken41",
      "jp": 5720,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DRAGON%20HISTORY%20II%20Revible%20Moment%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DRAGON%20HISTORY%20II%20Revible%20Moment%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "B",
      "shopee": 1690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-m8swp6qugnbdc8",
-     "jp": 2420,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DRAGON%20HISTORY%20II%20Revible%20Moment%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3800,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DRAGON%20HISTORY%20II%20Revible%20Moment%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3800
+     ],
+     "jpN": 1,
+     "jpMin": 3800,
+     "jpMed": 3800,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2462,
+     "jpItem": "m98029330759",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 1490,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasg-m8swparokpcf73",
      "jp": 1666,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DRAGON%20HISTORY%20II%20Revible%20Moment%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DRAGON%20HISTORY%20II%20Revible%20Moment%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 3000
     },
     {
      "pz": "D",
      "shopee": 1390,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasg-m8swpgbqfy1557",
      "jp": 2400,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DRAGON%20HISTORY%20II%20Revible%20Moment%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DRAGON%20HISTORY%20II%20Revible%20Moment%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 2100
     }
    ]
   },
@@ -16264,14 +17450,20 @@
      "shopee": 11990,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zti-mg5acem5dvyibf",
      "jp": 27999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%B4%E3%82%B8%E3%83%A9%20%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%AE%E3%83%89%E3%83%A9%20MEGA%20BRAVE%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%B4%E3%82%B8%E3%83%A9%20%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%AE%E3%83%89%E3%83%A9%20MEGA%20BRAVE%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "B",
      "shopee": 11990,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztq-mg5ae2ude0p73e",
      "jp": 27333,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%B4%E3%82%B8%E3%83%A9%20%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%AE%E3%83%89%E3%83%A9%20MEGA%20BRAVE%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%B4%E3%82%B8%E3%83%A9%20%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%AE%E3%83%89%E3%83%A9%20MEGA%20BRAVE%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     }
    ]
   },
@@ -16289,21 +17481,30 @@
      "shopee": 4050,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m41b0z9rml6y5d",
      "jp": 7555,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%AC%BC%E6%BB%85%E3%81%AE%E5%88%83%20The%20Connected%20Trail%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%AC%BC%E6%BB%85%E3%81%AE%E5%88%83%20The%20Connected%20Trail%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "Last one น้ำตาทันจิ",
      "shopee": 4400,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasf-m41b0z9rnzre62",
      "jp": null,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%AC%BC%E6%BB%85%E3%81%AE%E5%88%83%20The%20Connected%20Trail%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%AC%BC%E6%BB%85%E3%81%AE%E5%88%83%20The%20Connected%20Trail%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "A",
      "shopee": 2350,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m41b0z9rl6mie6",
      "jp": 3400,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%AC%BC%E6%BB%85%E3%81%AE%E5%88%83%20The%20Connected%20Trail%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E9%AC%BC%E6%BB%85%E3%81%AE%E5%88%83%20The%20Connected%20Trail%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     }
    ]
   },
@@ -16321,28 +17522,40 @@
      "shopee": 3290,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasg-m9uxnpewj3zl88",
      "jp": 5000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20%E9%BB%84%E9%87%91%E8%81%96%E9%97%98%E5%A3%AB%E7%B7%A8%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20%E9%BB%84%E9%87%91%E8%81%96%E9%97%98%E5%A3%AB%E7%B7%A8%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 4200
     },
     {
      "pz": "Last One",
      "shopee": 3690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasc-m9uxo2s0z1an32",
      "jp": 5720,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20%E9%BB%84%E9%87%91%E8%81%96%E9%97%98%E5%A3%AB%E7%B7%A8%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20%E9%BB%84%E9%87%91%E8%81%96%E9%97%98%E5%A3%AB%E7%B7%A8%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 4700
     },
     {
      "pz": "A",
      "shopee": 2990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m9uxm2nsibjld0",
      "jp": 3500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20%E9%BB%84%E9%87%91%E8%81%96%E9%97%98%E5%A3%AB%E7%B7%A8%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20%E9%BB%84%E9%87%91%E8%81%96%E9%97%98%E5%A3%AB%E7%B7%A8%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 4500
     },
     {
      "pz": "B",
      "shopee": 3490,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasj-m9uxnejeg0njab",
      "jp": 3500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20%E9%BB%84%E9%87%91%E8%81%96%E9%97%98%E5%A3%AB%E7%B7%A8%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E8%81%96%E9%97%98%E5%A3%AB%E6%98%9F%E7%9F%A2%20%E9%BB%84%E9%87%91%E8%81%96%E9%97%98%E5%A3%AB%E7%B7%A8%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 4100
     }
    ]
   },
@@ -16359,43 +17572,110 @@
      "pz": "E",
      "shopee": 1990,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zte-mlffgg8r5iiq52",
-     "jp": 2800,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20E%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4220,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20E%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3640,
+      3666,
+      4200,
+      4696,
+      4900
+     ],
+     "jpN": 5,
+     "jpMin": 3640,
+     "jpMed": 4200,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 2222,
+     "jpItem": "2JUW5EqPKdpNBerjdtecz7",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 2390,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zte-mlffg9bwd24leb",
-     "jp": 4450,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 6577,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      5620,
+      7534
+     ],
+     "jpN": 2,
+     "jpMin": 5620,
+     "jpMed": 6577,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 4300,
+     "jpItem": "2JHwSfnPEqRRR6oDJkCGzq",
+     "st": null
     },
     {
      "pz": "D",
      "shopee": 2490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81zte-mlffgea4ttsf20",
      "jp": 4100,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 4388
     },
     {
      "pz": "A",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztm-mlffg7awbbph22",
-     "jp": 2300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3447,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2990,
+      3904
+     ],
+     "jpN": 2,
+     "jpMin": 2990,
+     "jpMed": 3447,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2400,
+     "jpItem": "m68228495303",
+     "st": null
     },
     {
      "pz": "LO",
      "shopee": 3990,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztj-mlffgl3up6o8f4",
-     "jp": 3666,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 4764,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4441,
+      4511,
+      4555,
+      4696,
+      4880,
+      4900,
+      5065,
+      5065
+     ],
+     "jpN": 8,
+     "jpMin": 4441,
+     "jpMed": 4788,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 3480,
+     "jpItem": "m66668380667",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 3490,
      "img": "https://cf.shopee.co.th/file/th-11134207-81ztm-mlffgc40t3pk2e",
      "jp": 6666,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Unbreakable%20Law%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 6500
     }
    ]
   },
@@ -16431,28 +17711,68 @@
      "shopee": 3690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rash-m257acfc522xac",
      "jp": 1799,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E9%96%8B%E5%82%AC%E6%96%87%E5%8C%96%E7%A5%AD%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E9%96%8B%E5%82%AC%E6%96%87%E5%8C%96%E7%A5%AD%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 1800
     },
     {
      "pz": "Last one",
      "shopee": 14000,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasd-m257acfc6gndcf",
-     "jp": 25000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E9%96%8B%E5%82%AC%E6%96%87%E5%8C%96%E7%A5%AD%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 31075,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E9%96%8B%E5%82%AC%E6%96%87%E5%8C%96%E7%A5%AD%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      30150,
+      31999
+     ],
+     "jpN": 2,
+     "jpMin": 30150,
+     "jpMed": 31075,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 26444,
+     "jpItem": "m40128089987",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 3890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasb-m257acfc3nihd6",
-     "jp": 5555,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E9%96%8B%E5%82%AC%E6%96%87%E5%8C%96%E7%A5%AD%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 5777,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E9%96%8B%E5%82%AC%E6%96%87%E5%8C%96%E7%A5%AD%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      5777
+     ],
+     "jpN": 1,
+     "jpMin": 5777,
+     "jpMed": 5777,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 4400,
+     "jpItem": "m28980237536",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 3490,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasc-m257acfc28y1ea",
-     "jp": 7500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E9%96%8B%E5%82%AC%E6%96%87%E5%8C%96%E7%A5%AD%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 8000,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E9%96%8B%E5%82%AC%E6%96%87%E5%8C%96%E7%A5%AD%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      8000
+     ],
+     "jpN": 1,
+     "jpMin": 8000,
+     "jpMed": 8000,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 6810,
+     "jpItem": "m30939247267",
+     "st": null
     }
    ]
   },
@@ -16469,43 +17789,120 @@
      "pz": "C",
      "shopee": 1990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasj-m87p9gg2h72hcc",
-     "jp": 2999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4867,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4000,
+      5300,
+      5300
+     ],
+     "jpN": 3,
+     "jpMin": 4000,
+     "jpMed": 5300,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2777,
+     "jpItem": "m53172899014",
+     "st": null
     },
     {
      "pz": "LastOne",
      "shopee": 1990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasg-m87p9qay1vtb88",
-     "jp": 2555,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 4230,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2555,
+      4900,
+      5235
+     ],
+     "jpN": 3,
+     "jpMin": 2555,
+     "jpMed": 4900,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3400,
+     "jpItem": "m38768536198",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 1300,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras8-m87p9a67npjddc",
-     "jp": 1700,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 2911,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2100,
+      2201,
+      3376,
+      3376,
+      3500
+     ],
+     "jpN": 5,
+     "jpMin": 2100,
+     "jpMed": 3376,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 1600,
+     "jpItem": "m37847510906",
+     "st": null
     },
     {
      "pz": "D",
      "shopee": 1990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasi-m87p9jl9vjgv4f",
      "jp": 2609,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 2609
     },
     {
      "pz": "E",
      "shopee": 1200,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rash-m87p9mrl88w9f3",
-     "jp": 1011,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20E%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 1836,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20E%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      1444,
+      1700,
+      2000,
+      2200
+     ],
+     "jpN": 4,
+     "jpMin": 1444,
+     "jpMed": 1850,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1300,
+     "jpItem": "m64397839432",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 1990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m87p9d47clzjc8",
-     "jp": 3080,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4790,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E5%8C%A0%E3%83%8E%E7%B3%BB%E8%AD%9C%20%E8%A6%87%E6%A5%B5%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4000,
+      4500,
+      5000,
+      5658
+     ],
+     "jpN": 4,
+     "jpMin": 4000,
+     "jpMed": 4750,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 3490,
+     "jpItem": "m94959438532",
+     "st": null
     }
    ]
   },
@@ -16558,29 +17955,72 @@
      "pz": "C",
      "shopee": 1790,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasj-m58g5gmo981jed",
-     "jp": 2300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20STAND%20UP%20AGAIN%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3904,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20STAND%20UP%20AGAIN%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3904
+     ],
+     "jpN": 1,
+     "jpMin": 3904,
+     "jpMed": 3904,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2400,
+     "jpItem": "2JVysFk9VjzVTpiPNmm5Nm",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 2690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m58g5cagomn1df",
-     "jp": 5500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20STAND%20UP%20AGAIN%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 12099,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20STAND%20UP%20AGAIN%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      12099
+     ],
+     "jpN": 1,
+     "jpMin": 12099,
+     "jpMed": 12099,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 5200,
+     "jpItem": "2JVXqPWfPYYMHKvdwL6SYy",
+     "st": null
     },
     {
      "pz": "Last one",
      "shopee": 8190,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasm-m58g5k0hayzh81",
      "jp": 18800,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20STAND%20UP%20AGAIN%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20STAND%20UP%20AGAIN%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 16500
     },
     {
      "pz": "A",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m58g57tt4wzb76",
-     "jp": 2700,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20STAND%20UP%20AGAIN%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3703,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20STAND%20UP%20AGAIN%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      1500,
+      2555,
+      3000,
+      3333,
+      8128
+     ],
+     "jpN": 5,
+     "jpMin": 1500,
+     "jpMed": 3000,
+     "jpThin": false,
+     "jpDeal": true,
+     "jpUsed": 2200,
+     "jpItem": "m24386869476",
+     "st": null
     }
    ]
   },
@@ -16597,49 +18037,126 @@
      "pz": "B ตาธรรมดา",
      "shopee": 12900,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasl-m9sj7e5q9lgxfb",
-     "jp": 4700,
+     "jp": 13175,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E7%B4%A1%E3%81%8C%E3%82%8C%E3%82%8B%E7%81%AB%E3%81%AE%E6%84%8F%E5%BF%97%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "m92409123543"
+     "jpItem": "m83539946022",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4700,
+      6000,
+      19999,
+      22000
+     ],
+     "jpN": 4,
+     "jpMin": 4700,
+     "jpMed": 13000,
+     "jpThin": true,
+     "jpDeal": true,
+     "jpUsed": 4700,
+     "st": null
     },
     {
      "pz": "C ตาเนตร",
      "shopee": 6890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasi-m9sirr9o0ztb14",
-     "jp": 2999,
+     "jp": 7350,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E7%B4%A1%E3%81%8C%E3%82%8C%E3%82%8B%E7%81%AB%E3%81%AE%E6%84%8F%E5%BF%97%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "m31142483612"
+     "jpItem": "m60621149192",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6700,
+      8000
+     ],
+     "jpN": 2,
+     "jpMin": 6700,
+     "jpMed": 7350,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2999,
+     "st": null
     },
     {
      "pz": "Last one",
      "shopee": 29900,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasc-m9sj7w3xzxhr6a",
-     "jp": 10444,
+     "jp": 51426,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E7%B4%A1%E3%81%8C%E3%82%8C%E3%82%8B%E7%81%AB%E3%81%AE%E6%84%8F%E5%BF%97%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
-     "jpItem": "m18360800787"
+     "jpItem": "m11302720109",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      39280,
+      49999,
+      65000
+     ],
+     "jpN": 3,
+     "jpMin": 39280,
+     "jpMed": 49999,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 19999,
+     "st": null
     },
     {
      "pz": "B ตาเนตร",
      "shopee": 18900,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasa-m9sirr8a4hke46",
-     "jp": 4700,
+     "jp": 13175,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E7%B4%A1%E3%81%8C%E3%82%8C%E3%82%8B%E7%81%AB%E3%81%AE%E6%84%8F%E5%BF%97%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "m92409123543"
+     "jpItem": "m83539946022",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4700,
+      6000,
+      19999,
+      22000
+     ],
+     "jpN": 4,
+     "jpMin": 4700,
+     "jpMed": 13000,
+     "jpThin": true,
+     "jpDeal": true,
+     "jpUsed": 4700,
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 29900,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rask-m9sj78yfx2pd15",
-     "jp": 5555,
+     "jp": 82000,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E7%B4%A1%E3%81%8C%E3%82%8C%E3%82%8B%E7%81%AB%E3%81%AE%E6%84%8F%E5%BF%97%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "m11620183199"
+     "jpItem": "m79824495853",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      81000,
+      83000
+     ],
+     "jpN": 2,
+     "jpMin": 81000,
+     "jpMed": 82000,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 5555,
+     "st": null
     },
     {
      "pz": "C ตาธรรมดา",
      "shopee": 6090,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasl-m9sirr9o104xb2",
-     "jp": 2999,
+     "jp": 7350,
      "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E7%B4%A1%E3%81%8C%E3%82%8C%E3%82%8B%E7%81%AB%E3%81%AE%E6%84%8F%E5%BF%97%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
-     "jpItem": "m31142483612"
+     "jpItem": "m60621149192",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6700,
+      8000
+     ],
+     "jpN": 2,
+     "jpMin": 6700,
+     "jpMed": 7350,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2999,
+     "st": null
     }
    ]
   },
@@ -16656,22 +18173,62 @@
      "pz": "LastOne",
      "shopee": 6090,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasj-m8ee43r4jo7j87",
-     "jp": 13640,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AD%E3%83%B3%E8%82%89%E3%83%9E%E3%83%B3%20%E5%AE%8C%E7%92%A7%E8%B6%85%E4%BA%BA%E5%A7%8B%E7%A5%96%E7%B7%A8%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 15367,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AD%E3%83%B3%E8%82%89%E3%83%9E%E3%83%B3%20%E5%AE%8C%E7%92%A7%E8%B6%85%E4%BA%BA%E5%A7%8B%E7%A5%96%E7%B7%A8%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      15200,
+      15400,
+      15500
+     ],
+     "jpN": 3,
+     "jpMin": 15200,
+     "jpMed": 15400,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 11000,
+     "jpItem": "m63015579738",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 3790,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras8-m8ee3w2hshn30b",
-     "jp": 8030,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AD%E3%83%B3%E8%82%89%E3%83%9E%E3%83%B3%20%E5%AE%8C%E7%92%A7%E8%B6%85%E4%BA%BA%E5%A7%8B%E7%A5%96%E7%B7%A8%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 10155,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AD%E3%83%B3%E8%82%89%E3%83%9E%E3%83%B3%20%E5%AE%8C%E7%92%A7%E8%B6%85%E4%BA%BA%E5%A7%8B%E7%A5%96%E7%B7%A8%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      8800,
+      11510
+     ],
+     "jpN": 2,
+     "jpMin": 8800,
+     "jpMed": 10155,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 6900,
+     "jpItem": "m80314962630",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 3990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m8ee3zm4lpfte8",
-     "jp": 8580,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AD%E3%83%B3%E8%82%89%E3%83%9E%E3%83%B3%20%E5%AE%8C%E7%92%A7%E8%B6%85%E4%BA%BA%E5%A7%8B%E7%A5%96%E7%B7%A8%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 7150,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%82%AD%E3%83%B3%E8%82%89%E3%83%9E%E3%83%B3%20%E5%AE%8C%E7%92%A7%E8%B6%85%E4%BA%BA%E5%A7%8B%E7%A5%96%E7%B7%A8%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6800,
+      7500
+     ],
+     "jpN": 2,
+     "jpMin": 6800,
+     "jpMed": 7150,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 6750,
+     "jpItem": "m59008218085",
+     "st": null
     }
    ]
   },
@@ -16688,43 +18245,111 @@
      "pz": "A",
      "shopee": 2890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasa-m62nchcqgpvb9b",
-     "jp": 5900,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 7710,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6500,
+      8920
+     ],
+     "jpN": 2,
+     "jpMin": 6500,
+     "jpMed": 7710,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 5180,
+     "jpItem": "m75896934050",
+     "st": null
     },
     {
      "pz": "D",
      "shopee": 3900,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m62ndc3jh1iv05",
-     "jp": 11764,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 11763,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      11763
+     ],
+     "jpN": 1,
+     "jpMin": 11763,
+     "jpMed": 11763,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 7900,
+     "jpItem": "2JW6qxXkgTKY2xketsr5sS",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 2190,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasm-m62nd8894vbxb5",
      "jp": 4300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 4200
     },
     {
      "pz": "Last one",
      "shopee": 2650,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasi-m62ndmy7lcbhb3",
-     "jp": 5111,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 9712,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      9712
+     ],
+     "jpN": 1,
+     "jpMin": 9712,
+     "jpMed": 9712,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 4980,
+     "jpItem": "2JVg9XccumkLZd9BUWrEvi",
+     "st": null
     },
     {
      "pz": "E",
      "shopee": 4390,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasb-m62ndfrc468t37",
-     "jp": 9699,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20E%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 11371,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20E%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      8840,
+      10480,
+      14794
+     ],
+     "jpN": 3,
+     "jpMin": 8840,
+     "jpMed": 10480,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 8000,
+     "jpItem": "m65893307922",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 1300,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasf-m62nd4x7z27r4d",
-     "jp": 1900,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3292,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20EX%20%E5%AD%AB%E6%82%9F%E7%A9%BA%E4%BF%AE%E6%A5%AD%E7%B7%A8%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2500,
+      3376,
+      4000
+     ],
+     "jpN": 3,
+     "jpMin": 2500,
+     "jpMed": 3376,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2300,
+     "jpItem": "m79985334411",
+     "st": null
     }
    ]
   },
@@ -16759,29 +18384,81 @@
      "pz": "B",
      "shopee": 9990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasm-m335wu5oqgsz8c",
-     "jp": 11999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E4%B8%89%E5%BF%8D%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 27136,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E4%B8%89%E5%BF%8D%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      27136
+     ],
+     "jpN": 1,
+     "jpMin": 27136,
+     "jpMed": 27136,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 13333,
+     "jpItem": "2JVBY2vGjaXj2W5CuiVXRQ",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 20190,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasf-m335wu5oqgcs18",
-     "jp": 29199,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E4%B8%89%E5%BF%8D%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 36166,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E4%B8%89%E5%BF%8D%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      33333,
+      36666,
+      38500
+     ],
+     "jpN": 3,
+     "jpMin": 33333,
+     "jpMed": 36666,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 31999,
+     "jpItem": "m54747353928",
+     "st": null
     },
     {
      "pz": "Last one",
      "shopee": 16900,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasj-m335wu5p8q6rae",
-     "jp": 43999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E4%B8%89%E5%BF%8D%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 33500,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E4%B8%89%E5%BF%8D%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      33500
+     ],
+     "jpN": 1,
+     "jpMin": 33500,
+     "jpMed": 33500,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 34000,
+     "jpItem": "m11937196567",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 12900,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-m335wu5ob03w8d",
-     "jp": 25999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E4%B8%89%E5%BF%8D%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 33353,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20NARUTO%20%E7%96%BE%E9%A2%A8%E4%BC%9D%20%E4%BC%9D%E8%AA%AC%E3%81%AE%E4%B8%89%E5%BF%8D%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      23500,
+      31999,
+      44560
+     ],
+     "jpN": 3,
+     "jpMin": 23500,
+     "jpMed": 31999,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 21800,
+     "jpItem": "m51837340988",
+     "st": null
     }
    ]
   },
@@ -16799,28 +18476,58 @@
      "shopee": 3790,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-m0ftavbpnlbuff",
      "jp": 15600,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20BLEACH%20%E5%8D%83%E5%B9%B4%E8%A1%80%E6%88%A6%E7%AF%87%20OP.2%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20BLEACH%20%E5%8D%83%E5%B9%B4%E8%A1%80%E6%88%A6%E7%AF%87%20OP.2%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 39999
     },
     {
      "pz": "Last one",
      "shopee": 3790,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasf-m0ftavbqihtm8e",
-     "jp": 8200,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20BLEACH%20%E5%8D%83%E5%B9%B4%E8%A1%80%E6%88%A6%E7%AF%87%20OP.2%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 9280,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20BLEACH%20%E5%8D%83%E5%B9%B4%E8%A1%80%E6%88%A6%E7%AF%87%20OP.2%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      9280
+     ],
+     "jpN": 1,
+     "jpMin": 9280,
+     "jpMed": 9280,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 11665,
+     "jpItem": "m38333923638",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 3690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-m0ftavbprt2053",
-     "jp": 8400,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20BLEACH%20%E5%8D%83%E5%B9%B4%E8%A1%80%E6%88%A6%E7%AF%87%20OP.2%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 9900,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20BLEACH%20%E5%8D%83%E5%B9%B4%E8%A1%80%E6%88%A6%E7%AF%87%20OP.2%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      9900
+     ],
+     "jpN": 1,
+     "jpMin": 9900,
+     "jpMed": 9900,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 8000,
+     "jpItem": "m62977603169",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 3990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rash-m0ftavbpozx491",
      "jp": 14000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20BLEACH%20%E5%8D%83%E5%B9%B4%E8%A1%80%E6%88%A6%E7%AF%87%20OP.2%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20BLEACH%20%E5%8D%83%E5%B9%B4%E8%A1%80%E6%88%A6%E7%AF%87%20OP.2%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 8000
     }
    ]
   },
@@ -16837,36 +18544,105 @@
      "pz": "A",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras8-m4358l31qwgabb",
-     "jp": 1500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E3%83%A6%E3%82%A2%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 8646,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E3%83%A6%E3%82%A2%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      8646
+     ],
+     "jpN": 1,
+     "jpMin": 8646,
+     "jpMed": 8646,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2200,
+     "jpItem": "2JUWiZZrcveFawCqtKccRa",
+     "st": null
     },
     {
      "pz": "Last one",
      "shopee": 2300,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-m4358l31wiq2ec",
-     "jp": 2270,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E3%83%A6%E3%82%A2%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 3099,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E3%83%A6%E3%82%A2%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3099
+     ],
+     "jpN": 1,
+     "jpMin": 3099,
+     "jpMed": 3099,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2800,
+     "jpItem": "m69191232323",
+     "st": null
     },
     {
      "pz": "D",
      "shopee": 1690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras8-m4358l31v45m0c",
-     "jp": 1980,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E3%83%A6%E3%82%A2%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 6619,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E3%83%A6%E3%82%A2%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      6619
+     ],
+     "jpN": 1,
+     "jpMin": 6619,
+     "jpMed": 6619,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 2000,
+     "jpItem": "2JPHbf6h7Yuregg9qzdZ4f",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 3390,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasc-m4358l31sb0q2c",
-     "jp": 5400,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E3%83%A6%E3%82%A2%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 8223,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E3%83%A6%E3%82%A2%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      5200,
+      5900,
+      5980,
+      5999,
+      5999,
+      13372,
+      15109
+     ],
+     "jpN": 7,
+     "jpMin": 5200,
+     "jpMed": 5999,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 4888,
+     "jpItem": "m52054328849",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 1690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasl-m4358l31tpl6e4",
-     "jp": 1500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E3%83%A6%E3%82%A2%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 3408,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E5%83%95%E3%81%AE%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%82%A2%20%E3%83%A6%E3%82%A2%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      1580,
+      1600,
+      3200,
+      7252
+     ],
+     "jpN": 4,
+     "jpMin": 1580,
+     "jpMed": 2400,
+     "jpThin": true,
+     "jpDeal": true,
+     "jpUsed": 1960,
+     "jpItem": "m21252130398",
+     "st": null
     }
    ]
   },
@@ -16883,36 +18659,106 @@
      "pz": "E",
      "shopee": 1590,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasg-m2et0j7qs2jl2b",
-     "jp": 1400,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DAIMA%20E%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 2348,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DAIMA%20E%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      1750,
+      2000,
+      2750,
+      2890
+     ],
+     "jpN": 4,
+     "jpMin": 1750,
+     "jpMed": 2375,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1400,
+     "jpItem": "m11834907644",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 1490,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasj-m2et0j6wdu3o9e",
-     "jp": 1500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DAIMA%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 2555,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DAIMA%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      1850,
+      1990,
+      3080,
+      3300
+     ],
+     "jpN": 4,
+     "jpMin": 1850,
+     "jpMed": 2535,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1444,
+     "jpItem": "m18981477687",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 1890,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m2et0j7qcmap94",
-     "jp": 2300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DAIMA%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 2222,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DAIMA%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2222
+     ],
+     "jpN": 1,
+     "jpMin": 2222,
+     "jpMed": 2222,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1600,
+     "jpItem": "m73645129598",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 1390,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rask-m2et0j6wdu5ded",
-     "jp": 1999,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DAIMA%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 2820,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DAIMA%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2200,
+      2300,
+      3000,
+      3300,
+      3300
+     ],
+     "jpN": 5,
+     "jpMin": 2200,
+     "jpMed": 3000,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 1879,
+     "jpItem": "m23192277453",
+     "st": null
     },
     {
      "pz": "D",
      "shopee": 1690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasa-m2et0j7qcm90a1",
-     "jp": 935,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DAIMA%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 1990,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20DAIMA%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      1990
+     ],
+     "jpN": 1,
+     "jpMin": 1990,
+     "jpMed": 1990,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 899,
+     "jpItem": "m84813526389",
+     "st": null
     }
    ]
   },
@@ -16930,21 +18776,39 @@
      "shopee": 2390,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasg-m7b6r5ugynhf5b",
      "jp": 4800,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%20%E6%B1%BA%E6%88%A6%E3%81%AE%E8%A6%9A%E6%82%9F%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%20%E6%B1%BA%E6%88%A6%E3%81%AE%E8%A6%9A%E6%82%9F%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 6950
     },
     {
      "pz": "B",
      "shopee": 3990,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasc-m7b6rda82tsza1",
-     "jp": 8600,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%20%E6%B1%BA%E6%88%A6%E3%81%AE%E8%A6%9A%E6%82%9F%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 15279,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%20%E6%B1%BA%E6%88%A6%E3%81%AE%E8%A6%9A%E6%82%9F%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      15279
+     ],
+     "jpN": 1,
+     "jpMin": 15279,
+     "jpMed": 15279,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 9500,
+     "jpItem": "2JVdwmXet4R8T6YCiEBJsE",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 5690,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rase-m7b6rhhpx49m1c",
      "jp": 6000,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%20%E6%B1%BA%E6%88%A6%E3%81%AE%E8%A6%9A%E6%82%9F%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AF%20%E6%B1%BA%E6%88%A6%E3%81%AE%E8%A6%9A%E6%82%9F%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 10300
     }
    ]
   },
@@ -16961,29 +18825,68 @@
      "pz": "B",
      "shopee": 1350,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m58fgzxn1p87b3",
-     "jp": 1800,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Greatest%20Battle%20%E5%81%89%E5%A4%A7%E3%81%AA%E3%82%8B%E8%88%AA%E8%B7%AF%E3%81%B8%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 1999,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Greatest%20Battle%20%E5%81%89%E5%A4%A7%E3%81%AA%E3%82%8B%E8%88%AA%E8%B7%AF%E3%81%B8%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      1999
+     ],
+     "jpN": 1,
+     "jpMin": 1999,
+     "jpMed": 1999,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1300,
+     "jpItem": "m77060100374",
+     "st": null
     },
     {
      "pz": "C",
      "shopee": 1590,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasl-m58fh4aeoae5db",
      "jp": 2860,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Greatest%20Battle%20%E5%81%89%E5%A4%A7%E3%81%AA%E3%82%8B%E8%88%AA%E8%B7%AF%E3%81%B8%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Greatest%20Battle%20%E5%81%89%E5%A4%A7%E3%81%AA%E3%82%8B%E8%88%AA%E8%B7%AF%E3%81%B8%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "used",
+     "jpUsed": 2030
     },
     {
      "pz": "D",
      "shopee": 1350,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasf-m58fh7o7q1h350",
-     "jp": 1500,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Greatest%20Battle%20%E5%81%89%E5%A4%A7%E3%81%AA%E3%82%8B%E8%88%AA%E8%B7%AF%E3%81%B8%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 2699,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Greatest%20Battle%20%E5%81%89%E5%A4%A7%E3%81%AA%E3%82%8B%E8%88%AA%E8%B7%AF%E3%81%B8%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      2699
+     ],
+     "jpN": 1,
+     "jpMin": 2699,
+     "jpMed": 2699,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1600,
+     "jpItem": "m90693029663",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 950,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rash-m58fgtmea8ppc2",
-     "jp": 1111,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Greatest%20Battle%20%E5%81%89%E5%A4%A7%E3%81%AA%E3%82%8B%E8%88%AA%E8%B7%AF%E3%81%B8%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 1650,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20The%20Greatest%20Battle%20%E5%81%89%E5%A4%A7%E3%81%AA%E3%82%8B%E8%88%AA%E8%B7%AF%E3%81%B8%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      1650
+     ],
+     "jpN": 1,
+     "jpMin": 1650,
+     "jpMed": 1650,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1111,
+     "jpItem": "m95039984575",
+     "st": null
     }
    ]
   },
@@ -17018,36 +18921,106 @@
      "pz": "C",
      "shopee": 1999,
      "img": "https://cf.shopee.co.th/file/th-11134207-7ras9-m4itoluhcdzod4",
-     "jp": 2300,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%96%B0%E5%9B%9B%E7%9A%87%20C%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4315,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%96%B0%E5%9B%9B%E7%9A%87%20C%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3300,
+      3999,
+      4960,
+      5000
+     ],
+     "jpN": 4,
+     "jpMin": 3300,
+     "jpMed": 4480,
+     "jpThin": true,
+     "jpDeal": false,
+     "jpUsed": 1999,
+     "jpItem": "m54007370977",
+     "st": null
     },
     {
      "pz": "A",
      "shopee": 2190,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasl-m4itoluh9kusd5",
-     "jp": 3499,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%96%B0%E5%9B%9B%E7%9A%87%20A%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4444,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%96%B0%E5%9B%9B%E7%9A%87%20A%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      4000,
+      4000,
+      4222,
+      4500,
+      5500
+     ],
+     "jpN": 5,
+     "jpMin": 4000,
+     "jpMed": 4222,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 3000,
+     "jpItem": "m43591766066",
+     "st": null
     },
     {
      "pz": "B",
      "shopee": 1900,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rash-m4itoluhazf8e8",
-     "jp": 2800,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%96%B0%E5%9B%9B%E7%9A%87%20B%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jp": 4203,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%96%B0%E5%9B%9B%E7%9A%87%20B%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3450,
+      3500,
+      3999,
+      4000,
+      4199,
+      4500,
+      4980,
+      4999
+     ],
+     "jpN": 8,
+     "jpMin": 3450,
+     "jpMed": 4100,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 2500,
+     "jpItem": "m92915505870",
+     "st": null
     },
     {
      "pz": "D",
      "shopee": 3150,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasg-m4itoluhglp0e1",
      "jp": 4980,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%96%B0%E5%9B%9B%E7%9A%87%20D%E8%B3%9E&status=on_sale&sort=price&order=asc"
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%96%B0%E5%9B%9B%E7%9A%87%20D%E8%B3%9E&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "st": "none",
+     "jpUsed": null
     },
     {
      "pz": "Last one",
      "shopee": 2600,
      "img": "https://cf.shopee.co.th/file/th-11134207-7rasm-m4itoluhf74k95",
-     "jp": 3555,
-     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%96%B0%E5%9B%9B%E7%9A%87%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc"
+     "jp": 4848,
+     "jpUrl": "https://jp.mercari.com/search?keyword=%E4%B8%80%E7%95%AA%E3%81%8F%E3%81%98%20%E3%83%AF%E3%83%B3%E3%83%94%E3%83%BC%E3%82%B9%20%E6%96%B0%E5%9B%9B%E7%9A%87%20%E3%83%A9%E3%82%B9%E3%83%88%E3%83%AF%E3%83%B3&status=on_sale&sort=price&order=asc",
+     "ck": "2026-09-01",
+     "jpPrices": [
+      3999,
+      4000,
+      4990,
+      4999,
+      5500,
+      5600
+     ],
+     "jpN": 6,
+     "jpMin": 3999,
+     "jpMed": 4995,
+     "jpThin": false,
+     "jpDeal": false,
+     "jpUsed": 3222,
+     "jpItem": "m24683124043",
+     "st": null
     }
    ]
   },

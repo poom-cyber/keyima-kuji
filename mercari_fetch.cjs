@@ -102,7 +102,7 @@ function prizeLabel(pz) {
 }
 
 // ข้อความที่บอกว่าไม่ใช่ "ฟิกเกอร์รางวัลเดี่ยวพร้อมส่ง"
-const BAD_RE = /まとめ|コンプ|全種|フルコンプ|一式|セット|詰め合わせ|専用|空箱|箱のみ|外箱|台紙|ジャンク|訳あり|欠品|部品|パーツ|応募|抽選|くじ券|ロット|同梱|おまとめ|台座|支柱|のみ販売|バラ売り不可|お取り置き|取り置き/;
+const BAD_RE = /まとめ|コンプ|全種|フルコンプ|一式|セット|詰め合わせ|専用|空箱|箱のみ|外箱|台紙|ジャンク|訳あり|欠品|部品|パーツ|応募|抽選|くじ券|ロット|同梱|おまとめ|台座|支柱|のみ販売|バラ売り不可|お取り置き|取り置き|くじ箱|クジ箱|抽選箱|立札|POP|販促/;
 
 // ชื่อขึ้นต้นด้วย "<ชื่อผู้ซื้อ>様" = จองไว้แล้ว ซื้อไม่ได้ (แต่ไม่ตัด 神様/王様 ที่อยู่กลางชื่อ)
 const RESERVED_RE = /^\s*\S{1,14}様/;
@@ -116,8 +116,17 @@ function otherPrizeLetters(name, want) {
   return found.size;
 }
 
+/** โทเคน "ชื่อซีรีส์" จากคีย์เวิร์ด ใช้กันไปเจอคุจิคนละเรื่อง (เช่น คีย์เวิร์ดนารูโตะ ไปเจอ A賞 ของโจโจ้) */
+function seriesTokens(kw) {
+  return normalize(kw)
+    .replace(/一番くじ|ハッピーくじ|フリューくじ|くじ|クジ/g, ' ')
+    .split(/[\s・,、!！?？\-–—~〜:：]+/)
+    .map((t) => t.trim())
+    .filter((t) => t.length >= 2);
+}
+
 /** เลือกราคาถูกสุดที่ "ซื้อได้เลย" และมั่นใจว่าเป็นรางวัลนั้นจริง */
-function pickCheapest(items, label) {
+function pickCheapest(items, label, tokens) {
   const out = [];
   for (const it of items) {
     if (it.auction) continue;                          // ข้ามออคชัน (ราคายังไม่นิ่ง)
@@ -127,12 +136,24 @@ function pickCheapest(items, label) {
     const hasLabel = label === 'ラストワン' ? LAST_ONE_RE.test(name) : name.includes(label);
     if (!hasLabel) continue;                           // ไม่ระบุรางวัลชัด = ไม่เดา
     if (otherPrizeLetters(name, label) > 0) continue;  // มีหลายรางวัล = ชุดรวม
+    // ต้องมีคำจากซีรีส์ในคีย์เวิร์ดอย่างน้อย 1 คำ ไม่งั้นอาจเป็นคุจิคนละเรื่อง
+    if (tokens.length && !tokens.some((t) => name.includes(t))) continue;
     const price = parseInt(it.price, 10);
     if (!Number.isFinite(price) || price <= 0) continue;
     out.push({ price, name: it.name, id: it.id });
   }
   out.sort((a, b) => a.price - b.price);
-  return out[0] || null;
+  if (!out.length) return null;
+  // กันของหลุด: บางรายการชื่อผ่านตัวกรองแต่ไม่ใช่ฟิกเกอร์ (เช่น กล่องคุจิเปล่า ของแถม)
+  // ราคาจะต่ำกว่าชาวบ้านมาก -> ถ้าถูกกว่า 30% ของค่ากลาง ให้ข้ามไปตัวถัดไป
+  // (ประเมินต้นทุนต่ำเกินอันตรายกว่าประเมินสูงเกิน เพราะทำให้คิดว่ามาร์จินดีทั้งที่ไม่ดี)
+  if (out.length >= 4) {
+    const median = out[Math.floor(out.length / 2)].price;
+    const floor = median * 0.3;
+    const kept = out.filter((o) => o.price >= floor);
+    if (kept.length) return kept[0];
+  }
+  return out[0];
 }
 
 // ---------- เลือกคอลที่จะดึงรอบนี้ (ตาม AUTO_TASK.md ข้อ 3) ----------
@@ -200,6 +221,14 @@ async function main() {
   const misses = [];
   const resolved = [];
   for (const c of targets) {
+    // ตัวอักษรรางวัล (A賞/ラストワン) มีเฉพาะสินค้าคุจิ — ถ้าคีย์เวิร์ดไม่ใช่ชุดคุจิ
+    // การค้น "<คีย์เวิร์ด> A賞" จะไปเจอคุจิชุดอื่นแล้วได้ราคาผิด จึงข้ามและให้คนตรวจ
+    if (!/くじ|クジ/.test(c.jpkw)) {
+      misses.push({ id: c.id, pz: '*', why: 'keyword-not-kuji', kw: c.jpkw });
+      console.error(`[skip] ${c.id} คีย์เวิร์ดไม่ใช่ชุดคุจิ: ${c.jpkw}`);
+      continue;
+    }
+    const tokens = seriesTokens(c.jpkw);
     let touched = false;
     for (const p of c.prizes) {
       const label = prizeLabel(p.pz);
@@ -209,7 +238,7 @@ async function main() {
       nReq++;
       await sleep(delayMs);
       if (items === null) { nFail++; misses.push({ id: c.id, pz: p.pz, why: 'request-failed' }); continue; }
-      const best = pickCheapest(items, label);
+      const best = pickCheapest(items, label, tokens);
       if (!best) { misses.push({ id: c.id, pz: p.pz, why: 'no-match', n: items.length }); continue; }
       if (p.jp !== best.price) touched = true;
       p.jp = best.price;      // เขียนทับเฉพาะที่เจอจริง

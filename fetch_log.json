@@ -1,0 +1,27 @@
+{
+ "date": "2026-09-01",
+ "cols": 3,
+ "prizesUpdated": 3,
+ "requests": 4,
+ "failed": 0,
+ "misses": [
+  {
+   "id": "48362427144",
+   "pz": "B",
+   "why": "no-match",
+   "n": 7
+  },
+  {
+   "id": "47856682698",
+   "pz": "*",
+   "why": "keyword-not-kuji",
+   "kw": "ナルト うずまきナルト フィギュア"
+  },
+  {
+   "id": "26137341614",
+   "pz": "*",
+   "why": "keyword-not-kuji",
+   "kw": "ナルト 疾風伝 暁 フィギュア"
+  }
+ ]
+}
